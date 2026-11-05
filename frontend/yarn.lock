@@ -933,10 +933,10 @@
     "@babel/runtime" "^7.20.13"
     "@lingui/core" "4.14.1"
 
-"@lingui/swc-plugin@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@lingui/swc-plugin/-/swc-plugin-4.1.0.tgz#aa69d73d1a2c77697cda77d3ea90126ad9e83ab3"
-  integrity sha512-LBiSbDJoYlB5pT3qtOwZzmqAXSSuhSTx9Zxfhfmfo2NZ6otCDYULCYj0YoXjOCyL1WOWQ72CwAhdxUS8WIt/OQ==
+"@lingui/swc-plugin@5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@lingui/swc-plugin/-/swc-plugin-5.0.0.tgz#7849741816c82a3c7e3d4df4752444cc3a1c340b"
+  integrity sha512-vrecMcWwGlUPpg7pQIIaSaSBfnRtrm3QnMgBgtEKlrCYxDpemlgqnOvIh5y7p1X19Ryzn8IISzXmGzSvXfNE0g==
 
 "@lingui/vite-plugin@^4.14.1":
   version "4.14.1"
