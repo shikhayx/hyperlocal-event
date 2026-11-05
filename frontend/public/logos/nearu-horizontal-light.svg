@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="80" viewBox="0 0 300 80">
+  <title>NearU Logo - Light</title>
+  
+  <defs>
+    <linearGradient id="nearuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="60%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="nearuGradU" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="nearuGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4F46E5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&amp;display=swap');
+    .brand-title { font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif; font-weight: 800; letter-spacing: -0.03em; }
+    .brand-sub { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; }
+  </style>
+  
+  <!-- Icon on left -->
+  <g transform="translate(14, 12)" filter="url(#glow)">
+    <path d="M 28 4 C 15.8 4 6 13.8 6 26 C 6 41 24.5 56 28 58.5 C 31.5 56 50 41 50 26 C 50 13.8 40.2 4 28 4 Z" fill="url(#nearuGrad)"/>
+    <!-- U Cutout -->
+    <path d="M 19 19 L 19 26 C 19 31 23 35 28 35 C 33 35 37 31 37 26 L 37 19" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Pulse Center -->
+    <circle cx="28" cy="18" r="3.2" fill="#FFFFFF"/>
+    <!-- Radar Waves -->
+    <path d="M 1 20 C -1 24 -1 28 1 32" fill="none" stroke="url(#nearuGlow)" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M 55 20 C 57 24 57 28 55 32" fill="none" stroke="url(#nearuGlow)" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Brand text -->
+  <text x="76" y="47" class="brand-title" font-size="34" fill="#0F172A">Near<tspan fill="url(#nearuGradU)">U</tspan></text>
+  <text x="78" y="62" class="brand-sub" font-size="8" fill="#64748B">DISCOVER AROUND YOU</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  
+  <defs>
+    <linearGradient id="nearuGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1"/>
+      <stop offset="60%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="nearuGradU" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="nearuGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#4F46E5" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <rect width="48" height="48" rx="12" fill="#0F172A"/>
+  <g transform="translate(24, 23) scale(0.65)">
+    <g transform="translate(-28, -30)">
+      <path d="M 28 4 C 15.8 4 6 13.8 6 26 C 6 41 24.5 56 28 58.5 C 31.5 56 50 41 50 26 C 50 13.8 40.2 4 28 4 Z" fill="url(#nearuGrad)"/>
+      <path d="M 19 19 L 19 26 C 19 31 23 35 28 35 C 33 35 37 31 37 26 L 37 19" fill="none" stroke="#FFFFFF" stroke-width="4.2" stroke-linecap="round"/>
+      <circle cx="28" cy="17" r="3.6" fill="#FFFFFF"/>
+    </g>
+  </g>
+</svg>
