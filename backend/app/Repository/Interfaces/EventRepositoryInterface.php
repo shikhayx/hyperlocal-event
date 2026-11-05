@@ -6,6 +6,7 @@ namespace HiEvents\Repository\Interfaces;
 
 use HiEvents\DomainObjects\EventDomainObject;
 use HiEvents\Http\DTO\QueryParamsDTO;
+use HiEvents\Services\Application\Handlers\Event\DTO\DiscoverEventsDTO;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;
 
@@ -37,4 +38,6 @@ interface EventRepositoryInterface extends RepositoryInterface
     public function findByIdLocked(int $id): EventDomainObject;
 
     public function getUpcomingEventsWithCompletedOrders(int $accountId): Collection;
+
+    public function discoverEvents(DiscoverEventsDTO $dto): LengthAwarePaginator;
 }

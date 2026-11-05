@@ -222,6 +222,7 @@ use HiEvents\Http\Actions\EventOccurrences\UpdateProductVisibilityAction;
 use HiEvents\Http\Actions\EventOccurrences\UpsertPriceOverrideAction;
 use HiEvents\Http\Actions\Events\CreateEventAction;
 use HiEvents\Http\Actions\Events\DeleteEventAction;
+use HiEvents\Http\Actions\Events\DiscoverEventsPublicAction;
 use HiEvents\Http\Actions\Events\DuplicateEventAction;
 use HiEvents\Http\Actions\Events\GetEventAction;
 use HiEvents\Http\Actions\Events\GetEventDeletionStatusAction;
@@ -915,6 +916,8 @@ $router->prefix('/public')->group(
             ->middleware(['cache.headers:public;max_age=300', 'throttle:60,1,public-compliance']);
 
         // Events
+        $router->get('/events/discover', DiscoverEventsPublicAction::class)
+            ->middleware('throttle:60,1,public-discover');
         $router->get('/events/{event_id}', GetEventPublicAction::class);
         $router->get('/events/{event_id}/occurrences', GetEventOccurrencesPublicAction::class)
             ->middleware('throttle:60,1,public-occurrences');
