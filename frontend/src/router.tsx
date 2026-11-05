@@ -15,7 +15,7 @@ const Root = () => {
     useEffect(() => {
         if (me.isFetched) {
             const searchParams = typeof window !== 'undefined' ? window.location.search : '';
-            const basePath = me.isSuccess ? "/manage/events" : "/auth/login";
+            const basePath = me.isSuccess ? "/manage/events" : "/discover";
             setRedirectPath(basePath + searchParams);
         }
     }, [me.isFetched]);
@@ -732,6 +732,15 @@ export const router: RouteObject[] = [
             const OrganizerHomepagePreview = await import("./components/layouts/OrganizerHomepagePreview");
             return { Component: OrganizerHomepagePreview.default };
         },
+    },
+    {
+        path: "/discover",
+        handle: {styles: "src/components/routes/public/Discover/index.tsx"},
+        async lazy() {
+            const Discover = await import("./components/routes/public/Discover");
+            return { Component: Discover.default };
+        },
+        errorElement: <ErrorPage />,
     },
     {
         path: "/event/:eventId/:eventSlug",

@@ -9,6 +9,7 @@ import {Avatar, UnstyledButton} from "@mantine/core";
 import {Link, useParams} from "react-router";
 import {OrganizerReportTypes} from "../../../../types.ts";
 import {useGetAccount} from "../../../../queries/useGetAccount.ts";
+import {getConfig} from "../../../../utilites/config.ts";
 
 const OrganizerReports = () => {
     const {organizerId} = useParams();
