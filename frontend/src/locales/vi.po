@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} Có sẵn"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} có thể đăng nhập bằng mật khẩu"
 
@@ -108,6 +116,10 @@ msgstr "{0} đã gửi tới · {1} đã mở · {2} đã nhấp · {3} bị tr�
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} cần thanh toán sau khi bạn đặt hàng"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "Còn {0}"
 msgid "{0} logo"
 msgstr "Logo {0}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} giờ phải đăng nhập bằng {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "{0} mục khác"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} chỗ"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "{diffMin} phút trước"
 msgid "{diffSec}s ago"
 msgstr "{diffSec} giây trước"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, other {# thành viên sẽ cần đăng nhập bằng {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, other {# nhà tổ chức}}"
 msgid "{organizerName}'s first event"
 msgstr "Sự kiện đầu tiên của {organizerName}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, other {# thành viên ngoài các miền đã xác minh của bạn vẫn giữ cách đăng nhập hiện tại.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 năm"
 msgid "1. Get an authenticator app"
 msgstr "1. Cài đặt ứng dụng xác thực"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 thảm trong phòng tập và một vé lẻ."
@@ -864,6 +884,10 @@ msgstr "123 Đường Mẫu"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "Hơn 135 loại tiền tệ và hơn 40 phương thức thanh toán"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Quét mã QR này"
@@ -871,6 +895,10 @@ msgstr "2. Quét mã QR này"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 giờ sau khi nhà tổ chức tạo vé trả phí hoặc bắt đầu kết nối Stripe, nếu Stripe vẫn chưa được kết nối. Bỏ qua với các quốc gia Stripe không hỗ trợ."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 ngày sau khi tạo sự kiện nháp, nếu tài khoản chưa có s�
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 ngày sau khi đăng ký, nếu chủ tài khoản đã xác nhận email nhưng chưa tạo sự kiện nào."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Ngày kích hoạt"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Toàn bộ người tham dự của ngày này"
 msgid "All categories"
 msgstr "Tất cả danh mục"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Đã lưu tất cả thay đổi"
@@ -1915,7 +1955,7 @@ msgstr "Tất cả sự kiện đã kết thúc"
 msgid "All events"
 msgstr "Tất cả sự kiện"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Tất cả sự kiện"
 
@@ -1943,6 +1983,10 @@ msgstr "Tất cả các ngày"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Tất cả các ngày"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Số tiền cần thanh toán"
 msgid "Amount off"
 msgstr "Số tiền giảm"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Số tiền đã thanh toán"
 
@@ -2298,6 +2342,10 @@ msgstr "Mọi thắc mắc từ chủ sở hữu sản phẩm sẽ được gử
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Bất kỳ ngày nào cũng có thể khác: thay đổi sức chứa trong Sửa ngày, hoặc số lượng theo ngày của vé trong tab Sản phẩm của ngày đó."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Bất kỳ trang web nào (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Áp dụng cho từng ngày trong lịch của bạn. Những ngày có 
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Áp dụng cho mọi ngày {0}, chưa bị hủy trong sự kiện này — kể cả những ngày hiện chưa được tải."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Áp dụng cho mọi nhà tổ chức và sự kiện trong tài khoản này."
 
@@ -2670,6 +2718,10 @@ msgstr "Tên khu vực"
 msgid "Area options"
 msgstr "Tùy chọn khu vực"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Khu vực"
@@ -2783,7 +2835,7 @@ msgstr "Gắn sơ đồ chỗ ngồi"
 msgid "Attempts"
 msgstr "Lần thử"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Tỷ lệ tham dự và check-in cho tất cả sự kiện"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Thanh toán mỗi năm một lần"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Thanh toán"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Địa chỉ thanh toán"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Chu kỳ thanh toán"
 
@@ -3369,7 +3421,7 @@ msgstr "Bán tại quầy vé"
 msgid "Box office updated"
 msgstr "Đã cập nhật quầy vé"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Thương hiệu"
 
@@ -3655,7 +3707,7 @@ msgstr "Không dùng được ứng dụng xác thực hoặc mã khôi phục?"
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Hủy sẽ hủy tất cả người tham dự liên quan đến đơn h
 msgid "Cancelled"
 msgstr "Hủy bỏ"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Đang hủy"
 
@@ -3964,7 +4016,7 @@ msgstr "Chuyển sang sự kiện đơn lẻ"
 msgid "Change waitlist settings"
 msgstr "Thay đổi cài đặt danh sách chờ"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Đổi thẻ, chuyển giữa thanh toán hàng tháng và hàng năm, tải hóa đơn hoặc hủy."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Trạng thái đăng ký"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Tóm tắt Check-in"
 
@@ -4562,7 +4614,7 @@ msgstr "Khóa bí mật của ứng dụng khách"
 msgid "close"
 msgstr "đóng"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Đóng thanh bên"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Đóng mà không sao chép"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Tiếp tục tạo sự kiện"
 msgid "Continue to next step"
 msgstr "Tiếp tục bước tiếp theo"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Tiếp tục thanh toán"
@@ -5844,7 +5900,7 @@ msgstr "Nhãn CTA là bắt buộc"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Tiếng Séc"
 msgid "Daily"
 msgstr "Hằng ngày"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Doanh thu hàng ngày, thuế, phí và hoàn tiền cho tất cả sự kiện"
 
@@ -6653,6 +6709,10 @@ msgstr "Giảm giá trong {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Loại giảm giá"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "Đã xác minh email"
 msgid "Email verified successfully!"
 msgstr "Xác thực email thành công!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "Email được gửi dưới tên nhà tổ chức của bạn, với nút và liên kết theo màu sự kiện của bạn"
 
@@ -7553,7 +7613,7 @@ msgstr "Kết thúc {0}"
 msgid "Ends before it starts"
 msgstr "Kết thúc trước khi bắt đầu"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Kết thúc vào"
 
@@ -7810,7 +7870,7 @@ msgstr "Chỉ số chẵn"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Sự kiện"
 msgid "Events are always shown"
 msgstr "Sự kiện luôn được hiển thị"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Hiệu suất sự kiện"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Thực hiện ngay"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Được miễn"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Miễn SSO cho {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Lọc Người Tham Dự"
 msgid "Filter by date"
 msgstr "Lọc theo ngày"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Lọc theo sự kiện"
 
@@ -8794,6 +8858,10 @@ msgstr "Tìm {bestAvailableQuantity} ghế"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Tìm 1 ghế"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Tiền sảnh"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Miễn phí"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Tiếng Hy Lạp"
 msgid "Grid"
 msgstr "Lưới"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Chào {0} 👋"
 msgid "Hi,"
 msgstr "Xin chào,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Thương hiệu Hi.Events được gỡ khỏi trang sự kiện của bạn và logo của bạn thay thế trong email"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Thương hiệu Hi.Events sẽ xuất hiện lại sau ngày này. Bạn có thể tiếp tục gói đăng ký trước đó."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Phí Hi.Events"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Phí nền tảng Hi.Events và phân tích VAT theo giao dịch"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Ẩn"
 msgid "Hide \"Have a promo code?\""
 msgstr "Ẩn \"Nhập mã khuyến mãi?\""
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Ẩn {label}"
@@ -9610,10 +9674,6 @@ msgstr "Ẩn chi tiết"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Ẩn khỏi trang sự kiện"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Ẩn thương hiệu Hi.Events"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Tiếng Hungary"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Tôi thừa nhận trách nhiệm của mình với tư cách là người kiểm soát dữ liệu"
@@ -9953,7 +10017,7 @@ msgstr "Nhập"
 msgid "Import lineup & schedule"
 msgstr "Nhập đội hình và lịch trình"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Thông báo quan trọng"
 
@@ -10045,6 +10109,10 @@ msgstr "Thêm tab Sự kiện đã qua"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Bao gồm thông tin kết nối cho sự kiện trực tuyến của bạn. Những chi tiết này sẽ được hiển thị trên trang tóm tắt đơn hàng và trang vé của người tham dự."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Bao gồm thuế và phí trong giá"
@@ -10053,7 +10121,7 @@ msgstr "Bao gồm thuế và phí trong giá"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Ghi mã này trong nội dung thanh toán để ban tổ chức có thể đối chiếu với đơn hàng của bạn."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Đã bao gồm"
@@ -10062,9 +10130,9 @@ msgstr "Đã bao gồm"
 msgid "Included in the email to the account owner."
 msgstr "Được đưa vào email gửi chủ tài khoản."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Đã bao gồm trong gói của bạn. Thương hiệu Hi.Events được ẩn trên trang sự kiện, widget, vé và email của bạn."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Giữ trọn lợi nhuận."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Không hiển thị họ trên đội hình và lịch trình công khai cho đến khi bạn sẵn sàng công bố"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Tiếp tục đăng nhập bằng mật khẩu. Không thể dùng {providerName} để đăng nhập cho thành viên này."
 
@@ -11086,7 +11154,7 @@ msgstr "Hãy để công khai để mọi người mua được vé"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Đảm bảo ID token có chứa các claim email và email_verified."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Biến trang sự kiện, widget, vé và email thành của riêng bạn. Áp dụng cho mọi nhà tổ chức và sự kiện trong tài khoản này."
 
@@ -11113,8 +11181,8 @@ msgstr "Quản lý {0}"
 msgid "Manage attendee"
 msgstr "Quản lý người tham dự"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Quản lý thanh toán"
 
@@ -11193,9 +11261,17 @@ msgstr "Thêm người tham dự"
 msgid "Manually verified"
 msgstr "Xác minh thủ công"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Chế độ xem sơ đồ"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Đã kích hoạt lại thành viên"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Thành viên tự đổi email trong <0>cài đặt hồ sơ</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Thành viên thuộc miền đã xác minh"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Thành viên có email thuộc miền đã xác minh phải đăng nhập bằng {providerName}. Các phiên khác của họ sẽ kết thúc."
 
@@ -11527,6 +11603,10 @@ msgstr "Thêm chỗ"
 msgid "More seats"
 msgstr "Thêm ghế"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Sự kiện được xem nhiều nhất"
@@ -11687,6 +11767,10 @@ msgstr "Tên, email và địa chỉ thanh toán luôn được thu thập."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Đi tới người tham dự"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Không"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Không - Tôi là cá nhân hoặc doanh nghiệp không đăng ký VAT"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "Không có lượt xem trang sự kiện trong khoảng thời gian này"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Không tìm thấy sự kiện"
 
@@ -12148,14 +12241,6 @@ msgstr "Không có tài chính"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Không có sự kiện bị gắn cờ nào đang chờ xem xét"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Không có thương hiệu Hi.Events trên trang sự kiện, trang nhà tổ chức, trang thanh toán hoặc widget nhúng"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Không quảng bá Hi.Events trong email người tham dự nhận được"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Không ai khớp với bộ lọc này."
 msgid "Nobody on the lineup yet."
 msgstr "Chưa có ai trong danh sách biểu diễn."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Chưa có ai trong nhóm của bạn dùng miền đã xác minh. Những người tham gia từ miền đó sẽ cần đăng nhập bằng {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Chưa tham gia"
 msgid "Not marked as verified"
 msgstr "Chưa được đánh dấu là đã xác minh"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Để sau"
 
@@ -13061,7 +13146,7 @@ msgstr "Chỉ quản trị viên tài khoản mới có thể xóa hoặc lưu t
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Chỉ quản trị viên tài khoản mới có thể xóa hoặc lưu trữ ban tổ chức. Liên hệ quản trị viên tài khoản của bạn để được hỗ trợ."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Chỉ quản trị viên tài khoản mới có thể thay đổi thanh toán. Hãy nhờ quản trị viên nâng cấp tại Cài đặt → Thanh toán."
 
@@ -13445,7 +13530,7 @@ msgstr "Đã đặt hàng, đang chờ thanh toán"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Chỉ câu hỏi đơn hàng. Câu hỏi người tham dự cần sản phẩm."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Mã đơn hàng"
 
@@ -13615,6 +13700,10 @@ msgstr "Cài đặt người tổ chức"
 msgid "Organizer Settings"
 msgstr "Cài đặt nhà tổ chức"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Sự kiện của riêng bạn"
 msgid "Owner"
 msgstr "Chủ sở hữu"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Sở hữu một tài khoản Hi.Events khác, nên vẫn đăng nhập bằng mật khẩu cho đến khi họ kết nối {providerName} trong cài đặt bảo mật của mình."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Tài khoản trả phí"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Đã trả ở nơi khác"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Chuyển cho người mua"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Mật khẩu"
 
@@ -13873,7 +13966,7 @@ msgstr "Quá hạn"
 msgid "Past events"
 msgstr "Sự kiện đã qua"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Hóa đơn trước đây"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Tạm dừng"
 
@@ -13988,7 +14081,7 @@ msgstr "Cài đặt Thanh toán & Hoá đơn"
 msgid "Payment complete"
 msgstr "Thanh toán hoàn tất"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Ngày thanh toán"
 
@@ -14000,7 +14093,7 @@ msgstr "Thông tin thanh toán: {0}"
 msgid "Payment Due Period"
 msgstr "Thời hạn thanh toán"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Thanh toán thất bại"
 
@@ -14030,7 +14123,7 @@ msgstr "Phương thức thanh toán"
 msgid "Payment not completed"
 msgstr "Thanh toán chưa hoàn tất"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Đang xử lý thanh toán"
 
@@ -14402,13 +14495,13 @@ msgstr "Phí nền tảng {0} được khấu trừ từ khoản thanh toán c�
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Phí nền tảng"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Báo cáo phí nền tảng"
 
@@ -14578,7 +14671,7 @@ msgstr "Vị trí"
 msgid "Post Checkout message"
 msgstr "Tin nhắn sau phần thanh toán"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Được cung cấp bởi"
@@ -15475,15 +15568,24 @@ msgstr "Hủy bỏ"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Xóa \"{0}\"? Khóa này đã hết hạn."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Gỡ \"Powered by Hi.Events\" khỏi trang, widget, vé và email của bạn, và hiển thị logo của riêng bạn."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Xóa {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Xóa khỏi sơ đồ"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Gỡ khỏi đội hình này"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Gỡ thương hiệu Hi.Events"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Gỡ thương hiệu Hi.Events khỏi mọi thứ người tham dự nhìn thấy và đặt logo của bạn vào email của họ."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Gia hạn giấy phép"
 msgid "Renew your licence."
 msgstr "Gia hạn giấy phép của bạn."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Gia hạn vào"
 
@@ -15701,7 +15794,7 @@ msgstr "Không tìm thấy báo cáo"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Báo cáo"
 
@@ -15721,17 +15814,17 @@ msgstr "Yêu cầu bởi"
 msgid "Require Billing Address"
 msgstr "Yêu cầu địa chỉ thanh toán"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Bắt buộc đăng nhập một lần"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Bắt buộc SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Bắt buộc SSO cho {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Đặt lại"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Đặt lại 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Dùng lại kết nối Stripe từ một nhà tổ chức khác trong t
 msgid "Revenue"
 msgstr "Doanh thu"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Tóm tắt doanh thu"
@@ -16230,7 +16327,7 @@ msgstr "Chi tiết doanh số, lượt tham dự và check-in theo từng ngày"
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Bán vé, số lượng còn và check-in sẽ chuyển sang ngày bạn chọn."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Doanh số, đơn hàng và chỉ số hiệu suất cho tất cả sự kiện"
 
@@ -16629,6 +16726,10 @@ msgstr "Tìm kiếm theo mã đơn hàng, tên khách hàng hoặc email..."
 msgid "Search by subject, event, or account..."
 msgstr "Tìm kiếm theo chủ đề, sự kiện hoặc tài khoản..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Tìm theo tiêu đề..."
@@ -16692,6 +16793,10 @@ msgstr "Tìm trong hồ sơ đã lưu hoặc nhập tên mới trong bảng {lin
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Tìm kiếm"
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Chọn tất cả"
 msgid "Select all on {0}"
 msgstr "Chọn tất cả vào {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Chọn một sự kiện"
 
@@ -17923,11 +18028,11 @@ msgstr "Đăng nhập một lần"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Các kết nối đăng nhập một lần vẫn tiếp tục cho phép mọi người đăng nhập. Có thể tắt hoặc xóa các kết nối này, nhưng không thể thay đổi hoặc bật lại nếu không có giấy phép."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Không còn bắt buộc đăng nhập một lần"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Hiện đã bắt buộc đăng nhập một lần"
 
@@ -18069,7 +18174,7 @@ msgstr "Màu đơn sắc"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Một số chi tiết không hiển thị công khai. Hãy đăng nhập để xem đầy đủ."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Một số phương thức thanh toán cần thêm thời gian để xác nhận. Thương hiệu sẽ được gỡ ngay khi Stripe xác nhận."
 
@@ -18164,7 +18269,7 @@ msgstr "Đã xảy ra lỗi. Vui lòng thử lại sau."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Người dùng cụ thể"
 msgid "Spirituality"
 msgstr "Tâm linh"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Chia nhỏ việc check-in theo ngày, khu vực hoặc loại vé. Chia sẻ liên kết với nhân viên — họ không cần tài khoản."
@@ -18255,7 +18364,7 @@ msgstr "Hình vuông, tối thiểu 200 × 200px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Thống kê"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Dừng Mạo Danh"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Ngừng nhận email giúp bạn thiết lập và quản lý sự kiện. Email về đơn hàng và tài khoản của bạn vẫn sẽ được gửi."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Ngừng bắt buộc"
 
@@ -18564,7 +18673,7 @@ msgstr "Hãy ngừng bắt buộc đăng nhập một lần trước khi xóa k�
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Hãy tắt yêu cầu đăng nhập một lần trước khi xóa một tên miền đã xác minh."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Ngừng bắt buộc đăng nhập một lần? Thành viên có thể đăng nhập lại bằng mật khẩu, hoặc đặt lại mật khẩu nếu chưa từng có."
 
@@ -18623,7 +18732,7 @@ msgstr "Đã sao chép kết nối Stripe từ {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe không trả về liên kết thiết lập. Vui lòng thử lại."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe chưa xác nhận thanh toán của bạn. Hãy tải lại trang sau vài phút trước khi thử lại."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripe chưa được cấu hình trên bản cài đặt này nên khô
 msgid "Stripe Not Connected"
 msgstr "Stripe chưa kết nối"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "ID thanh toán Stripe"
 
@@ -18685,7 +18794,7 @@ msgstr "Tiêu đề sẽ xuất hiện ở đây"
 msgid "Subject:"
 msgstr "Tiêu đề:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Gói đăng ký"
 
@@ -18998,7 +19107,7 @@ msgstr "Nhắm tới người tham dự thuộc {0} buổi đã chọn."
 msgid "Tax"
 msgstr "Thuế"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Thuế thu được theo loại thuế và sự kiện"
 
@@ -19022,7 +19131,7 @@ msgstr "Thông tin thuế sẽ xuất hiện ở cuối tất cả các hóa đ�
 msgid "Tax Name"
 msgstr "Tên thuế"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Tóm tắt thuế"
@@ -19163,7 +19272,7 @@ msgstr "Cảm ơn bạn đã tham dự!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Cảm ơn bạn. Đơn hàng của {registrantName} đã được xác nhận và email xác nhận đã được gửi tới"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Cảm ơn bạn đã đăng ký. Thay đổi thương hiệu sẽ áp dụng ngay khi Stripe xác nhận thanh toán."
 
@@ -19209,7 +19318,7 @@ msgstr "Thông báo “Powered by Hi.Events” sẽ hiển thị lại cho đế
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Tài khoản có đơn hàng đã hoàn tất nên sẽ được ẩn danh."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Chủ sở hữu tài khoản ({0}) vẫn có thể đăng nhập bằng mật khẩu và xác thực hai yếu tố, nên bạn có thể khôi phục quyền truy cập nếu {providerName} không khả dụng. Mọi quản trị viên sẽ được gửi email khi điều đó xảy ra."
 
@@ -19389,7 +19498,7 @@ msgstr "Không tìm thấy nhà tổ chức bạn đang tìm kiếm. Trang có t
 msgid "The override is recorded in the order audit log."
 msgstr "Việc phê duyệt này được ghi lại trong nhật ký kiểm tra của đơn hàng."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Chủ sở hữu có thể kết nối {providerName} trong cài đặt bảo mật của mình để dùng nó đăng nhập hằng ngày."
 
@@ -20051,9 +20160,9 @@ msgstr "Sản phẩm này sẽ không xuất hiện riêng trên trang sự ki�
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Sự kiện định kỳ này chưa có ngày nào, vì vậy người tham dự không có gì để đặt."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Báo cáo này chỉ dành cho mục đích thông tin. Luôn tham khảo ý kiến chuyên gia thuế trước khi sử dụng dữ liệu này cho mục đích kế toán hoặc thuế. Vui lòng kiểm tra chéo với bảng điều khiển Stripe của bạn vì Hi.Events có thể thiếu dữ liệu lịch sử."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Vé này vừa được quét. Vui lòng chờ trước khi quét lại.
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "Số lượng của bậc này được chia sẻ cho tất cả các ngày"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Để di chuyển mục này, nhấn phím cách hoặc Enter. Dùng cá
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Hôm nay"
 
@@ -20488,6 +20602,10 @@ msgstr "Chuyển đổi cột"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Ngày mai"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Tổng tiền chiết khấu"
 msgid "Total Entries"
 msgstr "Tổng số mục"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Tổng phí"
 
@@ -20619,7 +20737,7 @@ msgstr "Theo dõi & Phân tích"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Được coi là một người. Phân tách nhiều người bằng dấu chấm phẩy."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Dùng thử"
 
@@ -20727,7 +20845,7 @@ msgstr "Bật \"Có thể xem dữ liệu tài chính\" để cho phép hoàn ti
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Bật thêm các mục và kéo để sắp xếp lại."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Hãy bật đăng nhập bằng {providerName} và xác minh một miền trước."
 
@@ -21153,6 +21271,10 @@ msgstr "Tối đa 40 ảnh, tối thiểu 400 × 300px. Ảnh đầu tiên hiể
 msgid "Upcoming"
 msgstr "Sắp tới"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Cập nhật nhãn"
 msgid "Update location"
 msgstr "Cập nhật địa điểm"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Cập nhật phương thức thanh toán"
 
@@ -21510,11 +21632,11 @@ msgstr "Xác thực số VAT không thành công"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "Xác thực số VAT không thành công. Vui lòng kiểm tra số VAT của bạn."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "VAT trên phí"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "Thuế suất VAT"
 
@@ -21698,7 +21820,7 @@ msgstr "Xem tất cả tin nhắn được gửi trên nền tảng"
 msgid "View all past events"
 msgstr "Xem tất cả sự kiện đã qua"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Xem và tải xuống báo cáo cho tất cả sự kiện của bạn. Chỉ bao gồm đơn hàng đã hoàn thành."
 
@@ -21892,7 +22014,7 @@ msgstr "Đang chờ thanh toán"
 msgid "Waiting for scan…"
 msgstr "Đang chờ quét…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Đang chờ Stripe xác nhận thanh toán…"
 
@@ -21951,6 +22073,10 @@ msgstr "Chúng tôi không thể xóa danh mục. Vui lòng thử lại."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Không thể ngắt kết nối tài khoản Stripe này. Vui lòng thử lại."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Không thể tải quầy vé này"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Chúng tôi không thể tải lịch trình này. Hãy kiểm tra bạn có quyền truy cập sự kiện này rồi thử lại."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Không thể tải thông tin thanh toán. Vui lòng tải lại trang để thử lại."
 
@@ -22558,6 +22684,10 @@ msgstr "Hội thảo có vé sớm"
 msgid "Workspace domain"
 msgstr "Miền Workspace"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Viết tin nhắn của bạn tại đây..."
@@ -22864,7 +22994,7 @@ msgstr "Bạn sẽ không thể đăng nhập bằng {0} nữa. Các thiết b�
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Bạn sẽ không nhận được những email này nữa. Email về đơn hàng và tài khoản của bạn vẫn sẽ được gửi."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Bạn sẽ bị đăng xuất và cần đăng nhập lại bằng {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "Bạn sẽ cần tại một sản phẩm trước khi bạn có thể t
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Bạn cần ít nhất một sản phẩm để bắt đầu. Miễn phí, trả phí hoặc để người dùng quyết định số tiền thanh toán."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Bạn thanh toán an toàn qua Stripe. Hủy bất cứ lúc nào."
 
@@ -23092,7 +23222,7 @@ msgstr "Nhà cung cấp danh tính của bạn trả về lỗi: {providerError}
 msgid "Your instructions appear here."
 msgstr "Hướng dẫn của bạn sẽ hiển thị ở đây."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Lần thanh toán gần nhất của bạn không thành công. Hãy cập nhật thẻ để tiếp tục gỡ thương hiệu."
 
@@ -23191,9 +23321,9 @@ msgstr "Địa chỉ nhà tổ chức của bạn"
 msgid "Your organizer has no description yet."
 msgstr "Nhà tổ chức của bạn chưa có mô tả."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Logo nhà tổ chức của bạn ở đầu email đơn hàng và vé, thay cho logo Hi.Events"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Thanh toán của bạn đang xử lý."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Thanh toán của bạn được bảo vệ bằng mã hóa cấp ngân hàng"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Thanh toán của bạn vẫn đang được xử lý"
 

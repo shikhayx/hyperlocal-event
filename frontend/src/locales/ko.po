@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0}개 남음"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0}님은 비밀번호로 로그인할 수 있습니다"
 
@@ -108,6 +116,10 @@ msgstr "전달 {0} · 열람 {1} · 클릭 {2} · 반송 {3}"
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "주문 후 결제할 금액 {0}"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0}개 남음"
 msgid "{0} logo"
 msgstr "{0} 로고"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0}님은 이제 {providerName}(으)로 로그인해야 합니다"
 
@@ -186,6 +198,10 @@ msgstr "기타 항목 {0}개"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0}개 자리"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "{diffMin}분 전"
 msgid "{diffSec}s ago"
 msgstr "{diffSec}초 전"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, other {구성원 #명이 {providerName}(으)로 로그인해야 합니다.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, other {주최자 #명}}"
 msgid "{organizerName}'s first event"
 msgstr "{organizerName}의 첫 번째 이벤트"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, other {인증된 도메인 외부의 구성원 #명은 현재 로그인 방식을 유지합니다.}}"
 
@@ -851,6 +867,10 @@ msgstr "1년"
 msgid "1. Get an authenticator app"
 msgstr "1. 인증 앱 설치"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "스튜디오에 매트 12개와 드롭인 티켓 1종."
@@ -864,6 +884,10 @@ msgstr "123 Sample Street"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "135개 이상의 통화 및 40개 이상의 결제 수단"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. QR 코드 스캔"
@@ -871,6 +895,10 @@ msgstr "2. QR 코드 스캔"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "주최자가 유료 티켓을 만들거나 Stripe 연결을 시작한 후 24시간이 지나도 Stripe가 연결되지 않은 경우. Stripe가 지원하지 않는 국가는 제외됩니다."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "초안 이벤트를 만든 지 3일 후, 계정에 공개 중인 이벤�
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "가입 3일 후, 계정 소유자가 이메일을 확인했지만 아직 이벤트를 만들지 않은 경우."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "활성화 날짜"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "이 회차의 모든 참가자"
 msgid "All categories"
 msgstr "모든 카테고리"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "모든 변경 사항이 저장됨"
@@ -1915,7 +1955,7 @@ msgstr "종료된 모든 이벤트"
 msgid "All events"
 msgstr "모든 이벤트"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "모든 이벤트"
 
@@ -1943,6 +1983,10 @@ msgstr "모든 회차"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "모든 회차"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "결제할 금액"
 msgid "Amount off"
 msgstr "할인 금액"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "결제 금액"
 
@@ -2298,6 +2342,10 @@ msgstr "상품 소지자의 문의는 이 이메일 주소로 전송됩니다. �
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "개별 날짜는 다르게 설정할 수 있습니다. 날짜 편집에서 수용 인원을 변경하거나, 해당 날짜의 상품 탭에서 티켓의 날짜별 수량을 변경하세요."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "모든 웹사이트(HTML)"
@@ -2386,7 +2434,7 @@ msgstr "일정의 각 날짜에 적용됩니다. 수용 인원이 설정된 날�
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "현재 불러오지 않은 날짜를 포함하여 이 이벤트의 취소되지 않은 모든 {0}개 날짜에 적용됩니다."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "이 계정의 모든 주최자와 이벤트에 적용됩니다."
 
@@ -2670,6 +2718,10 @@ msgstr "구역 이름"
 msgid "Area options"
 msgstr "구역 옵션"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "구역"
@@ -2783,7 +2835,7 @@ msgstr "좌석 배치도 연결"
 msgid "Attempts"
 msgstr "시도 횟수"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "모든 이벤트의 참석률 및 체크인율"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "연 1회 청구"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "결제"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "청구지 주소"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "결제 주기"
 
@@ -3369,7 +3421,7 @@ msgstr "매표소 판매"
 msgid "Box office updated"
 msgstr "매표소가 수정되었습니다"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "브랜딩"
 
@@ -3655,7 +3707,7 @@ msgstr "인증 앱이나 복구 코드를 사용할 수 없나요?"
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "취소하면 이 주문과 연결된 모든 참가자가 취소되고, �
 msgid "Cancelled"
 msgstr "취소됨"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "해지 예정"
 
@@ -3964,7 +4016,7 @@ msgstr "단일 이벤트로 변경"
 msgid "Change waitlist settings"
 msgstr "대기자 명단 설정 변경"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "카드 변경, 월간·연간 결제 전환, 청구서 다운로드 또는 해지를 할 수 있습니다."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "체크인 상태"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "체크인 요약"
 
@@ -4562,7 +4614,7 @@ msgstr "클라이언트 시크릿"
 msgid "close"
 msgstr "닫기"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "사이드바 닫기"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "복사하지 않고 닫기"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "이벤트 생성으로 계속"
 msgid "Continue to next step"
 msgstr "다음 단계로 계속"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "결제 계속하기"
@@ -5844,7 +5900,7 @@ msgstr "CTA 레이블을 입력해 주세요"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "체코어"
 msgid "Daily"
 msgstr "매일"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "모든 이벤트의 일별 매출, 세금, 수수료, 환불"
 
@@ -6653,6 +6709,10 @@ msgstr "{0} 할인"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "할인 유형"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "이메일 인증됨"
 msgid "Email verified successfully!"
 msgstr "이메일이 성공적으로 인증되었습니다!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "이메일은 주최자 이름으로 발송되며, 버튼과 링크는 이벤트 색상으로 표시됩니다"
 
@@ -7553,7 +7613,7 @@ msgstr "{0} 종료"
 msgid "Ends before it starts"
 msgstr "종료가 시작보다 이릅니다"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "종료일"
 
@@ -7810,7 +7870,7 @@ msgstr "짝수만"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "이벤트"
 msgid "Events are always shown"
 msgstr "이벤트는 항상 표시됩니다"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "이벤트 성과"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "지금 실행"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "제외"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "{0} SSO 제외"
 
@@ -8762,7 +8826,7 @@ msgstr "참가자 필터"
 msgid "Filter by date"
 msgstr "날짜별 필터"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "이벤트별 필터"
 
@@ -8794,6 +8858,10 @@ msgstr "좌석 {bestAvailableQuantity}개 찾기"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "좌석 1개 찾기"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "로비"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "무료"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "그리스어"
 msgid "Grid"
 msgstr "그리드"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "{0}님, 안녕하세요 👋"
 msgid "Hi,"
 msgstr "안녕하세요,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "이벤트 페이지에서 Hi.Events 브랜딩이 제거되고, 이메일에서는 내 로고로 대체됩니다"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "이 날짜 이후 Hi.Events 브랜딩이 다시 표시됩니다. 그 전에 구독을 재개할 수 있습니다."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events 수수료"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "거래별 Hi.Events 플랫폼 수수료 및 부가가치세 내역"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "숨기기"
 msgid "Hide \"Have a promo code?\""
 msgstr "\"프로모션 코드가 있으신가요?\" 숨기기"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "{label} 숨기기"
@@ -9610,10 +9674,6 @@ msgstr "상세 정보 숨기기"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "이벤트 페이지에서 숨기기"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Hi.Events 브랜딩 숨기기"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "헝가리어"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "데이터 관리자로서의 책임을 인지하고 동의합니다"
@@ -9953,7 +10017,7 @@ msgstr "가져오기"
 msgid "Import lineup & schedule"
 msgstr "라인업 및 일정 가져오기"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "중요 안내"
 
@@ -10045,6 +10109,10 @@ msgstr "지난 이벤트 탭 포함"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "온라인 이벤트 접속 정보를 포함하세요. 이 정보는 주문 요약 페이지와 참가자 티켓 페이지에 표시됩니다."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "가격에 세금과 수수료 포함"
@@ -10053,7 +10121,7 @@ msgstr "가격에 세금과 수수료 포함"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "주최자가 주문과 대조할 수 있도록 결제 시 이 참조 번호를 포함하세요."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "포함됨"
@@ -10062,9 +10130,9 @@ msgstr "포함됨"
 msgid "Included in the email to the account owner."
 msgstr "계정 소유자에게 보내는 이메일에 포함됩니다."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "플랜에 포함되어 있습니다. 이벤트 페이지, 위젯, 티켓, 이메일에서 Hi.Events 브랜딩이 숨겨집니다."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "수익을 온전히 가져가세요."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "발표할 준비가 될 때까지 공개 라인업과 일정에 표시하지 않습니다"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "계속 비밀번호로 로그인합니다. 이 구성원은 {providerName}(으)로 로그인할 수 없습니다."
 
@@ -11086,7 +11154,7 @@ msgstr "사람들이 티켓을 구매할 수 있도록 공개하세요"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "ID token에 email 및 email_verified 클레임이 포함되어 있는지 확인하세요."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "이벤트 페이지, 위젯, 티켓, 이메일을 온전히 내 브랜드로 만드세요. 이 계정의 모든 주최자와 이벤트에 적용됩니다."
 
@@ -11113,8 +11181,8 @@ msgstr "{0} 관리"
 msgid "Manage attendee"
 msgstr "참가자 관리"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "결제 관리"
 
@@ -11193,9 +11261,17 @@ msgstr "참가자 수동 추가"
 msgid "Manually verified"
 msgstr "수동 인증됨"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "배치도 보기"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "멤버가 다시 활성화되었습니다"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "멤버는 <0>프로필 설정</0>에서 직접 이메일을 변경합니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "인증된 도메인의 구성원"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "인증된 도메인의 이메일을 사용하는 구성원은 {providerName}(으)로 로그인해야 합니다. 다른 세션은 종료됩니다."
 
@@ -11527,6 +11603,10 @@ msgstr "자리 늘리기"
 msgid "More seats"
 msgstr "좌석 늘리기"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "조회수가 높은 이벤트"
@@ -11687,6 +11767,10 @@ msgstr "이름, 이메일, 청구지 주소는 항상 수집됩니다."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "참가자로 이동"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "아니요"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "아니요 - 개인이거나 부가가치세 미등록 사업자입니다"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "이 기간에 이벤트 페이지 조회가 없습니다"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "이벤트를 찾을 수 없습니다"
 
@@ -12148,14 +12241,6 @@ msgstr "재무 정보 없음"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "검토 대기 중인 신고된 이벤트가 없습니다"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "이벤트 페이지, 주최자 페이지, 결제 화면, 임베드 위젯에 Hi.Events 브랜딩 없음"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "참석자가 받는 이메일에 Hi.Events 홍보 없음"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "필터와 일치하는 사람이 없습니다."
 msgid "Nobody on the lineup yet."
 msgstr "아직 라인업에 아무도 없습니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "아직 인증된 도메인을 사용하는 팀원이 없습니다. 해당 도메인으로 합류하는 사용자는 {providerName}(으)로 로그인해야 합니다."
 
@@ -12608,7 +12693,7 @@ msgstr "아직 참여하지 않음"
 msgid "Not marked as verified"
 msgstr "인증됨으로 표시되지 않음"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "나중에"
 
@@ -13061,7 +13146,7 @@ msgstr "계정 관리자만 이벤트를 삭제하거나 보관할 수 있습니
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "계정 관리자만 주최자를 삭제하거나 보관할 수 있습니다. 도움이 필요하면 계정 관리자에게 문의하세요."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "결제는 계정 관리자만 변경할 수 있습니다. 설정 → 결제에서 업그레이드하도록 관리자에게 요청하세요."
 
@@ -13445,7 +13530,7 @@ msgstr "주문 완료, 결제 대기 중"
 msgid "Order questions only. Attendee questions need products."
 msgstr "주문 질문만 복사됩니다. 참석자 질문에는 상품이 필요합니다."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "주문 참조번호"
 
@@ -13615,6 +13700,10 @@ msgstr "주최자 설정"
 msgid "Organizer Settings"
 msgstr "주최자 설정"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "자체 이벤트"
 msgid "Owner"
 msgstr "소유자"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "다른 Hi.Events 계정을 소유하고 있으므로 보안 설정에서 {providerName}을(를) 연결할 때까지 계속 비밀번호로 로그인합니다."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "유료 계정"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "다른 곳에서 결제됨"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "구매자에게 전가"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "비밀번호"
 
@@ -13873,7 +13966,7 @@ msgstr "기한 초과"
 msgid "Past events"
 msgstr "지난 이벤트"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "지난 청구서"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "일시중지됨"
 
@@ -13988,7 +14081,7 @@ msgstr "결제 및 인보이스 설정"
 msgid "Payment complete"
 msgstr "결제 완료"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "결제일"
 
@@ -14000,7 +14093,7 @@ msgstr "결제 정보: {0}"
 msgid "Payment Due Period"
 msgstr "결제 기한"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "결제 실패"
 
@@ -14030,7 +14123,7 @@ msgstr "결제 수단"
 msgid "Payment not completed"
 msgstr "결제가 완료되지 않았습니다"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "결제 처리 중"
 
@@ -14402,13 +14495,13 @@ msgstr "정산 금액에서 플랫폼 수수료 {0}이(가) 차감됩니다"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "플랫폼 수수료"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "플랫폼 수수료 보고서"
 
@@ -14578,7 +14671,7 @@ msgstr "위치"
 msgid "Post Checkout message"
 msgstr "결제 완료 후 메시지"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "제공:"
@@ -15475,15 +15568,24 @@ msgstr "제거"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "\"{0}\"을(를) 삭제하시겠습니까? 이미 만료되었습니다."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "페이지, 위젯, 티켓, 이메일에서 \"Powered by Hi.Events\"를 제거하고 내 로고를 표시합니다."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "{0} 제거"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "배치도에서 제거"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "이 라인업에서 제거"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Hi.Events 브랜딩 제거"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "참석자가 보는 모든 곳에서 Hi.Events 브랜딩을 제거하고 이메일에 자체 로고를 넣으세요."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "라이선스 갱신"
 msgid "Renew your licence."
 msgstr "라이선스를 갱신하세요."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "갱신일"
 
@@ -15701,7 +15794,7 @@ msgstr "보고서를 찾을 수 없습니다"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "보고서"
 
@@ -15721,17 +15814,17 @@ msgstr "요청자"
 msgid "Require Billing Address"
 msgstr "청구지 주소 필수"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "싱글 사인온 필수로 지정"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "SSO 필수로 지정"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "{0}에게 SSO 필수로 지정"
 
@@ -15845,6 +15938,10 @@ msgstr "재설정"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "2FA 초기화"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "이 계정의 다른 주최자의 Stripe 연결을 재사용합니다."
 msgid "Revenue"
 msgstr "매출"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "매출 요약"
@@ -16230,7 +16327,7 @@ msgstr "회차별 판매, 참석 및 체크인 내역"
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "판매, 잔여 수량 및 체크인이 선택한 날짜로 전환됩니다."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "모든 이벤트의 판매, 주문, 성과 지표"
 
@@ -16629,6 +16726,10 @@ msgstr "주문 ID, 고객 이름 또는 이메일로 검색..."
 msgid "Search by subject, event, or account..."
 msgstr "제목, 이벤트 또는 계정으로 검색..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "제목으로 검색..."
@@ -16692,6 +16793,10 @@ msgstr "저장된 프로필을 검색하거나 {lineupLabel} 패널에 새 이�
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "검색..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "모두 선택"
 msgid "Select all on {0}"
 msgstr "{0}의 항목 모두 선택"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "이벤트 선택"
 
@@ -17923,11 +18028,11 @@ msgstr "싱글 사인온"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "싱글 사인온 연결을 통한 로그인은 계속 작동합니다. 연결을 끄거나 삭제할 수는 있지만, 라이선스 없이는 변경하거나 다시 켤 수 없습니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "싱글 사인온이 더 이상 필수가 아닙니다"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "싱글 사인온이 이제 필수입니다"
 
@@ -18069,7 +18174,7 @@ msgstr "단색"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "일부 정보는 공개되지 않습니다. 모든 정보를 보려면 로그인하세요."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "일부 결제 수단은 확인에 시간이 걸립니다. Stripe가 확인하는 즉시 브랜딩이 제거됩니다."
 
@@ -18164,7 +18269,7 @@ msgstr "문제가 발생했습니다. 나중에 다시 시도해 주세요."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "특정 사용자"
 msgid "Spirituality"
 msgstr "영성"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "날짜, 구역 또는 티켓 유형별로 체크인을 나누세요. 스태프에게 링크만 공유하면 되며, 스태프는 계정이 필요 없습니다."
@@ -18255,7 +18364,7 @@ msgstr "정사각형, 최소 200 × 200px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "통계"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "대리 로그인 종료"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "이벤트 설정과 운영을 돕는 이메일을 더 이상 받지 않습니다. 주문 및 계정 관련 이메일은 계속 발송됩니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "필수 해제"
 
@@ -18564,7 +18673,7 @@ msgstr "연결을 삭제하기 전에 싱글 사인온 필수 지정을 해제�
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "확인된 도메인을 삭제하기 전에 싱글 사인온 필수 설정을 해제하세요."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "싱글 사인온 필수 지정을 해제할까요? 구성원이 다시 비밀번호로 로그인할 수 있으며, 비밀번호가 없던 구성원은 재설정하면 됩니다."
 
@@ -18623,7 +18732,7 @@ msgstr "{0}의 Stripe 연결을 복사했습니다."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe에서 설정 링크를 반환하지 않았습니다. 다시 시도해 주세요."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe가 아직 결제를 확인하지 않았습니다. 몇 분 후 이 페이지를 새로고침한 다음 다시 시도하세요."
 
@@ -18635,7 +18744,7 @@ msgstr "이 설치 환경에는 Stripe가 구성되어 있지 않아 카드 리�
 msgid "Stripe Not Connected"
 msgstr "Stripe 미연결"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "Stripe 결제 ID"
 
@@ -18685,7 +18794,7 @@ msgstr "제목이 여기에 표시됩니다"
 msgid "Subject:"
 msgstr "제목:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "구독"
 
@@ -18998,7 +19107,7 @@ msgstr "선택한 {0}개 세션의 참가자를 대상으로 합니다."
 msgid "Tax"
 msgstr "세금"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "세금 유형 및 이벤트별로 그룹화된 징수 세금"
 
@@ -19022,7 +19131,7 @@ msgstr "모든 인보이스 하단에 표시할 세금 정보입니다 (예: 부
 msgid "Tax Name"
 msgstr "세금 이름"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "세금 요약"
@@ -19163,7 +19272,7 @@ msgstr "참석해 주셔서 감사합니다!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "감사합니다. {registrantName}님의 주문이 확정되었으며 확인 메일이 다음 주소로 전송되었습니다:"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "구독해 주셔서 감사합니다. Stripe가 결제를 확인하는 즉시 브랜딩 변경이 적용됩니다."
 
@@ -19209,7 +19318,7 @@ msgstr "라이선스를 갱신할 때까지 “Powered by Hi.Events” 문구가
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "이 계정에는 완료된 주문이 있으므로 익명 처리됩니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "계정 소유자({0})는 비밀번호와 2단계 인증으로 계속 로그인할 수 있으므로 {providerName}을(를) 사용할 수 없을 때도 접근 권한을 복구할 수 있습니다. 이 경우 모든 관리자에게 이메일이 전송됩니다."
 
@@ -19389,7 +19498,7 @@ msgstr "찾고 있는 주최자를 찾을 수 없습니다. 페이지가 이동�
 msgid "The override is recorded in the order audit log."
 msgstr "재정의는 주문 감사 로그에 기록됩니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "소유자는 보안 설정에서 {providerName}을(를) 연결하면 평소에 이를 사용해 로그인할 수 있습니다."
 
@@ -20051,9 +20160,9 @@ msgstr "이 상품은 이벤트 페이지에 단독으로 표시되지 않습니
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "이 반복 이벤트에는 아직 날짜가 없어 참가자가 예약할 수 있는 항목이 없습니다."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "이 보고서는 정보 제공 목적으로만 제공됩니다. 회계 또는 세무 목적으로 이 데이터를 사용하기 전에 반드시 세무 전문가와 상담하세요. Hi.Events에 과거 데이터가 누락되었을 수 있으므로 Stripe 대시보드와 상호 확인해 주세요."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "이 티켓은 방금 스캔되었습니다. 다시 스캔하기 전에 �
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "이 등급의 수량은 전체 날짜가 공유합니다"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "이 항목을 이동하려면 Space 또는 Enter 키를 누르세요. �
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "오늘"
 
@@ -20488,6 +20602,10 @@ msgstr "열 표시 전환"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "내일"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "총 할인 금액"
 msgid "Total Entries"
 msgstr "총 항목 수"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "총 수수료"
 
@@ -20619,7 +20737,7 @@ msgstr "추적 및 분석"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "한 사람으로 처리됩니다. 여러 명은 세미콜론으로 구분하세요."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "체험"
 
@@ -20727,7 +20845,7 @@ msgstr "환불을 허용하려면 \"재무 정보 열람 가능\"을 켜세요."
 msgid "Turn on extra sections and drag to reorder."
 msgstr "추가 섹션을 켜고 드래그하여 순서를 변경하세요."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "먼저 {providerName} 로그인을 켜고 도메인을 인증하세요."
 
@@ -21153,6 +21271,10 @@ msgstr "최대 40장, 최소 400 × 300px. 첫 번째 사진이 가장 크게 �
 msgid "Upcoming"
 msgstr "예정됨"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "레이블 업데이트"
 msgid "Update location"
 msgstr "위치 업데이트"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "결제 수단 업데이트"
 
@@ -21510,11 +21632,11 @@ msgstr "부가가치세 번호 검증에 실패했습니다"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "부가가치세 번호 검증에 실패했습니다. 번호를 확인해 주세요."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "수수료에 대한 부가가치세"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "부가가치세율"
 
@@ -21698,7 +21820,7 @@ msgstr "플랫폼 전체에서 발송된 모든 메시지 보기"
 msgid "View all past events"
 msgstr "지난 이벤트 모두 보기"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "모든 이벤트의 보고서를 보고 다운로드하세요. 완료된 주문만 포함됩니다."
 
@@ -21892,7 +22014,7 @@ msgstr "결제 대기 중"
 msgid "Waiting for scan…"
 msgstr "스캔 대기 중…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Stripe의 결제 확인을 기다리는 중…"
 
@@ -21951,6 +22073,10 @@ msgstr "카테고리를 삭제할 수 없습니다. 다시 시도해 주세요."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "이 Stripe 계정의 연결을 해제하지 못했습니다. 다시 시도해 주세요."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "이 현장 판매소를 불러오지 못했습니다"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "이 진행표를 불러오지 못했습니다. 이 이벤트에 대한 접근 권한을 확인한 후 다시 시도해 주세요."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "결제 정보를 불러오지 못했습니다. 페이지를 새로고침하여 다시 시도하세요."
 
@@ -22558,6 +22684,10 @@ msgstr "얼리버드가 있는 워크숍"
 msgid "Workspace domain"
 msgstr "Workspace 도메인"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "여기에 메시지를 작성하세요..."
@@ -22864,7 +22994,7 @@ msgstr "더 이상 {0}(으)로 로그인할 수 없습니다. 계정에 로그�
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "더 이상 이러한 이메일을 받지 않습니다. 주문 및 계정 관련 이메일은 계속 발송됩니다."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "로그아웃되며, {providerName}(으)로 다시 로그인해야 합니다."
 
@@ -22884,7 +23014,7 @@ msgstr "정원 할당을 생성하려면 먼저 상품이 필요합니다."
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "시작하려면 최소 하나의 상품이 필요합니다. 무료, 유료, 또는 사용자가 지불 금액을 결정하도록 할 수 있습니다."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Stripe로 안전하게 결제합니다. 언제든지 해지할 수 있습니다."
 
@@ -23092,7 +23222,7 @@ msgstr "ID 공급자가 오류를 반환했습니다: {providerError}"
 msgid "Your instructions appear here."
 msgstr "여기에 안내가 표시됩니다."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "마지막 결제가 완료되지 않았습니다. 브랜딩 제거를 유지하려면 카드를 업데이트하세요."
 
@@ -23191,9 +23321,9 @@ msgstr "주최자 주소"
 msgid "Your organizer has no description yet."
 msgstr "주최자 설명이 아직 없습니다."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "주문 및 티켓 이메일 상단에 Hi.Events 로고 대신 주최자 로고 표시"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "결제가 처리 중입니다."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "결제는 은행 수준의 암호화로 보호됩니다"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "결제가 아직 처리 중입니다"
 

@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} saatavilla"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} voi kirjautua sisään salasanallaan"
 
@@ -108,6 +116,10 @@ msgstr "{0} toimitettu · {1} avattu · {2} klikattu · {3} palautunut"
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} maksettava tilauksen tekemisen jälkeen"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0} jäljellä"
 msgid "{0} logo"
 msgstr "{0}-logo"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} on nyt kirjauduttava sisään palvelun {providerName} kautta"
 
@@ -186,6 +198,10 @@ msgstr "{0} muuta tuotetta"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} paikkaa"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "{diffMin}min sitten"
 msgid "{diffSec}s ago"
 msgstr "{diffSec}s sitten"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# jäsenen on jatkossa kirjauduttava sisään palvelun {providerName} kautta.} other {# jäsenen on jatkossa kirjauduttava sisään palvelun {providerName} kautta.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# järjestäjä} other {# järjestäjää}
 msgid "{organizerName}'s first event"
 msgstr "{organizerName}:n ensimmäinen tapahtuma"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# jäsen vahvistettujen verkkotunnustesi ulkopuolelta säilyttää nykyisen kirjautumistapansa.} other {# jäsentä vahvistettujen verkkotunnustesi ulkopuolelta säilyttää nykyisen kirjautumistapansa.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 vuosi"
 msgid "1. Get an authenticator app"
 msgstr "1. Hanki todennussovellus"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 mattoa studiossa ja yksi Drop-in-lippu."
@@ -864,6 +884,10 @@ msgstr "123 Sample Street"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "135+ valuuttaa ja 40+ maksutapaa"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Skannaa tämä QR-koodi"
@@ -871,6 +895,10 @@ msgstr "2. Skannaa tämä QR-koodi"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 tuntia sen jälkeen, kun järjestäjä luo maksullisen lipun tai aloittaa Stripen yhdistämisen, jos Stripeä ei ole vieläkään yhdistetty. Ohitetaan maissa, joita Stripe ei tue."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 päivää luonnostapahtuman luomisen jälkeen, jos tilillä ei ole yht
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 päivää rekisteröitymisen jälkeen, jos tilin omistaja on vahvistanut sähköpostinsa mutta ei ole luonut tapahtumaa."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Aktivointipäivä"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Tämän tapahtumakerran kaikki osallistujat"
 msgid "All categories"
 msgstr "Kaikki kategoriat"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Kaikki muutokset tallennettu"
@@ -1915,7 +1955,7 @@ msgstr "Kaikki päättyneet tapahtumat"
 msgid "All events"
 msgstr "Kaikki tapahtumat"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Kaikki tapahtumat"
 
@@ -1943,6 +1983,10 @@ msgstr "Kaikki tapahtumakerrat"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Kaikki tapahtumakerrat"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Maksettava summa"
 msgid "Amount off"
 msgstr "Alennus summana"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Maksettu summa"
 
@@ -2298,6 +2342,10 @@ msgstr "Kaikki lipunhaltijoiden kyselyt lähetetään tähän sähköpostiosoitt
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Yksittäinen päivämäärä voi poiketa: muuta sen kapasiteettia kohdassa Muokkaa päivämäärää tai lipun päivämääräkohtaista määrää kyseisen päivämäärän Tuotteet-välilehdellä."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Mikä tahansa sivusto (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Koskee jokaista aikataulusi päivämäärää. Päivämääriä, joilla 
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Koskee jokaista {0} peruuttamatonta päivämäärää tässä tapahtumassa — mukaan lukien tällä hetkellä lataamattomat päivämäärät."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Koskee kaikkia tämän tilin järjestäjiä ja tapahtumia."
 
@@ -2670,6 +2718,10 @@ msgstr "Alueen nimi"
 msgid "Area options"
 msgstr "Alueen asetukset"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Alueet"
@@ -2783,7 +2835,7 @@ msgstr "Liitä istumakartta"
 msgid "Attempts"
 msgstr "Yritykset"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Osallistumis- ja sisäänkirjautumisasteet kaikissa tapahtumissa"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Laskutetaan kerran vuodessa"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Laskutus"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Laskutusosoite"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Laskutusjakso"
 
@@ -3369,7 +3421,7 @@ msgstr "Lippukassamyynti"
 msgid "Box office updated"
 msgstr "Lippukassa päivitetty"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Brändäys"
 
@@ -3655,7 +3707,7 @@ msgstr "Etkö voi käyttää todennussovellusta tai palautuskoodeja?"
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Peruuttaminen peruuttaa kaikki tähän tilaukseen liittyvät osallistuja
 msgid "Cancelled"
 msgstr "Peruutettu"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Päättymässä"
 
@@ -3964,7 +4016,7 @@ msgstr "Muuta kertaluonteiseksi tapahtumaksi"
 msgid "Change waitlist settings"
 msgstr "Muuta jonotuslistan asetuksia"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Vaihda korttia, vaihda kuukausi- ja vuosilaskutuksen välillä, lataa laskuja tai peru tilaus."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Sisäänkirjautumisen tila"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Sisäänkirjautumayhteenveto"
 
@@ -4562,7 +4614,7 @@ msgstr "Asiakassalaisuus"
 msgid "close"
 msgstr "sulje"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Sulje sivupalkki"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Sulje kopioimatta"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Jatka tapahtuman luomiseen"
 msgid "Continue to next step"
 msgstr "Siirry seuraavaan vaiheeseen"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Jatka maksuun"
@@ -5844,7 +5900,7 @@ msgstr "CTA-etiketti on pakollinen"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Tšekki"
 msgid "Daily"
 msgstr "Päivittäinen"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Päivittäiset tulot, verot, maksut ja hyvitykset kaikissa tapahtumissa"
 
@@ -6653,6 +6709,10 @@ msgstr "Alennus kohteessa {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Alennustyyppi"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "Sähköposti vahvistettu"
 msgid "Email verified successfully!"
 msgstr "Sähköposti vahvistettu onnistuneesti!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "Sähköpostit lähetetään järjestäjäsi nimellä, ja painikkeet ja linkit ovat tapahtumasi värissä"
 
@@ -7553,7 +7613,7 @@ msgstr "Päättyy {0}"
 msgid "Ends before it starts"
 msgstr "Päättyy ennen alkua"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Päättyy"
 
@@ -7810,7 +7870,7 @@ msgstr "Vain parilliset numerot"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Tapahtumat"
 msgid "Events are always shown"
 msgstr "Tapahtumat näytetään aina"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Tapahtumien suorituskyky"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Suorita nyt"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Vapautettu"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Vapauta {0} SSO:sta"
 
@@ -8762,7 +8826,7 @@ msgstr "Suodata osallistujat"
 msgid "Filter by date"
 msgstr "Suodata päivämäärän mukaan"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Suodata tapahtuman mukaan"
 
@@ -8794,6 +8858,10 @@ msgstr "Etsi {bestAvailableQuantity} paikkaa"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Etsi 1 paikka"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Aula"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Ilmainen"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Kreikka"
 msgid "Grid"
 msgstr "Ruudukko"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Hei {0} 👋"
 msgid "Hi,"
 msgstr "Hei,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Hi.Events-brändäys poistetaan tapahtumasivultasi, ja logosi korvaa sen sähköposteissa"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Hi.Events-brändäys palaa tämän päivän jälkeen. Voit jatkaa tilausta ennen sitä."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events-maksu"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Hi.Eventsin palvelumaksut ja ALV-erittely transaktiokohtaisesti"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Piilota"
 msgid "Hide \"Have a promo code?\""
 msgstr "Piilota ”Onko sinulla kampanjakoodi?”"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Piilota {label}"
@@ -9610,10 +9674,6 @@ msgstr "Piilota tiedot"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Piilota tapahtumasivulta"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Piilota Hi.Events-brändäys"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Unkari"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Vahvistan vastuuni rekisterinpitäjänä"
@@ -9953,7 +10017,7 @@ msgstr "Tuo"
 msgid "Import lineup & schedule"
 msgstr "Tuo esiintyjälista ja aikataulu"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Tärkeä huomio"
 
@@ -10045,6 +10109,10 @@ msgstr "Näytä Menneet tapahtumat -välilehti"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Lisää verkkotapahtuman yhteydenottotiedot. Nämä tiedot näytetään tilausyhteenvedossa ja osallistujalipussa."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Sisällytä verot ja maksut hintaan"
@@ -10053,7 +10121,7 @@ msgstr "Sisällytä verot ja maksut hintaan"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Lisää tämä viite maksuusi, jotta järjestäjä voi yhdistää sen tilaukseesi."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Sisältyy"
@@ -10062,9 +10130,9 @@ msgstr "Sisältyy"
 msgid "Included in the email to the account owner."
 msgstr "Sisällytetään tilin omistajalle lähetettävään sähköpostiin."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Sisältyy tilaukseesi. Hi.Events-brändäys on piilotettu tapahtumasivuiltasi, widgeteistä, lipuista ja sähköposteista."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Säilytä voitto."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Pidä heidät pois julkiselta esiintyjälistalta ja aikataulusta, kunnes olet valmis julkistamaan"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Kirjautuu edelleen salasanalla. Palvelua {providerName} ei voi käyttää tämän jäsenen kirjautumiseen."
 
@@ -11086,7 +11154,7 @@ msgstr "Tee se näkyväksi, jotta ihmiset voivat ostaa lippuja"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Varmista, että ID token sisältää email- ja email_verified-väitteet (claims)."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Tee tapahtumasivuistasi, widgeteistäsi, lipuistasi ja sähköposteistasi täysin omannäköisiäsi. Koskee kaikkia tämän tilin järjestäjiä ja tapahtumia."
 
@@ -11113,8 +11181,8 @@ msgstr "Hallinnoi {0}"
 msgid "Manage attendee"
 msgstr "Hallinnoi osallistujaa"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Hallitse laskutusta"
 
@@ -11193,9 +11261,17 @@ msgstr "Lisää osallistuja manuaalisesti"
 msgid "Manually verified"
 msgstr "Manuaalisesti vahvistettu"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Karttanäkymä"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Jäsen aktivoitu uudelleen"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Jäsenet vaihtavat sähköpostinsa itse <0>profiiliasetuksissa</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Vahvistettujen verkkotunnusten jäsenet"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Jäsenten, joilla on vahvistetun verkkotunnuksen sähköpostiosoite, on kirjauduttava sisään palvelun {providerName} kautta. Heidän muut istuntonsa päättyvät."
 
@@ -11527,6 +11603,10 @@ msgstr "Enemmän paikkoja"
 msgid "More seats"
 msgstr "Enemmän paikkoja"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Katsotuimmat tapahtumat"
@@ -11687,6 +11767,10 @@ msgstr "Nimi, sähköposti ja laskutusosoite kerätään aina."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Siirry osallistujalle"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Ei"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Ei - olen yksityishenkilö tai ei-arvonlisäverovelvollinen yritys"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "Ei tapahtumasivun katseluita tällä jaksolla"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Tapahtumia ei löytynyt"
 
@@ -12148,14 +12241,6 @@ msgstr "Ei taloustietoja"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Ei tarkistusta odottavia merkittyjä tapahtumia"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Ei Hi.Events-brändäystä tapahtumasivuilla, järjestäjäsivuilla, kassalla tai upotetuissa widgeteissä"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Ei Hi.Events-mainontaa osallistujillesi lähetetyissä sähköposteissa"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Kukaan ei vastaa suodattimia."
 msgid "Nobody on the lineup yet."
 msgstr "Esiintyjälistalla ei ole vielä ketään."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Kukaan tiimissäsi ei käytä vielä vahvistettua verkkotunnusta. Sellaisesta liittyvien on kirjauduttava sisään palvelun {providerName} kautta."
 
@@ -12608,7 +12693,7 @@ msgstr "Ei vielä liittynyt"
 msgid "Not marked as verified"
 msgstr "Ei merkitty vahvistetuksi"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Ei nyt"
 
@@ -13061,7 +13146,7 @@ msgstr "Vain tilin ylläpitäjät voivat poistaa tai arkistoida tapahtumia. Ota 
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Vain tilin ylläpitäjät voivat poistaa tai arkistoida järjestäjiä. Ota apua varten yhteyttä tilin ylläpitäjään."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Vain tilin ylläpitäjät voivat muuttaa laskutusta. Pyydä ylläpitäjää päivittämään kohdasta Asetukset → Laskutus."
 
@@ -13445,7 +13530,7 @@ msgstr "Tilaus tehty, maksu odottaa"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Vain tilauskysymykset. Osallistujakysymykset vaativat tuotteet."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Tilausviite"
 
@@ -13615,6 +13700,10 @@ msgstr "Järjestäjän asetukset"
 msgid "Organizer Settings"
 msgstr "Järjestäjäasetukset"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Omat tapahtumat"
 msgid "Owner"
 msgstr "Omistaja"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Omistaa toisen Hi.Events-tilin, joten kirjautuu salasanalla, kunnes yhdistää palvelun {providerName} suojausasetuksissaan."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Maksetut tilit"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Maksettu muualla"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Peri ostajalta"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Salasana"
 
@@ -13873,7 +13966,7 @@ msgstr "Erääntynyt"
 msgid "Past events"
 msgstr "Menneet tapahtumat"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Aiemmat laskut"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Tauolla"
 
@@ -13988,7 +14081,7 @@ msgstr "Maksu- ja laskutusasetukset"
 msgid "Payment complete"
 msgstr "Maksu suoritettu"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Maksupäivä"
 
@@ -14000,7 +14093,7 @@ msgstr "Maksutiedot: {0}"
 msgid "Payment Due Period"
 msgstr "Maksuaika"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Maksu epäonnistui"
 
@@ -14030,7 +14123,7 @@ msgstr "Maksutavat"
 msgid "Payment not completed"
 msgstr "Maksua ei suoritettu loppuun"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Maksua käsitellään"
 
@@ -14402,13 +14495,13 @@ msgstr "Palvelumaksu {0} vähennetään tilityksestäsi"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Palvelumaksut"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Palvelumaksuraportti"
 
@@ -14578,7 +14671,7 @@ msgstr "Sijainti"
 msgid "Post Checkout message"
 msgstr "Kassanjälkeinen viesti"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Powered by"
@@ -15475,15 +15568,24 @@ msgstr "Poista"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Poistetaanko ”{0}”? Se on jo vanhentunut."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Poista ”Powered by Hi.Events” sivuiltasi, widgeteistäsi, lipuistasi ja sähköposteistasi ja näytä oma logosi."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Poista {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Poista kartalta"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Poista tältä esiintyjälistalta"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Poista Hi.Events-brändäys"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Poista Hi.Events-brändäys kaikesta, mitä osallistujasi näkevät, ja lisää oma logosi heidän sähköposteihinsa."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Jatka lisenssiä"
 msgid "Renew your licence."
 msgstr "Jatka lisenssiäsi."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Uusiutuu"
 
@@ -15701,7 +15794,7 @@ msgstr "Raporttia ei löydy"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Raportit"
 
@@ -15721,17 +15814,17 @@ msgstr "Pyydetty käyttäjän toimesta"
 msgid "Require Billing Address"
 msgstr "Vaadi laskutusosoite"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Vaadi kertakirjautuminen"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Vaadi SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Vaadi SSO käyttäjältä {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Palauta"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Nollaa 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Käytä Stripe-yhteyttä toiselta järjestäjältä tässä tilissä."
 msgid "Revenue"
 msgstr "Tuotot"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Tuottojen yhteenveto"
@@ -16230,7 +16327,7 @@ msgstr "Myynnin, osallistujamäärän ja sisäänkirjautumisten erittely per tap
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Myynti, saatavuus ja sisäänkirjaus vaihtuvat valitsemallesi päivämäärälle."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Myynnin, tilausten ja suorituskykymittareiden erittely kaikille tapahtumille"
 
@@ -16629,6 +16726,10 @@ msgstr "Hae tilausnumerolla, asiakkaan nimellä tai sähköpostilla..."
 msgid "Search by subject, event, or account..."
 msgstr "Hae aiheella, tapahtumalla tai tilillä..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Hae otsikolla..."
@@ -16692,6 +16793,10 @@ msgstr "Hae tallennetuista profiileista tai kirjoita uusi nimi {lineupLabel}-pan
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Hae..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Valitse kaikki"
 msgid "Select all on {0}"
 msgstr "Valitse kaikki kohteessa {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Valitse tapahtuma"
 
@@ -17923,11 +18028,11 @@ msgstr "Kertakirjautuminen"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Kertakirjautumisyhteydet kirjaavat käyttäjiä edelleen sisään. Ne voi kytkeä pois päältä tai poistaa, mutta niitä ei voi muuttaa tai ottaa uudelleen käyttöön ilman lisenssiä."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Kertakirjautumista ei enää vaadita"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Kertakirjautuminen on nyt pakollinen"
 
@@ -18069,7 +18174,7 @@ msgstr "Yksivärinen"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Jotkin tiedot ovat piilotettu julkiselta näkyvyydeltä. Kirjaudu sisään nähdäksesi kaiken."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Joidenkin maksutapojen vahvistus kestää hetken. Brändäys poistetaan heti, kun Stripe vahvistaa maksun."
 
@@ -18164,7 +18269,7 @@ msgstr "Jotain meni pieleen. Yritä myöhemmin uudelleen."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Tietyt käyttäjät"
 msgid "Spirituality"
 msgstr "Henkisyys"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Jaa sisäänkirjautuminen usealle päivälle, alueelle tai lipputyypille. Jaa linkki henkilökunnalle — heidän ei tarvitse olla kirjautuneena."
@@ -18255,7 +18364,7 @@ msgstr "Neliö, vähintään 200 × 200 px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Tilastot"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Lopeta käyttäjänä toimiminen"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Lopeta tapahtumiesi määrittämisessä ja järjestämisessä auttavien sähköpostien vastaanottaminen. Tilauksiisi ja tiliisi liittyviä sähköposteja lähetetään edelleen."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Lopeta vaatiminen"
 
@@ -18564,7 +18673,7 @@ msgstr "Lopeta kertakirjautumisen vaatiminen ennen yhteyden poistamista."
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Lopeta kertakirjautumisen vaatiminen ennen kuin poistat vahvistetun verkkotunnuksen."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Lopetetaanko kertakirjautumisen vaatiminen? Jäsenet voivat taas kirjautua salasanallaan tai nollata sen, jos heillä ei ollut sellaista."
 
@@ -18623,7 +18732,7 @@ msgstr "Stripe-yhteys kopioitu lähteestä {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe ei palauttanut asennuslinkkiä. Yritä uudelleen."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe ei ole vielä vahvistanut maksuasi. Päivitä tämä sivu muutaman minuutin kuluttua ennen kuin yrität uudelleen."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripeä ei ole määritetty tässä asennuksessa, joten kortinlukijat e
 msgid "Stripe Not Connected"
 msgstr "Stripe ei ole yhdistetty"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "Stripe-maksun tunnus"
 
@@ -18685,7 +18794,7 @@ msgstr "Aihe näkyy tässä"
 msgid "Subject:"
 msgstr "Aihe:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Tilaus"
 
@@ -18998,7 +19107,7 @@ msgstr "Kohdennetaan osallistujia {0} valitun istunnon yli."
 msgid "Tax"
 msgstr "Vero"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Kerätyt verot ryhmitelty verotyypin ja tapahtuman mukaan"
 
@@ -19022,7 +19131,7 @@ msgstr "Verotiedot, jotka näkyvät kaikissa laskuissa alareunassa (esim. ALV-nu
 msgid "Tax Name"
 msgstr "Veron nimi"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Veroyhteenveto"
@@ -19163,7 +19272,7 @@ msgstr "Kiitos osallistumisestasi!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Kiitos. Henkilön {registrantName} tilaus on vahvistettu ja vahvistus on lähetetty sähköpostilla osoitteeseen"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Kiitos tilauksesta. Brändäysmuutokset tulevat voimaan heti, kun Stripe vahvistaa maksun."
 
@@ -19209,7 +19318,7 @@ msgstr "”Powered by Hi.Events” -ilmoitus näytetään taas, kunnes jatkat li
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Tilillä on valmiita tilauksia, joten se anonymisoidaan."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Tilin omistaja ({0}) voi edelleen kirjautua salasanalla ja kaksivaiheisella tunnistautumisella, joten pääset takaisin tilille, jos {providerName} ei ole käytettävissä. Kaikille ylläpitäjille lähetetään tällöin sähköposti."
 
@@ -19389,7 +19498,7 @@ msgstr "Etsimääsi järjestäjää ei löytynyt. Sivu on ehkä siirretty tai po
 msgid "The override is recorded in the order audit log."
 msgstr "Ohitus kirjataan tilauksen tarkastuslokiin."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Omistaja voi yhdistää palvelun {providerName} suojausasetuksissaan ja käyttää sitä päivittäiseen kirjautumiseen."
 
@@ -20051,9 +20160,9 @@ msgstr "Tämä tuote ei näy tapahtumasivulla itsenäisesti — ostajat näkevä
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Tälle toistuvalle tapahtumalle ei ole vielä määritetty päivämääriä, joten osallistujille ei ole mitään varattavaa."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Tämä raportti on tarkoitettu ainoastaan tiedoksi. Keskustele aina veroasiantuntijan kanssa ennen näiden tietojen käyttämistä kirjanpitoon tai verotukseen. Tarkista tiedot vertaamalla niitä Stripe-hallintapaneeliisi, sillä Hi.Events-palvelusta saattaa puuttua historiatietoja."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Tämä lippu skannattiin juuri. Odota ennen uutta skannausta."
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "Tämän hintatason määrä on jaettu kaikkien päivämäärien kesken"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Siirrä tätä kohdetta painamalla välilyöntiä tai Enteriä. Muuta se
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Tänään"
 
@@ -20488,6 +20602,10 @@ msgstr "Näytä tai piilota sarakkeet"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Huomenna"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Alennusten määrä yhteensä"
 msgid "Total Entries"
 msgstr "Merkintöjä yhteensä"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Maksut yhteensä"
 
@@ -20619,7 +20737,7 @@ msgstr "Seuranta ja analytiikka"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Käsitellään yhtenä henkilönä. Erota useat henkilöt puolipisteellä."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Kokeilu"
 
@@ -20727,7 +20845,7 @@ msgstr "Ota ”Voi nähdä taloustiedot” käyttöön, jotta hyvitykset sallita
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Ota lisäosioita käyttöön ja vedä ne haluamaasi järjestykseen."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Ota käyttöön kirjautuminen palvelulla {providerName} ja vahvista ensin verkkotunnus."
 
@@ -21153,6 +21271,10 @@ msgstr "Enintään 40 kuvaa, vähintään 400 × 300px. Ensimmäinen näytetää
 msgid "Upcoming"
 msgstr "Tulevat"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Päivitä tunniste"
 msgid "Update location"
 msgstr "Päivitä sijainti"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Päivitä maksutapa"
 
@@ -21510,11 +21632,11 @@ msgstr "ALV-tunnisteen vahvistaminen epäonnistui"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "ALV-tunnisteen vahvistaminen epäonnistui. Tarkista ALV-tunnisteesi."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "ALV maksusta"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "ALV-prosentti"
 
@@ -21698,7 +21820,7 @@ msgstr "Näytä kaikki alustalla lähetetyt viestit"
 msgid "View all past events"
 msgstr "Näytä kaikki menneet tapahtumat"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Näytä ja lataa kaikkien tapahtumiesi raportit. Vain valmiit tilaukset sisällytetään."
 
@@ -21892,7 +22014,7 @@ msgstr "Odottaa maksua"
 msgid "Waiting for scan…"
 msgstr "Odotetaan skannausta…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Odotetaan Stripen maksuvahvistusta…"
 
@@ -21951,6 +22073,10 @@ msgstr "Kategorian poistaminen ei onnistunut. Yritä uudelleen."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Tämän Stripe-tilin yhteyden katkaiseminen ei onnistunut. Yritä uudelleen."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Lipunmyyntipistettä ei voitu ladata"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Tätä ohjelmakaaviota ei voitu ladata. Tarkista, että sinulla on pääsy tähän tapahtumaan, ja yritä uudelleen."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Laskutustietoja ei voitu ladata. Päivitä sivu ja yritä uudelleen."
 
@@ -22558,6 +22684,10 @@ msgstr "Työpaja early bird -lipulla"
 msgid "Workspace domain"
 msgstr "Workspace-verkkotunnus"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Kirjoita viestisi tähän..."
@@ -22864,7 +22994,7 @@ msgstr "Et voi enää kirjautua palvelulla {0}. Tiliisi kirjautuneet muut laitte
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Et saa enää näitä sähköposteja. Tilauksiisi ja tiliisi liittyviä sähköposteja lähetetään edelleen."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Sinut kirjataan ulos ja sinun on kirjauduttava uudelleen sisään palvelun {providerName} kautta."
 
@@ -22884,7 +23014,7 @@ msgstr "Tarvitset vähintään yhden tuotteen ennen kuin voit luoda kapasiteetin
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Aloittamiseen tarvitaan vähintään yksi tuote. Tuote voi olla maksuton, maksullinen tai hinnaltaan käyttäjän päätettävissä."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Maksat turvallisesti Stripen kautta. Voit perua milloin tahansa."
 
@@ -23092,7 +23222,7 @@ msgstr "Identiteetintarjoajasi palautti virheen: {providerError}"
 msgid "Your instructions appear here."
 msgstr "Ohjeesi näkyvät tässä."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Viimeisin maksusi epäonnistui. Päivitä korttisi, jotta brändäys pysyy poistettuna."
 
@@ -23191,9 +23321,9 @@ msgstr "Järjestäjäsi osoite"
 msgid "Your organizer has no description yet."
 msgstr "Järjestäjälläsi ei ole vielä kuvausta."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Järjestäjäsi logo tilaus- ja lippusähköpostien yläosassa Hi.Events-logon sijaan"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Maksuasi käsitellään."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Maksusi on suojattu pankkitason salauksella"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Maksuasi käsitellään vielä"
 

@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} k dispozici"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} se může přihlásit svým heslem"
 
@@ -108,6 +116,10 @@ msgstr "Doručeno: {0} · otevřeno: {1} · prokliknuto: {2} · nedoručeno: {3}
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} k úhradě po odeslání objednávky"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "Zbývá {0}"
 msgid "{0} logo"
 msgstr "Logo {0}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} se nyní musí přihlašovat přes {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "další položky: {0}"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "Míst: {0}"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "před {diffMin} min"
 msgid "{diffSec}s ago"
 msgstr "před {diffSec} s"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# člen se bude muset přihlašovat přes {providerName}.} few {# členové se budou muset přihlašovat přes {providerName}.} many {# člena se bude muset přihlašovat přes {providerName}.} other {# členů se bude muset přihlašovat přes {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# organizátor} few {# organizátoři} man
 msgid "{organizerName}'s first event"
 msgstr "První událost organizátora {organizerName}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# člen mimo vaše ověřené domény si ponechá svůj současný způsob přihlášení.} few {# členové mimo vaše ověřené domény si ponechají svůj současný způsob přihlášení.} many {# člena mimo vaše ověřené domény si ponechá svůj současný způsob přihlášení.} other {# členů mimo vaše ověřené domény si ponechá svůj současný způsob přihlášení.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 rok"
 msgid "1. Get an authenticator app"
 msgstr "1. Získejte ověřovací aplikaci"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 podložek ve studiu a jedna vstupenka Jednorázová."
@@ -864,6 +884,10 @@ msgstr "Ukázková 123"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "135+ měn a 40+ platebních metod"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Naskenujte tento QR kód"
@@ -871,6 +895,10 @@ msgstr "2. Naskenujte tento QR kód"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 hodin poté, co organizátor vytvoří placenou vstupenku nebo začne připojovat Stripe, pokud Stripe stále není připojen. Přeskakuje se v zemích, které Stripe nepodporuje."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 dny po vytvoření konceptu události, pokud na účtu není nic aktiv
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 dny po registraci, pokud vlastník účtu potvrdil svůj e-mail, ale nevytvořil žádnou událost."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Datum aktivace"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Všichni účastníci tohoto termínu"
 msgid "All categories"
 msgstr "Všechny kategorie"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Všechny změny uloženy"
@@ -1915,7 +1955,7 @@ msgstr "Všechny ukončené události"
 msgid "All events"
 msgstr "Všechny události"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Všechny události"
 
@@ -1943,6 +1983,10 @@ msgstr "Všechny termíny"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Všechny termíny"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Částka k úhradě"
 msgid "Amount off"
 msgstr "Sleva v částce"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Zaplacená částka"
 
@@ -2298,6 +2342,10 @@ msgstr "Veškeré dotazy od držitelů produktů budou odeslány na tuto e-mailo
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Každý termín se může lišit: jeho kapacitu změníte v Upravit termín, množství vstupenky na termín pak na kartě Produkty daného termínu."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Libovolný web (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Platí pro každý termín ve vašem harmonogramu. Termíny s nastavenou
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Platí pro {0}, nezrušené termíny této události — včetně termínů, které aktuálně nejsou načtené."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Platí pro všechny organizátory a události v tomto účtu."
 
@@ -2670,6 +2718,10 @@ msgstr "Název oblasti"
 msgid "Area options"
 msgstr "Možnosti oblasti"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Oblasti"
@@ -2783,7 +2835,7 @@ msgstr "Připojit plánek sálu"
 msgid "Attempts"
 msgstr "Pokusy"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Účast a míra odbavení napříč všemi událostmi"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Fakturováno jednou ročně"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Fakturace"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Fakturační adresa"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Fakturační období"
 
@@ -3369,7 +3421,7 @@ msgstr "Prodej na místě"
 msgid "Box office updated"
 msgstr "Pokladna na místě aktualizována"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Branding"
 
@@ -3655,7 +3707,7 @@ msgstr "Nemůžete použít ověřovací aplikaci ani záložní kódy?"
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Zrušením se zruší všichni účastníci spojení s touto objednávko
 msgid "Cancelled"
 msgstr "Zrušeno"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Ruší se"
 
@@ -3964,7 +4016,7 @@ msgstr "Změnit na jednorázovou událost"
 msgid "Change waitlist settings"
 msgstr "Změnit nastavení pořadníku"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Změňte kartu, přepněte mezi měsíční a roční fakturací, stáhněte faktury nebo předplatné zrušte."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Stav odbavení"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Přehled odbavení"
 
@@ -4562,7 +4614,7 @@ msgstr "Client secret"
 msgid "close"
 msgstr "zavřít"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Zavřít postranní panel"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Zavřít bez zkopírování"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Pokračovat k vytvoření události"
 msgid "Continue to next step"
 msgstr "Pokračovat k dalšímu kroku"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Pokračovat k platbě"
@@ -5844,7 +5900,7 @@ msgstr "Popisek výzvy k akci je povinný"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Čeština"
 msgid "Daily"
 msgstr "Denně"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Denní tržby, daně, poplatky a vrácené platby napříč všemi událostmi"
 
@@ -6653,6 +6709,10 @@ msgstr "Sleva v {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Typ slevy"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "E-mail ověřen"
 msgid "Email verified successfully!"
 msgstr "E-mail byl úspěšně ověřen!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "E-maily odesílané pod jménem vašeho organizátora, s tlačítky a odkazy v barvě vaší události"
 
@@ -7553,7 +7613,7 @@ msgstr "Končí {0}"
 msgid "Ends before it starts"
 msgstr "Končí dříve, než začíná"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Končí"
 
@@ -7810,7 +7870,7 @@ msgstr "Pouze sudá čísla"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Události"
 msgid "Events are always shown"
 msgstr "Události se zobrazují vždy"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Výkonnost událostí"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Provést nyní"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Vyjmut"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Udělit výjimku: {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Filtrovat účastníky"
 msgid "Filter by date"
 msgstr "Filtrovat podle termínu"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Filtrovat podle události"
 
@@ -8794,6 +8858,10 @@ msgstr "Najít místa ({bestAvailableQuantity})"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Najít 1 místo"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Foyer"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Zdarma"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Řečtina"
 msgid "Grid"
 msgstr "Mřížka"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Ahoj {0} 👋"
 msgid "Hi,"
 msgstr "Dobrý den,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Branding Hi.Events zmizí z vaší stránky události a v e-mailech ho nahradí vaše logo"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Po tomto datu se branding Hi.Events vrátí. Do té doby můžete předplatné obnovit."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Poplatek Hi.Events"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Rozpis poplatků platformy Hi.Events a DPH podle transakce"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Skrýt"
 msgid "Hide \"Have a promo code?\""
 msgstr "Skrýt „Máte promo kód?“"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Skrýt {label}"
@@ -9610,10 +9674,6 @@ msgstr "Skrýt podrobnosti"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Skrýt na stránce události"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Skrýt branding Hi.Events"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Maďarština"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Beru na vědomí své povinnosti jako správce údajů"
@@ -9953,7 +10017,7 @@ msgstr "Importovat"
 msgid "Import lineup & schedule"
 msgstr "Importovat line-up a program"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Důležité upozornění"
 
@@ -10045,6 +10109,10 @@ msgstr "Zahrnout kartu Minulé události"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Uveďte údaje pro připojení k vaší online akci. Tyto údaje se zobrazí na stránce se souhrnem objednávky a na stránce vstupenky účastníka."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Zahrnout daň a poplatky do ceny"
@@ -10053,7 +10121,7 @@ msgstr "Zahrnout daň a poplatky do ceny"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Uveďte tuto referenci u platby, aby ji organizátor mohl přiřadit k vaší objednávce."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Zahrnuto"
@@ -10062,9 +10130,9 @@ msgstr "Zahrnuto"
 msgid "Included in the email to the account owner."
 msgstr "Bude uvedeno v e-mailu vlastníkovi účtu."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Součást vašeho tarifu. Branding Hi.Events je skrytý na stránkách vašich událostí, ve widgetech, na vstupenkách a v e-mailech."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Zisk zůstane vám."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Nezobrazovat je ve veřejném line-upu a programu, dokud nebudete připraveni je oznámit"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Nadále se přihlašuje heslem. {providerName} nelze k přihlášení tohoto člena použít."
 
@@ -11086,7 +11154,7 @@ msgstr "Zveřejněte ji, aby si lidé mohli koupit vstupenky"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Ujistěte se, že ID tokeny obsahují claimy email a email_verified."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Ať stránky vašich událostí, widgety, vstupenky a e-maily vypadají zcela jako vaše vlastní. Platí pro všechny organizátory a události v tomto účtu."
 
@@ -11113,8 +11181,8 @@ msgstr "Spravovat {0}"
 msgid "Manage attendee"
 msgstr "Spravovat účastníka"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Spravovat fakturaci"
 
@@ -11193,9 +11261,17 @@ msgstr "Ručně přidat účastníka"
 msgid "Manually verified"
 msgstr "Ručně ověřeno"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Zobrazení plánku"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Člen byl znovu aktivován"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Členové si e-mail mění sami v <0>nastavení profilu</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Členové na ověřených doménách"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Členové s e-mailem na ověřené doméně se musí přihlašovat přes {providerName}. Jejich ostatní relace budou ukončeny."
 
@@ -11527,6 +11603,10 @@ msgstr "Více míst"
 msgid "More seats"
 msgstr "Více míst"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Nejzobrazovanější události"
@@ -11687,6 +11767,10 @@ msgstr "Jméno, e-mail a fakturační adresa se zjišťují vždy."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Přejít na účastníka"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Ne"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Ne – jsem fyzická osoba nebo firma, která není plátcem DPH"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "V tomto období nejsou žádná zobrazení stránek událostí"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Nebyly nalezeny žádné akce"
 
@@ -12148,14 +12241,6 @@ msgstr "Bez financí"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Žádné označené události nečekají na kontrolu"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Žádný branding Hi.Events na stránkách událostí, stránkách organizátora, v pokladně ani ve vložených widgetech"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Žádná propagace Hi.Events v e-mailech, které dostávají vaši účastníci"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Těmto filtrům nikdo neodpovídá."
 msgid "Nobody on the lineup yet."
 msgstr "V line-upu zatím nikdo není."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Nikdo z vašeho týmu zatím nepoužívá ověřenou doménu. Lidé, kteří se připojí z ověřené domény, se budou muset přihlašovat přes {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Zatím se nepřipojil(a)"
 msgid "Not marked as verified"
 msgstr "Neoznačeno jako ověřené"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Teď ne"
 
@@ -13061,7 +13146,7 @@ msgstr "Akce mohou mazat nebo archivovat pouze administrátoři účtu. O pomoc 
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Organizátory mohou mazat nebo archivovat pouze administrátoři účtu. O pomoc požádejte administrátora svého účtu."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Fakturaci mohou měnit pouze administrátoři účtu. Požádejte administrátora o přechod na vyšší tarif v Nastavení → Fakturace."
 
@@ -13445,7 +13530,7 @@ msgstr "Objednávka vytvořena, čeká se na platbu"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Pouze otázky k objednávce. Otázky k účastníkům vyžadují produkty."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Ref. objednávky"
 
@@ -13615,6 +13700,10 @@ msgstr "Nastavení organizátora"
 msgid "Organizer Settings"
 msgstr "Nastavení organizátora"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Vlastní události"
 msgid "Owner"
 msgstr "Vlastník"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Vlastní jiný účet Hi.Events, a proto se nadále přihlašuje heslem, dokud si v nastavení zabezpečení nepřipojí {providerName}."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Placené účty"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Zaplaceno jinde"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Přenést na kupujícího"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Heslo"
 
@@ -13873,7 +13966,7 @@ msgstr "Po splatnosti"
 msgid "Past events"
 msgstr "Minulé události"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Předchozí faktury"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Pozastaveno"
 
@@ -13988,7 +14081,7 @@ msgstr "Nastavení plateb a fakturace"
 msgid "Payment complete"
 msgstr "Platba dokončena"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Datum platby"
 
@@ -14000,7 +14093,7 @@ msgstr "Platební údaje: {0}"
 msgid "Payment Due Period"
 msgstr "Lhůta splatnosti"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Platba selhala"
 
@@ -14030,7 +14123,7 @@ msgstr "Platební metody"
 msgid "Payment not completed"
 msgstr "Platba nebyla dokončena"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Platba se zpracovává"
 
@@ -14402,13 +14495,13 @@ msgstr "Poplatek platformy {0} odečten z vaší výplaty"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Poplatky platformy"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Přehled poplatků platformy"
 
@@ -14578,7 +14671,7 @@ msgstr "Pořadí"
 msgid "Post Checkout message"
 msgstr "Zpráva po dokončení objednávky"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Poháněno"
@@ -15475,15 +15568,24 @@ msgstr "Odebrat"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Odebrat „{0}“? Jeho platnost již vypršela."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Odstraňte „Powered by Hi.Events“ ze svých stránek, widgetů, vstupenek a e-mailů a zobrazte místo toho vlastní logo."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Odebrat {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Odebrat z plánku"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Odebrat z tohoto line-upu"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Odstranit branding Hi.Events"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Odstraňte branding Hi.Events ze všeho, co vidí vaši účastníci, a vložte do jejich e-mailů vlastní logo."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Obnovit licenci"
 msgid "Renew your licence."
 msgstr "Obnovte svou licenci."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Obnovuje se"
 
@@ -15701,7 +15794,7 @@ msgstr "Report nebyl nalezen"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Reporty"
 
@@ -15721,17 +15814,17 @@ msgstr "Vyžádal(a)"
 msgid "Require Billing Address"
 msgstr "Vyžadovat fakturační adresu"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Vyžadovat jednotné přihlašování"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Vyžadovat SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Vyžadovat SSO pro {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Obnovit"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Resetovat 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Použijte znovu propojení Stripe od jiného organizátora v tomto účt
 msgid "Revenue"
 msgstr "Tržby"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Přehled tržeb"
@@ -16230,7 +16327,7 @@ msgstr "Rozpis prodejů, účasti a odbavení podle termínů"
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Prodej, dostupnost a odbavení se přepnou na zvolený termín."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Prodeje, objednávky a výkonnostní metriky pro všechny události"
 
@@ -16629,6 +16726,10 @@ msgstr "Hledat podle ID objednávky, jména zákazníka nebo e-mailu..."
 msgid "Search by subject, event, or account..."
 msgstr "Hledat podle předmětu, události nebo účtu..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Hledat podle názvu..."
@@ -16692,6 +16793,10 @@ msgstr "Vyhledejte v uložených profilech nebo zadejte nové jméno v panelu {l
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Hledat..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Vybrat vše"
 msgid "Select all on {0}"
 msgstr "Vybrat vše dne {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Vyberte událost"
 
@@ -17923,11 +18028,11 @@ msgstr "Jednotné přihlášení"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Připojení jednotného přihlášení dál přihlašují uživatele. Lze je vypnout nebo smazat, ale bez licence je nelze měnit ani znovu zapnout."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Jednotné přihlašování již není vyžadováno"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Jednotné přihlašování je nyní vyžadováno"
 
@@ -18069,7 +18174,7 @@ msgstr "Jednobarevné"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Některé údaje nejsou veřejně přístupné. Pro zobrazení všech údajů se přihlaste."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Potvrzení některých platebních metod chvíli trvá. Branding odstraníme, jakmile Stripe platbu potvrdí."
 
@@ -18164,7 +18269,7 @@ msgstr "Něco se pokazilo. Zkuste to prosím znovu později."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Konkrétní uživatelé"
 msgid "Spirituality"
 msgstr "Spiritualita"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Rozdělte odbavení podle dnů, zón nebo typů vstupenek. Sdílejte odkaz s personálem — nepotřebují k tomu účet."
@@ -18255,7 +18364,7 @@ msgstr "Čtverec, alespoň 200 × 200 px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Statistiky"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Ukončit vystupování za uživatele"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Přestat dostávat e-maily, které vám pomáhají nastavit a pořádat vaše události. E-maily o vašich objednávkách a účtu budete dostávat i nadále."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Přestat vyžadovat"
 
@@ -18564,7 +18673,7 @@ msgstr "Před smazáním připojení přestaňte vyžadovat jednotné přihlašo
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Před odebráním ověřené domény přestaňte vyžadovat jednotné přihlašování."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Přestat vyžadovat jednotné přihlašování? Členové se budou moci znovu přihlašovat heslem, případně si ho obnovit, pokud ho nikdy neměli."
 
@@ -18623,7 +18732,7 @@ msgstr "Propojení Stripe bylo zkopírováno z {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe nevrátil odkaz pro nastavení. Zkuste to prosím znovu."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe vaši platbu zatím nepotvrdil. Než to zkusíte znovu, obnovte tuto stránku za několik minut."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripe není v této instalaci nakonfigurován, proto čtečky karet nej
 msgid "Stripe Not Connected"
 msgstr "Stripe není připojen"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "ID platby Stripe"
 
@@ -18685,7 +18794,7 @@ msgstr "Zde se zobrazí předmět"
 msgid "Subject:"
 msgstr "Předmět:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Předplatné"
 
@@ -18998,7 +19107,7 @@ msgstr "Cílení na účastníky vybraných termínů ({0})."
 msgid "Tax"
 msgstr "Daň"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Vybraná daň seskupená podle typu daně a události"
 
@@ -19022,7 +19131,7 @@ msgstr "Daňové údaje, které se zobrazí v zápatí všech faktur (např. DI�
 msgid "Tax Name"
 msgstr "Název daně"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Souhrn daní"
@@ -19163,7 +19272,7 @@ msgstr "Děkujeme za účast!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Děkujeme. Objednávka pro {registrantName} je potvrzena a potvrzení bylo odesláno e-mailem na"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Děkujeme za předplatné. Změny brandingu se projeví, jakmile Stripe potvrdí platbu."
 
@@ -19209,7 +19318,7 @@ msgstr "Upozornění „Powered by Hi.Events“ se znovu zobrazuje, dokud licenc
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Účet má dokončené objednávky, proto bude anonymizován."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Vlastník účtu ({0}) se stále může přihlásit heslem a dvoufázovým ověřením, takže můžete obnovit přístup, pokud bude {providerName} nedostupný. Když k tomu dojde, dostane e-mail každý administrátor."
 
@@ -19389,7 +19498,7 @@ msgstr "Pořadatele, kterého hledáte, se nepodařilo najít. Stránka mohla b�
 msgid "The override is recorded in the order audit log."
 msgstr "Překročení kapacity se zaznamená do auditního protokolu objednávky."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Vlastník si může v nastavení zabezpečení připojit {providerName} a běžně se přes něj přihlašovat."
 
@@ -20051,9 +20160,9 @@ msgstr "Tento produkt se na stránce události samostatně nezobrazí — kupuj�
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Tato opakovaná událost zatím nemá žádné termíny, takže si účastníci nemají co rezervovat."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Tento report slouží pouze pro informativní účely. Před použitím těchto dat pro účetní nebo daňové účely se vždy poraďte s daňovým odborníkem. Ověřte si údaje také ve svém Stripe dashboardu, protože Hi.Events nemusí mít kompletní historická data."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Tato vstupenka byla právě naskenována. Před dalším skenováním pr
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "Množství této úrovně je sdílené napříč všemi termíny"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Chcete-li tuto položku přesunout, stiskněte mezerník nebo Enter. Ši
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Dnes"
 
@@ -20488,6 +20602,10 @@ msgstr "Přepnout sloupce"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Zítra"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Celková výše slevy"
 msgid "Total Entries"
 msgstr "Celkem záznamů"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Celkový poplatek"
 
@@ -20619,7 +20737,7 @@ msgstr "Sledování a analytika"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Považuje se za jednu osobu. Více osob oddělte středníkem."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Zkušební období"
 
@@ -20727,7 +20845,7 @@ msgstr "Chcete-li povolit vracení peněz, zapněte „Může vidět finanční 
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Zapněte další sekce a přetažením změňte jejich pořadí."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Nejprve zapněte přihlášení přes {providerName} a ověřte doménu."
 
@@ -21153,6 +21271,10 @@ msgstr "Až 40 fotek, alespoň 400 × 300 px. První se zobrazí největší."
 msgid "Upcoming"
 msgstr "Nadcházející"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Aktualizovat popisek"
 msgid "Update location"
 msgstr "Aktualizovat místo"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Aktualizujte platební metodu"
 
@@ -21510,11 +21632,11 @@ msgstr "Ověření DIČ se nezdařilo"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "Ověření DIČ se nezdařilo. Zkontrolujte prosím své DIČ."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "DPH z poplatku"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "Sazba DPH"
 
@@ -21698,7 +21820,7 @@ msgstr "Zobrazit všechny zprávy odeslané napříč platformou"
 msgid "View all past events"
 msgstr "Zobrazit všechny minulé události"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Zobrazte a stáhněte reporty ze všech svých událostí. Zahrnuty jsou pouze dokončené objednávky."
 
@@ -21892,7 +22014,7 @@ msgstr "Čeká se na platbu"
 msgid "Waiting for scan…"
 msgstr "Čeká se na naskenování…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Čeká se na potvrzení platby od Stripe…"
 
@@ -21951,6 +22073,10 @@ msgstr "Kategorii se nepodařilo smazat. Zkuste to prosím znovu."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Tento účet Stripe se nepodařilo odpojit. Zkuste to prosím znovu."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Tuto pokladnu na místě se nepodařilo načíst"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Tuto minutáž se nepodařilo načíst. Zkontrolujte, zda máte k této události přístup, a zkuste to znovu."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Fakturační údaje se nepodařilo načíst. Obnovte prosím stránku a zkuste to znovu."
 
@@ -22558,6 +22684,10 @@ msgstr "Workshop se vstupenkou Early bird"
 msgid "Workspace domain"
 msgstr "Doména Workspace"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Sem napište svou zprávu..."
@@ -22864,7 +22994,7 @@ msgstr "Přes {0} se již nebudete moci přihlásit. Ostatní zařízení přihl
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Tyto e-maily už nebudete dostávat. E-maily o vašich objednávkách a účtu budete dostávat i nadále."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Budete odhlášeni a budete se muset znovu přihlásit přes {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "Než budete moci vytvořit přiřazení kapacity, budete potřebovat pro
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Pro začátek budete potřebovat alespoň jeden produkt. Bezplatný, placený nebo nechte uživatele rozhodnout, kolik zaplatí."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Zaplatíte bezpečně přes Stripe. Zrušit můžete kdykoli."
 
@@ -23092,7 +23222,7 @@ msgstr "Váš poskytovatel identity vrátil chybu: {providerError}"
 msgid "Your instructions appear here."
 msgstr "Zde se zobrazí vaše pokyny."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Vaše poslední platba neprošla. Aktualizujte kartu, aby branding zůstal odstraněn."
 
@@ -23191,9 +23321,9 @@ msgstr "Vaše adresa organizátora"
 msgid "Your organizer has no description yet."
 msgstr "Váš organizátor zatím nemá popis."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Logo vašeho organizátora v záhlaví e-mailů s objednávkami a vstupenkami namísto loga Hi.Events"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Vaše platba se zpracovává."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Vaše platba je chráněna šifrováním na bankovní úrovni"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Vaše platba se stále zpracovává"
 

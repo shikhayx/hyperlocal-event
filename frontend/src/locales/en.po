@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} available"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr "{0} branding is removed from your event page, and your logo replaces it in emails"
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr "{0} branding returns after this date. You can resume the subscription before then."
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} can sign in with their password"
 
@@ -108,6 +116,10 @@ msgstr "{0} delivered · {1} opened · {2} clicked · {3} bounced"
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} due after you place your order"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr "{0} Fee"
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0} left"
 msgid "{0} logo"
 msgstr "{0} logo"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} must now sign in with {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "{0} other items"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} places"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr "{0} platform fees and VAT breakdown by transaction"
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "{diffMin}m ago"
 msgid "{diffSec}s ago"
 msgstr "{diffSec}s ago"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# organizer} other {# organizers}}"
 msgid "{organizerName}'s first event"
 msgstr "{organizerName}'s first event"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 year"
 msgid "1. Get an authenticator app"
 msgstr "1. Get an authenticator app"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr "10 km"
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 mats in the studio and one Drop-in ticket."
@@ -864,6 +884,10 @@ msgstr "123 Sample Street"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "135+ currencies & 40+ payment methods"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr "15 km"
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Scan this QR code"
@@ -871,6 +895,10 @@ msgstr "2. Scan this QR code"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr "25 km"
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 days after a draft event is created, if nothing on the account is live
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr "5 km"
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr "50 km"
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Activation date"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "All attendees of this occurrence"
 msgid "All categories"
 msgstr "All categories"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr "All Categories"
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "All changes saved"
@@ -1915,7 +1955,7 @@ msgstr "All Ended Events"
 msgid "All events"
 msgstr "All events"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "All Events"
 
@@ -1943,6 +1983,10 @@ msgstr "All occurrences"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "All Occurrences"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr "All Prices"
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Amount due"
 msgid "Amount off"
 msgstr "Amount off"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Amount Paid"
 
@@ -2298,6 +2342,10 @@ msgstr "Any queries from product holders will be sent to this email address. Thi
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr "Any Time"
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Any website (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Applies to each date in your schedule. Dates with a capacity are also li
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Applies to every organizer and event in this account."
 
@@ -2670,6 +2718,10 @@ msgstr "Area name"
 msgid "Area options"
 msgstr "Area options"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr "AREA PRESETS:"
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Areas"
@@ -2783,7 +2835,7 @@ msgstr "Attach seat map"
 msgid "Attempts"
 msgstr "Attempts"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Attendance and check-in rates across all events"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Billed once a year"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Billing"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Billing Address"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Billing period"
 
@@ -3369,7 +3421,7 @@ msgstr "Box office sale"
 msgid "Box office updated"
 msgstr "Box office updated"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Branding"
 
@@ -3655,7 +3707,7 @@ msgstr "Can't use your authenticator app or recovery codes?"
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Canceling will cancel all attendees associated with this order, and rele
 msgid "Cancelled"
 msgstr "Cancelled"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Cancelling"
 
@@ -3964,7 +4016,7 @@ msgstr "Change to single event"
 msgid "Change waitlist settings"
 msgstr "Change waitlist settings"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Check-In Status"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Check-in Summary"
 
@@ -4562,7 +4614,7 @@ msgstr "Client secret"
 msgid "close"
 msgstr "close"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Close sidebar"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Close without copying"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr "Closest First"
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Continue to event creation"
 msgid "Continue to next step"
 msgstr "Continue to next step"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Continue to payment"
@@ -5844,7 +5900,7 @@ msgstr "CTA label is required"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Czech"
 msgid "Daily"
 msgstr "Daily"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Daily revenue, taxes, fees, and refunds across all events"
 
@@ -6653,6 +6709,10 @@ msgstr "Discount in {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Discount Type"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr "Discover Local Events & Experiences Near You"
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "Email verified"
 msgid "Email verified successfully!"
 msgstr "Email verified successfully!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "Emails sent under your organizer name, with buttons and links in your event's colour"
 
@@ -7553,7 +7613,7 @@ msgstr "Ends {0}"
 msgid "Ends before it starts"
 msgstr "Ends before it starts"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Ends on"
 
@@ -7810,7 +7870,7 @@ msgstr "Even numbers only"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Events"
 msgid "Events are always shown"
 msgstr "Events are always shown"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr "events found"
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Events Performance"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Execute now"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Exempt"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Exempt {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Filter Attendees"
 msgid "Filter by date"
 msgstr "Filter by date"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Filter by Event"
 
@@ -8794,6 +8858,10 @@ msgstr "Find {bestAvailableQuantity} seats"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Find 1 seat"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Foyer"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Free"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr "Free Only"
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Greek"
 msgid "Grid"
 msgstr "Grid"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr "Grid View"
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Hi {0} 👋"
 msgid "Hi,"
 msgstr "Hi,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Hi.Events branding returns after this date. You can resume the subscription before then."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events Fee"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Hi.Events platform fees and VAT breakdown by transaction"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Hide"
 msgid "Hide \"Have a promo code?\""
 msgstr "Hide \"Have a promo code?\""
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr "Hide {appName} branding"
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Hide {label}"
@@ -9610,10 +9674,6 @@ msgstr "Hide details"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Hide from event page"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Hide Hi.Events branding"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Hungarian"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr "Hyperlocal Events"
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "I acknowledge my responsibilities as a data controller"
@@ -9953,7 +10017,7 @@ msgstr "Import"
 msgid "Import lineup & schedule"
 msgstr "Import lineup & schedule"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Important Notice"
 
@@ -10045,6 +10109,10 @@ msgstr "Include a Past events tab"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr "Include Online"
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Include tax and fees in the price"
@@ -10053,7 +10121,7 @@ msgstr "Include tax and fees in the price"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Include this reference with your payment so the organizer can match it to your order."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Included"
@@ -10062,9 +10130,9 @@ msgstr "Included"
 msgid "Included in the email to the account owner."
 msgstr "Included in the email to the account owner."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Keep the profit."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Keep them off the public lineup and schedule until you're ready to announce"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 
@@ -11086,7 +11154,7 @@ msgstr "Make it visible so people can buy tickets"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Make sure ID tokens include the email and email_verified claims."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 
@@ -11113,8 +11181,8 @@ msgstr "Manage {0}"
 msgid "Manage attendee"
 msgstr "Manage attendee"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Manage billing"
 
@@ -11193,9 +11261,17 @@ msgstr "Manually Add Attendee"
 msgid "Manually verified"
 msgstr "Manually verified"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr "Map and Grid"
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Map view"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr "Map View"
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Member reactivated"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Members change their own email in <0>profile settings</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Members on verified domains"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 
@@ -11527,6 +11603,10 @@ msgstr "More places"
 msgid "More seats"
 msgstr "More seats"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr "Most Relevant"
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Most viewed events"
@@ -11687,6 +11767,10 @@ msgstr "Name, email and billing address are always collected."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Navigate to Attendee"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr "Near Me"
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "No"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "No - I'm an individual or non-VAT registered business"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr "No {appName} promotion in the emails your attendees receive"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "No event page views in this period"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "No events found"
 
@@ -12148,14 +12241,6 @@ msgstr "No financials"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "No flagged events awaiting review"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "No Hi.Events promotion in the emails your attendees receive"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Nobody matches these filters."
 msgid "Nobody on the lineup yet."
 msgstr "Nobody on the lineup yet."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Not joined yet"
 msgid "Not marked as verified"
 msgstr "Not marked as verified"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Not now"
 
@@ -13061,7 +13146,7 @@ msgstr "Only account administrators can delete or archive events. Contact your a
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 
@@ -13445,7 +13530,7 @@ msgstr "Order placed, payment pending"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Order questions only. Attendee questions need products."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Order Ref"
 
@@ -13615,6 +13700,10 @@ msgstr "Organizer settings"
 msgid "Organizer Settings"
 msgstr "Organizer Settings"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr "Organizer Sign In"
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Own events"
 msgid "Owner"
 msgstr "Owner"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Paid Accounts"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Paid elsewhere"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr "Paid Only"
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Pass to Buyer"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Password"
 
@@ -13873,7 +13966,7 @@ msgstr "Past due"
 msgid "Past events"
 msgstr "Past events"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Past invoices"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Paused"
 
@@ -13988,7 +14081,7 @@ msgstr "Payment & Invoicing Settings"
 msgid "Payment complete"
 msgstr "Payment complete"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Payment Date"
 
@@ -14000,7 +14093,7 @@ msgstr "Payment details: {0}"
 msgid "Payment Due Period"
 msgstr "Payment Due Period"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Payment failed"
 
@@ -14030,7 +14123,7 @@ msgstr "Payment Methods"
 msgid "Payment not completed"
 msgstr "Payment not completed"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Payment processing"
 
@@ -14402,13 +14495,13 @@ msgstr "Platform fee of {0} deducted from your payout"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Platform Fees"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Platform Fees Report"
 
@@ -14578,7 +14671,7 @@ msgstr "Position"
 msgid "Post Checkout message"
 msgstr "Post Checkout message"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Powered by"
@@ -15475,15 +15568,24 @@ msgstr "Remove"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Remove \"{0}\"? It has already expired."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Remove {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr "Remove {0} branding"
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Remove from map"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Remove from this lineup"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Remove Hi.Events branding"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Renew licence"
 msgid "Renew your licence."
 msgstr "Renew your licence."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Renews on"
 
@@ -15701,7 +15794,7 @@ msgstr "Report not found"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Reports"
 
@@ -15721,17 +15814,17 @@ msgstr "Requested by"
 msgid "Require Billing Address"
 msgstr "Require Billing Address"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Require single sign-on"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Require SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Require SSO for {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Reset"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Reset 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr "Reset Filters"
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Reuse a Stripe connection from another organizer in this account."
 msgid "Revenue"
 msgstr "Revenue"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Revenue Summary"
@@ -16230,7 +16327,7 @@ msgstr "Sales, attendance, and check-in breakdown per occurrence"
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Sales, availability and check-in switch to the date you pick."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Sales, orders, and performance metrics for all events"
 
@@ -16629,6 +16726,10 @@ msgstr "Search by order ID, customer name, or email..."
 msgid "Search by subject, event, or account..."
 msgstr "Search by subject, event, or account..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr "Search by title, artist, venue, or keyword..."
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Search by title..."
@@ -16692,6 +16793,10 @@ msgstr "Search your saved profiles or type a new name in the {lineupLabel} panel
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Search..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr "Searching events near you..."
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Select all"
 msgid "Select all on {0}"
 msgstr "Select all on {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Select an event"
 
@@ -17923,11 +18028,11 @@ msgstr "Single sign-on"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Single sign-on is no longer required"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Single sign-on is now required"
 
@@ -18069,7 +18174,7 @@ msgstr "Solid color"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Some details are hidden from public access. Log in to view everything."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 
@@ -18164,7 +18269,7 @@ msgstr "Something went wrong. Please try again later."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Specific users"
 msgid "Spirituality"
 msgstr "Spirituality"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr "Split"
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
@@ -18255,7 +18364,7 @@ msgstr "Square, at least 200 × 200px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Stats"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Stop Impersonating"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Stop requiring"
 
@@ -18564,7 +18673,7 @@ msgstr "Stop requiring single sign-on before deleting the connection."
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Stop requiring single sign-on before removing a verified domain."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 
@@ -18623,7 +18732,7 @@ msgstr "Stripe connection copied from {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe didn't return a setup link. Please try again."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripe is not configured on this installation, so card readers are unava
 msgid "Stripe Not Connected"
 msgstr "Stripe Not Connected"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "Stripe Payment ID"
 
@@ -18685,7 +18794,7 @@ msgstr "Subject will appear here"
 msgid "Subject:"
 msgstr "Subject:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Subscription"
 
@@ -18998,7 +19107,7 @@ msgstr "Targeting attendees across {0} selected sessions."
 msgid "Tax"
 msgstr "Tax"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Tax collected grouped by tax type and event"
 
@@ -19022,7 +19131,7 @@ msgstr "Tax information to appear at the bottom of all invoices (e.g., VAT numbe
 msgid "Tax Name"
 msgstr "Tax Name"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Tax Summary"
@@ -19163,7 +19272,7 @@ msgstr "Thank you for attending!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 
@@ -19209,7 +19318,7 @@ msgstr "The \"Powered by Hi.Events\" notice is shown again until you renew."
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "The account has completed orders, so it will be anonymised."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 
@@ -19389,7 +19498,7 @@ msgstr "The organizer you're looking for could not be found. The page may have b
 msgid "The override is recorded in the order audit log."
 msgstr "The override is recorded in the order audit log."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "The owner can connect {providerName} in their security settings to sign in with it day to day."
 
@@ -20051,9 +20160,9 @@ msgstr "This product won't appear on the event page on its own — buyers only s
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "This recurring event has no dates yet, so there's nothing for attendees to book."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "This ticket was just scanned. Please wait before scanning again."
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "This tier's quantity is shared across all dates"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr "This Weekend"
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "To move this item, press space or enter. Use the arrow keys to change it
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Today"
 
@@ -20488,6 +20602,10 @@ msgstr "Toggle columns"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Tomorrow"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr "Tonight"
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Total Discount Amount"
 msgid "Total Entries"
 msgstr "Total Entries"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Total Fee"
 
@@ -20619,7 +20737,7 @@ msgstr "Tracking & Analytics"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Treated as one person. Separate several people with a semicolon."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Trial"
 
@@ -20727,7 +20845,7 @@ msgstr "Turn on Can see financials to allow refunds."
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Turn on extra sections and drag to reorder."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Turn on sign-in with {providerName} and verify a domain first."
 
@@ -21153,6 +21271,10 @@ msgstr "Up to 40 photos, at least 400 × 300px. The first one is shown largest."
 msgid "Upcoming"
 msgstr "Upcoming"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr "Upcoming Date"
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Update label"
 msgid "Update location"
 msgstr "Update location"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Update your payment method"
 
@@ -21510,11 +21632,11 @@ msgstr "VAT number validation failed"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "VAT number validation failed. Please check your VAT number."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "VAT on Fee"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "VAT Rate"
 
@@ -21698,7 +21820,7 @@ msgstr "View all messages sent across the platform"
 msgid "View all past events"
 msgstr "View all past events"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "View and download reports across all your events. Only completed orders are included."
 
@@ -21892,7 +22014,7 @@ msgstr "Waiting for payment"
 msgid "Waiting for scan…"
 msgstr "Waiting for scan…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Waiting for Stripe to confirm your payment…"
 
@@ -21951,6 +22073,10 @@ msgstr "We couldn't delete the category. Please try again."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "We couldn't disconnect this Stripe account. Please try again."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "We couldn't load this box office"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "We couldn't load this run sheet. Check you have access to this event and try again."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "We couldn't load your billing details. Please refresh the page to try again."
 
@@ -22558,6 +22684,10 @@ msgstr "Workshop with early bird"
 msgid "Workspace domain"
 msgstr "Workspace domain"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr "Worldwide / All"
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Write your message here..."
@@ -22864,7 +22994,7 @@ msgstr "You won't be able to sign in with {0} any more. Other devices signed in 
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "You'll be signed out and will need to sign in again with {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "You'll need at a product before you can create a capacity assignment."
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "You'll pay securely with Stripe. Cancel anytime."
 
@@ -23092,7 +23222,7 @@ msgstr "Your identity provider returned an error: {providerError}"
 msgid "Your instructions appear here."
 msgstr "Your instructions appear here."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Your last payment didn't go through. Update your card to keep your branding removed."
 
@@ -23191,9 +23321,9 @@ msgstr "Your organizer address"
 msgid "Your organizer has no description yet."
 msgstr "Your organizer has no description yet."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Your payment is processing."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Your payment is protected with bank-level encryption"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Your payment is still processing"
 

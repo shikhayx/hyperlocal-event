@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} disponible"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} peut se connecter avec son mot de passe"
 
@@ -108,6 +116,10 @@ msgstr "{0} distribués · {1} ouverts · {2} cliqués · {3} rejetés"
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} à payer après avoir passé votre commande"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0} restant"
 msgid "{0} logo"
 msgstr "Logo {0}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} doit désormais se connecter avec {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "{0} autres articles"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} places"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "il y a {diffMin} min"
 msgid "{diffSec}s ago"
 msgstr "il y a {diffSec} s"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# membre devra se connecter avec {providerName}.} other {# membres devront se connecter avec {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# organisateur} other {# organisateurs}}"
 msgid "{organizerName}'s first event"
 msgstr "Premier événement de {organizerName}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# membre hors de vos domaines vérifiés conserve son mode de connexion actuel.} other {# membres hors de vos domaines vérifiés conservent leur mode de connexion actuel.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 an"
 msgid "1. Get an authenticator app"
 msgstr "1. Procurez-vous une application d'authentification"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 tapis dans le studio et un billet à la séance."
@@ -864,6 +884,10 @@ msgstr "123 Rue Exemple"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "Plus de 135 devises et plus de 40 moyens de paiement"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Scannez ce code QR"
@@ -871,6 +895,10 @@ msgstr "2. Scannez ce code QR"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 heures après qu'un organisateur a créé un billet payant ou commencé à connecter Stripe, si Stripe n'est toujours pas connecté. Ignoré pour les pays que Stripe ne prend pas en charge."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 jours après la création d'un événement brouillon, si rien n'est en
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 jours après l’inscription, si le titulaire du compte a confirmé son e-mail mais n’a créé aucun événement."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Date d'activation"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Tous les participants de cette date"
 msgid "All categories"
 msgstr "Toutes les catégories"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Toutes les modifications sont enregistrées"
@@ -1915,7 +1955,7 @@ msgstr "Tous les événements terminés"
 msgid "All events"
 msgstr "Tous les événements"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Tous les événements"
 
@@ -1943,6 +1983,10 @@ msgstr "Toutes les dates"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Toutes les dates"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Montant dû"
 msgid "Amount off"
 msgstr "Montant de la remise"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Montant payé"
 
@@ -2298,6 +2342,10 @@ msgstr "Toute question des détenteurs de produits sera envoyée à cette adress
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Chaque date peut différer : modifiez sa capacité dans Modifier la date, ou la quantité par date d'un billet dans l'onglet Produits de cette date."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "N'importe quel site (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "S'applique à chaque date de votre programme. Les dates ayant une capaci
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "S'applique à chaque date {0}, non annulée de cet événement — y compris les dates non chargées actuellement."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "S'applique à tous les organisateurs et événements de ce compte."
 
@@ -2670,6 +2718,10 @@ msgstr "Nom de la zone"
 msgid "Area options"
 msgstr "Options de la zone"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Zones"
@@ -2783,7 +2835,7 @@ msgstr "Associer un plan de salle"
 msgid "Attempts"
 msgstr "Tentatives"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Présence et taux d'enregistrement pour tous les événements"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Facturé une fois par an"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Facturation"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Adresse de facturation"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Période de facturation"
 
@@ -3369,7 +3421,7 @@ msgstr "Vente au guichet"
 msgid "Box office updated"
 msgstr "Billetterie mise à jour"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Marque"
 
@@ -3655,7 +3707,7 @@ msgstr "Vous ne pouvez pas utiliser votre application d'authentification ni vos 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "L'annulation annulera tous les participants associés à cette commande 
 msgid "Cancelled"
 msgstr "Annulé"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Résiliation en cours"
 
@@ -3964,7 +4016,7 @@ msgstr "Passer en événement unique"
 msgid "Change waitlist settings"
 msgstr "Modifier les paramètres de liste d'attente"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Changez de carte, passez de la facturation mensuelle à annuelle, téléchargez vos factures ou résiliez."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Statut d'enregistrement"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Résumé des enregistrements"
 
@@ -4562,7 +4614,7 @@ msgstr "Client secret"
 msgid "close"
 msgstr "fermer"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Fermer la barre latérale"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Fermer sans copier"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Continuer vers la création d'événement"
 msgid "Continue to next step"
 msgstr "Continuer à l'étape suivante"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Passer au paiement"
@@ -5844,7 +5900,7 @@ msgstr "Le libellé CTA est requis"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Tchèque"
 msgid "Daily"
 msgstr "Quotidien"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Revenus quotidiens, taxes, frais et remboursements pour tous les événements"
 
@@ -6653,6 +6709,10 @@ msgstr "Remise en {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Type de remise"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "E-mail vérifié"
 msgid "Email verified successfully!"
 msgstr "E-mail vérifié avec succès !"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "E-mails envoyés au nom de votre organisation, avec des boutons et des liens aux couleurs de votre événement"
 
@@ -7553,7 +7613,7 @@ msgstr "Se termine {0}"
 msgid "Ends before it starts"
 msgstr "Se termine avant de commencer"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Se termine le"
 
@@ -7810,7 +7870,7 @@ msgstr "Numéros pairs uniquement"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Événements"
 msgid "Events are always shown"
 msgstr "Les événements sont toujours affichés"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Performance des événements"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Exécuter maintenant"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Exempté"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Exempter {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Filtrer les Participants"
 msgid "Filter by date"
 msgstr "Filtrer par date"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Filtrer par événement"
 
@@ -8794,6 +8858,10 @@ msgstr "Trouver {bestAvailableQuantity} places"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Trouver 1 place"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Foyer"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Gratuit"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Grec"
 msgid "Grid"
 msgstr "Grille"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Salut {0} 👋"
 msgid "Hi,"
 msgstr "Bonjour,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "La marque Hi.Events est retirée de votre page d'événement et votre logo la remplace dans les e-mails"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "La marque Hi.Events réapparaîtra après cette date. Vous pouvez reprendre l'abonnement d'ici là."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Frais Hi.Events"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Frais de plateforme Hi.Events et ventilation TVA par transaction"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Cacher"
 msgid "Hide \"Have a promo code?\""
 msgstr "Masquer « Avez vous un code de réduction? »"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Masquer {label}"
@@ -9610,10 +9674,6 @@ msgstr "Masquer les détails"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Masquer sur la page d'événement"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Masquer la marque Hi.Events"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Hongrois"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Je reconnais mes responsabilités en tant que responsable du traitement des données"
@@ -9953,7 +10017,7 @@ msgstr "Importer"
 msgid "Import lineup & schedule"
 msgstr "Importer le line-up et le programme"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Avis important"
 
@@ -10045,6 +10109,10 @@ msgstr "Inclure un onglet Événements passés"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Incluez les détails de connexion pour votre événement en ligne. Ces détails seront affichés sur la page récapitulative de la commande et sur le billet du participant."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Inclure les taxes et les frais dans le prix"
@@ -10053,7 +10121,7 @@ msgstr "Inclure les taxes et les frais dans le prix"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Indiquez cette référence avec votre paiement pour que l'organisateur puisse l'associer à votre commande."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Inclus"
@@ -10062,9 +10130,9 @@ msgstr "Inclus"
 msgid "Included in the email to the account owner."
 msgstr "Inclus dans l'e-mail envoyé au propriétaire du compte."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Inclus dans votre offre. La marque Hi.Events est masquée sur vos pages d'événement, widgets, billets et e-mails."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Gardez vos bénéfices."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Les garder hors de la programmation et du planning publics jusqu'à ce que vous soyez prêt à les annoncer"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Continue de se connecter avec un mot de passe. {providerName} ne peut pas être utilisé pour connecter ce membre."
 
@@ -11086,7 +11154,7 @@ msgstr "Rendez-le visible pour que les gens puissent acheter des billets"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Assurez-vous que les ID tokens incluent les claims email et email_verified."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Faites en sorte que vos pages d'événement, widgets, billets et e-mails soient entièrement à votre image. S'applique à tous les organisateurs et événements de ce compte."
 
@@ -11113,8 +11181,8 @@ msgstr "Gérer {0}"
 msgid "Manage attendee"
 msgstr "Gérer le participant"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Gérer la facturation"
 
@@ -11193,9 +11261,17 @@ msgstr "Ajouter manuellement un participant"
 msgid "Manually verified"
 msgstr "Vérifié manuellement"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Vue du plan"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Membre réactivé"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Les membres modifient eux-mêmes leur e-mail dans les <0>paramètres du profil</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Membres des domaines vérifiés"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Les membres ayant un e-mail d'un domaine vérifié doivent se connecter avec {providerName}. Leurs autres sessions prennent fin."
 
@@ -11527,6 +11603,10 @@ msgstr "Plus de places"
 msgid "More seats"
 msgstr "Plus de places"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Événements les plus consultés"
@@ -11687,6 +11767,10 @@ msgstr "Le nom, l'e-mail et l'adresse de facturation sont toujours collectés."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Accédez au participant"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Non"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Non - Je suis un particulier ou une entreprise non assujettie à la TVA"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "Aucune consultation de page d'événement sur cette période"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Aucun événement trouvé"
 
@@ -12148,14 +12241,6 @@ msgstr "Pas de données financières"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Aucun événement signalé en attente de révision"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Aucune marque Hi.Events sur vos pages d'événement, pages d'organisateur, paiement ou widgets intégrés"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Aucune promotion Hi.Events dans les e-mails reçus par vos participants"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Personne ne correspond à ces filtres."
 msgid "Nobody on the lineup yet."
 msgstr "Personne dans la programmation pour l'instant."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Personne dans votre équipe n'utilise encore un domaine vérifié. Les personnes qui rejoignent avec l'un d'eux devront se connecter avec {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Pas encore inscrit"
 msgid "Not marked as verified"
 msgstr "Non marqué comme vérifié"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Pas maintenant"
 
@@ -13061,7 +13146,7 @@ msgstr "Seuls les administrateurs de compte peuvent supprimer ou archiver des é
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Seuls les administrateurs de compte peuvent supprimer ou archiver des organisateurs. Contactez votre administrateur de compte pour obtenir de l'aide."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Seuls les administrateurs du compte peuvent modifier la facturation. Demandez à un administrateur de passer à l'offre supérieure depuis Paramètres → Facturation."
 
@@ -13445,7 +13530,7 @@ msgstr "Commande passée, paiement en attente"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Questions de commande uniquement. Les questions de participant nécessitent des produits."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Réf. commande"
 
@@ -13615,6 +13700,10 @@ msgstr "Paramètres de l'organisateur"
 msgid "Organizer Settings"
 msgstr "Paramètres de l'organisateur"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Vos propres événements"
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Possède un autre compte Hi.Events : continue donc de se connecter avec un mot de passe jusqu’à ce qu’il associe {providerName} dans ses paramètres de sécurité."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Comptes payants"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Payé ailleurs"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Répercuter sur l'acheteur"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Mot de passe"
 
@@ -13873,7 +13966,7 @@ msgstr "En retard"
 msgid "Past events"
 msgstr "Événements passés"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Factures précédentes"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "En pause"
 
@@ -13988,7 +14081,7 @@ msgstr "Paramètres de paiement et de facturation"
 msgid "Payment complete"
 msgstr "Paiement effectué"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Date de paiement"
 
@@ -14000,7 +14093,7 @@ msgstr "Informations de paiement : {0}"
 msgid "Payment Due Period"
 msgstr "Délai de paiement"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Échec du paiement"
 
@@ -14030,7 +14123,7 @@ msgstr "Méthodes de paiement"
 msgid "Payment not completed"
 msgstr "Paiement non abouti"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Paiement en cours"
 
@@ -14402,13 +14495,13 @@ msgstr "Frais de plateforme de {0} déduits de votre paiement"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Frais de plateforme"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Rapport des frais de plateforme"
 
@@ -14578,7 +14671,7 @@ msgstr "Position"
 msgid "Post Checkout message"
 msgstr "Message après le paiement"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Propulsé par"
@@ -15475,15 +15568,24 @@ msgstr "Retirer"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Supprimer « {0} » ? Elle a déjà expiré."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Retirez « Powered by Hi.Events » de vos pages, widgets, billets et e-mails, et affichez votre propre logo."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Retirer {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Retirer du plan"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Retirer de cette programmation"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Retirer la marque Hi.Events"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Retirez la marque Hi.Events de tout ce que voient vos participants et mettez votre propre logo dans leurs e-mails."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Renouveler la licence"
 msgid "Renew your licence."
 msgstr "Renouvelez votre licence."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Renouvellement le"
 
@@ -15701,7 +15794,7 @@ msgstr "Rapport non trouvé"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Rapports"
 
@@ -15721,17 +15814,17 @@ msgstr "Demandé par"
 msgid "Require Billing Address"
 msgstr "Adresse de facturation requise"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Exiger l'authentification unique"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Exiger le SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Exiger le SSO pour {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Réinitialiser"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Réinitialiser la 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Réutilisez une connexion Stripe d'un autre organisateur de ce compte."
 msgid "Revenue"
 msgstr "Revenu"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Résumé des revenus"
@@ -16230,7 +16327,7 @@ msgstr "Détail des ventes, de la fréquentation et des enregistrements par date
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Les ventes, la disponibilité et l'enregistrement basculent sur la date choisie."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Ventes, commandes et indicateurs de performance pour tous les événements"
 
@@ -16629,6 +16726,10 @@ msgstr "Rechercher par ID de commande, nom du client ou e-mail..."
 msgid "Search by subject, event, or account..."
 msgstr "Rechercher par sujet, événement ou compte..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Rechercher par titre..."
@@ -16692,6 +16793,10 @@ msgstr "Recherchez dans vos profils enregistrés ou saisissez un nouveau nom dan
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Recherche..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Tout sélectionner"
 msgid "Select all on {0}"
 msgstr "Tout sélectionner le {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Sélectionner un événement"
 
@@ -17923,11 +18028,11 @@ msgstr "Authentification unique"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Les connexions d’authentification unique continuent de connecter les utilisateurs. Elles peuvent être désactivées ou supprimées, mais pas modifiées ni réactivées sans licence."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "L'authentification unique n'est plus exigée"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "L'authentification unique est désormais exigée"
 
@@ -18069,7 +18174,7 @@ msgstr "Couleur unie"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Certains détails ne sont pas accessibles publiquement. Connectez-vous pour tout voir."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Certains moyens de paiement prennent un peu de temps à être confirmés. Votre marque est retirée dès que Stripe confirme le paiement."
 
@@ -18164,7 +18269,7 @@ msgstr "Une erreur s'est produite. Veuillez réessayer plus tard."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Utilisateurs spécifiques"
 msgid "Spirituality"
 msgstr "Spiritualité"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Répartissez l'enregistrement par jour, zone ou type de billet. Partagez le lien avec votre personnel — aucun compte n'est nécessaire de leur côté."
@@ -18255,7 +18364,7 @@ msgstr "Carré, au moins 200 × 200 px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Statistiques"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Arrêter l'usurpation"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Ne plus recevoir les e-mails qui vous aident à configurer et gérer vos événements. Les e-mails concernant vos commandes et votre compte continueront d’être envoyés."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Ne plus exiger"
 
@@ -18564,7 +18673,7 @@ msgstr "Cessez d'exiger l'authentification unique avant de supprimer la connexio
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Cessez d'exiger l'authentification unique avant de supprimer un domaine vérifié."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Ne plus exiger l'authentification unique ? Les membres pourront se reconnecter avec leur mot de passe, ou le réinitialiser s'ils n'en ont jamais eu."
 
@@ -18623,7 +18732,7 @@ msgstr "Connexion Stripe copiée depuis {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe n'a pas renvoyé de lien de configuration. Veuillez réessayer."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe n'a pas encore confirmé votre paiement. Actualisez cette page dans quelques minutes avant de réessayer."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripe n'est pas configuré sur cette installation, les lecteurs de cart
 msgid "Stripe Not Connected"
 msgstr "Stripe non connecté"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "ID de paiement Stripe"
 
@@ -18685,7 +18794,7 @@ msgstr "Le sujet apparaîtra ici"
 msgid "Subject:"
 msgstr "Sujet :"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Abonnement"
 
@@ -18998,7 +19107,7 @@ msgstr "Ciblage des participants de {0} séances sélectionnées."
 msgid "Tax"
 msgstr "Taxe"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Taxes collectées groupées par type de taxe et événement"
 
@@ -19022,7 +19131,7 @@ msgstr "Informations fiscales à apparaître en bas de toutes les factures (par 
 msgid "Tax Name"
 msgstr "Nom de la taxe"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Résumé des taxes"
@@ -19163,7 +19272,7 @@ msgstr "Merci pour votre présence !"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Merci. La commande de {registrantName} est confirmée et sa confirmation a été envoyée par e-mail à"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Merci pour votre abonnement. Vos changements de marque s'appliquent dès que Stripe confirme le paiement."
 
@@ -19209,7 +19318,7 @@ msgstr "La mention « Powered by Hi.Events » est de nouveau affichée jusqu’a
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Le compte a des commandes terminées, il sera donc anonymisé."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Le propriétaire du compte ({0}) peut toujours se connecter avec son mot de passe et l'authentification à deux facteurs, ce qui vous permet de récupérer l'accès si {providerName} est indisponible. Tous les administrateurs reçoivent un e-mail dans ce cas."
 
@@ -19389,7 +19498,7 @@ msgstr "L'organisateur que vous recherchez est introuvable. La page a peut-être
 msgid "The override is recorded in the order audit log."
 msgstr "La dérogation est consignée dans le journal d'audit de la commande."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Le propriétaire peut associer {providerName} dans ses paramètres de sécurité afin de s’en servir pour se connecter au quotidien."
 
@@ -20051,9 +20160,9 @@ msgstr "Ce produit n'apparaîtra pas seul sur la page de l'événement — les a
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Cet événement récurrent n'a pas encore de dates, les participants n'ont donc rien à réserver."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Ce rapport est fourni à titre informatif uniquement. Consultez toujours un professionnel de la fiscalité avant d'utiliser ces données à des fins comptables ou fiscales. Veuillez vérifier avec votre tableau de bord Stripe car Hi.Events peut manquer de données historiques."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Ce billet vient d'être scanné. Veuillez attendre avant de scanner à n
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "La quantité de ce palier est partagée entre toutes les dates"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Pour déplacer cet élément, appuyez sur Espace ou Entrée. Utilisez le
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Aujourd'hui"
 
@@ -20488,6 +20602,10 @@ msgstr "Basculer les colonnes"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Demain"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Montant total de la réduction"
 msgid "Total Entries"
 msgstr "Total des inscriptions"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Frais total"
 
@@ -20619,7 +20737,7 @@ msgstr "Suivi et analytique"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Considéré comme une seule personne. Séparez plusieurs personnes par un point-virgule."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Essai"
 
@@ -20727,7 +20845,7 @@ msgstr "Activez « Peut voir les données financières » pour autoriser les rem
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Activez des sections supplémentaires et faites-les glisser pour les réorganiser."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Activez d'abord la connexion avec {providerName} et vérifiez un domaine."
 
@@ -21153,6 +21271,10 @@ msgstr "Jusqu'à 40 photos, au moins 400 × 300px. La première est affichée en
 msgid "Upcoming"
 msgstr "A venir"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Mettre à jour le libellé"
 msgid "Update location"
 msgstr "Mettre à jour le lieu"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Mettez à jour votre moyen de paiement"
 
@@ -21510,11 +21632,11 @@ msgstr "La validation du numéro de TVA a échoué"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "La validation du numéro de TVA a échoué. Veuillez vérifier votre numéro de TVA."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "TVA sur les frais"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "Taux de TVA"
 
@@ -21698,7 +21820,7 @@ msgstr "Voir tous les messages envoyés sur la plateforme"
 msgid "View all past events"
 msgstr "Voir tous les événements passés"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Consultez et téléchargez des rapports pour tous vos événements. Seules les commandes terminées sont incluses."
 
@@ -21892,7 +22014,7 @@ msgstr "En attente de paiement"
 msgid "Waiting for scan…"
 msgstr "En attente d'un scan…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "En attente de la confirmation du paiement par Stripe…"
 
@@ -21951,6 +22073,10 @@ msgstr "Nous n'avons pas pu supprimer la catégorie. Veuillez réessayer."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Nous n'avons pas pu déconnecter ce compte Stripe. Veuillez réessayer."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Impossible de charger cette billetterie"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Impossible de charger cette feuille de route. Vérifiez que vous avez accès à cet événement et réessayez."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Impossible de charger vos informations de facturation. Actualisez la page pour réessayer."
 
@@ -22558,6 +22684,10 @@ msgstr "Atelier avec early bird"
 msgid "Workspace domain"
 msgstr "Domaine Workspace"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Écrivez votre message ici..."
@@ -22864,7 +22994,7 @@ msgstr "Vous ne pourrez plus vous connecter avec {0}. Les autres appareils conne
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Vous ne recevrez plus ces e-mails. Les e-mails concernant vos commandes et votre compte continueront d’être envoyés."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Vous serez déconnecté et devrez vous reconnecter avec {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "Vous aurez besoin d'un produit avant de pouvoir créer une affectation d
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Vous aurez besoin d'au moins un produit pour commencer. Gratuit, payant ou laissez l'utilisateur décider du montant à payer."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Vous payez en toute sécurité avec Stripe. Résiliable à tout moment."
 
@@ -23092,7 +23222,7 @@ msgstr "Votre fournisseur d'identité a renvoyé une erreur : {providerError}"
 msgid "Your instructions appear here."
 msgstr "Vos instructions apparaîtront ici."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Votre dernier paiement n'a pas abouti. Mettez à jour votre carte pour que la marque reste retirée."
 
@@ -23191,9 +23321,9 @@ msgstr "Adresse de votre organisateur"
 msgid "Your organizer has no description yet."
 msgstr "Votre organisateur n'a pas encore de description."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Le logo de votre organisation en haut des e-mails de commande et de billet, à la place du logo Hi.Events"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Votre paiement est en cours de traitement."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Votre paiement est protégé par un cryptage de niveau bancaire"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Votre paiement est toujours en cours de traitement"
 

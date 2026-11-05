@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} διαθέσιμα"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "Το μέλος {0} μπορεί να συνδεθεί με κωδικό πρόσβασης"
 
@@ -108,6 +116,10 @@ msgstr "{0} παραδόθηκαν · {1} ανοίχτηκαν · {2} κλικ �
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} πληρωτέο αφού κάνετε την παραγγελία"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0} απομένουν"
 msgid "{0} logo"
 msgstr "Λογότυπο {0}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "Το μέλος {0} πρέπει πλέον να συνδέεται μέσω {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "{0} ακόμη είδη"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} θέσεις"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "πριν από {diffMin} λ."
 msgid "{diffSec}s ago"
 msgstr "πριν από {diffSec} δευτ."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# μέλος θα πρέπει να συνδέεται μέσω {providerName}.} other {# μέλη θα πρέπει να συνδέονται μέσω {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# διοργανωτής} other {# διο�
 msgid "{organizerName}'s first event"
 msgstr "Πρώτη εκδήλωση του {organizerName}"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# μέλος εκτός των επαληθευμένων τομέων σας διατηρεί τον τρέχοντα τρόπο σύνδεσής του.} other {# μέλη εκτός των επαληθευμένων τομέων σας διατηρούν τον τρέχοντα τρόπο σύνδεσής τους.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 έτος"
 msgid "1. Get an authenticator app"
 msgstr "1. Αποκτήστε μια εφαρμογή ελέγχου ταυτότητας"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 στρώματα στο στούντιο και ένα εισιτήριο μεμονωμένης συμμετοχής."
@@ -864,6 +884,10 @@ msgstr "Παράδειγμα Οδού 123"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "Πάνω από 135 νομίσματα και πάνω από 40 τρόποι πληρωμής"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Σαρώστε αυτόν τον κωδικό QR"
@@ -871,6 +895,10 @@ msgstr "2. Σαρώστε αυτόν τον κωδικό QR"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 ώρες αφού ένας διοργανωτής δημιουργήσει επί πληρωμή εισιτήριο ή ξεκινήσει τη σύνδεση του Stripe, εάν το Stripe δεν έχει ακόμη συνδεθεί. Παραλείπεται για χώρες που δεν υποστηρίζει το Stripe."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 ημέρες μετά τη δημιουργία μιας πρόχει�
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 ημέρες μετά την εγγραφή, εάν ο κάτοχος του λογαριασμού έχει επιβεβαιώσει το email του αλλά δεν έχει δημιουργήσει εκδήλωση."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Ημερομηνία ενεργοποίησης"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Όλοι οι συμμετέχοντες αυτής της ημερομ�
 msgid "All categories"
 msgstr "Όλες οι κατηγορίες"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Όλες οι αλλαγές αποθηκεύτηκαν"
@@ -1915,7 +1955,7 @@ msgstr "Όλες οι Τελειωμένες Εκδηλώσεις"
 msgid "All events"
 msgstr "Όλες οι εκδηλώσεις"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Όλες οι Εκδηλώσεις"
 
@@ -1943,6 +1983,10 @@ msgstr "Όλες οι ημερομηνίες"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Όλες οι ημερομηνίες"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Ποσό προς πληρωμή"
 msgid "Amount off"
 msgstr "Ποσό έκπτωσης"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Ποσό που Καταβλήθηκε"
 
@@ -2298,6 +2342,10 @@ msgstr "Τυχόν ερωτήματα από κατόχους προϊόντων
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Κάθε ημερομηνία μπορεί να διαφέρει: αλλάξτε τη χωρητικότητά της στην Επεξεργασία ημερομηνίας ή την ποσότητα ανά ημερομηνία ενός εισιτηρίου στην καρτέλα Προϊόντα της ημερομηνίας."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Οποιοσδήποτε ιστότοπος (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Ισχύει για κάθε ημερομηνία του προγράμ�
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Ισχύει για κάθε {0}, μη ακυρωμένη ημερομηνία αυτής της εκδήλωσης — ακόμη και για ημερομηνίες που δεν έχουν φορτωθεί τώρα."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Ισχύει για κάθε διοργανωτή και εκδήλωση σε αυτόν τον λογαριασμό."
 
@@ -2670,6 +2718,10 @@ msgstr "Όνομα περιοχής"
 msgid "Area options"
 msgstr "Επιλογές περιοχής"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Περιοχές"
@@ -2783,7 +2835,7 @@ msgstr "Σύνδεση χάρτη θέσεων"
 msgid "Attempts"
 msgstr "Απόπειρες"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Αριθμός παρουσιών και ρυθμοί check-in σε όλες τις εκδηλώσεις"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Χρέωση μία φορά τον χρόνο"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Χρέωση"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Διεύθυνση Χρέωσης"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Περίοδος χρέωσης"
 
@@ -3369,7 +3421,7 @@ msgstr "Πώληση ταμείου"
 msgid "Box office updated"
 msgstr "Το ταμείο ενημερώθηκε"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Branding"
 
@@ -3655,7 +3707,7 @@ msgstr "Δεν μπορείτε να χρησιμοποιήσετε την εφ�
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Η ακύρωση θα ακυρώσει όλους τους συμμετ
 msgid "Cancelled"
 msgstr "Ακυρωμένο"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Ακυρώνεται"
 
@@ -3964,7 +4016,7 @@ msgstr "Αλλαγή σε μεμονωμένη εκδήλωση"
 msgid "Change waitlist settings"
 msgstr "Αλλαγή ρυθμίσεων λίστας αναμονής"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Αλλάξτε κάρτα, εναλλαγή μεταξύ μηνιαίας και ετήσιας χρέωσης, λήψη τιμολογίων ή ακύρωση."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Κατάσταση Check-In"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Σύνοψη Check-in"
 
@@ -4562,7 +4614,7 @@ msgstr "Μυστικό πελάτη"
 msgid "close"
 msgstr "κλείσιμο"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Κλείσιμο πλαϊνής μπάρας"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Κλείσιμο χωρίς αντιγραφή"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Συνέχεια στη δημιουργία εκδήλωσης"
 msgid "Continue to next step"
 msgstr "Συνέχεια στο επόμενο βήμα"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Συνέχεια στην πληρωμή"
@@ -5844,7 +5900,7 @@ msgstr "Η ετικέτα CTA είναι υποχρεωτική"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Τσέχικα"
 msgid "Daily"
 msgstr "Καθημερινά"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Καθημερινά έσοδα, φόροι, τέλη και επιστροφές σε όλες τις εκδηλώσεις"
 
@@ -6653,6 +6709,10 @@ msgstr "Έκπτωση σε {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Τύπος Έκπτωσης"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "Το email επαληθεύτηκε"
 msgid "Email verified successfully!"
 msgstr "Το email επαληθεύτηκε επιτυχώς!"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "Τα email αποστέλλονται με το όνομα του διοργανωτή σας, με κουμπιά και συνδέσμους στο χρώμα της εκδήλωσής σας"
 
@@ -7553,7 +7613,7 @@ msgstr "Λήγει {0}"
 msgid "Ends before it starts"
 msgstr "Τελειώνει πριν ξεκινήσει"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Λήγει στις"
 
@@ -7810,7 +7870,7 @@ msgstr "Μόνο ζυγοί αριθμοί"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Εκδηλώσεις"
 msgid "Events are always shown"
 msgstr "Οι εκδηλώσεις εμφανίζονται πάντα"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Απόδοση Εκδηλώσεων"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Εκτέλεση τώρα"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Εξαιρείται"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Εξαίρεση για {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Φιλτράρισμα Συμμετεχόντων"
 msgid "Filter by date"
 msgstr "Φιλτράρισμα κατά ημερομηνία"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Φιλτράρισμα ανά Εκδήλωση"
 
@@ -8794,6 +8858,10 @@ msgstr "Βρείτε {bestAvailableQuantity} θέσεις"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Βρείτε 1 θέση"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Φουαγιέ"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Δωρεάν"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Ελληνικά"
 msgid "Grid"
 msgstr "Πλέγμα"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Γεια σας {0} 👋"
 msgid "Hi,"
 msgstr "Γεια σας,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Το branding του Hi.Events αφαιρείται από τη σελίδα της εκδήλωσής σας και το λογότυπό σας το αντικαθιστά στα email"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Μετά από αυτή την ημερομηνία επιστρέφει το branding του Hi.Events. Μπορείτε να συνεχίσετε τη συνδρομή πριν από τότε."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Χρέωση Hi.Events"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Χρεώσεις πλατφόρμας Hi.Events και ανάλυση ΦΠΑ ανά συναλλαγή"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Απόκρυψη"
 msgid "Hide \"Have a promo code?\""
 msgstr "Απόκρυψη του «Έχετε κωδικό προσφοράς;»"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Απόκρυψη {label}"
@@ -9610,10 +9674,6 @@ msgstr "Απόκρυψη λεπτομερειών"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Απόκρυψη από τη σελίδα της εκδήλωσης"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Απόκρυψη branding Hi.Events"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://ο-τομεας-σας.gr/webhook"
 msgid "Hungarian"
 msgstr "Ουγγρικά"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Αναγνωρίζω τις ευθύνες μου ως υπεύθυνος επεξεργασίας δεδομένων"
@@ -9953,7 +10017,7 @@ msgstr "Εισαγωγή"
 msgid "Import lineup & schedule"
 msgstr "Εισαγωγή line-up και προγράμματος"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Σημαντική Ειδοποίηση"
 
@@ -10045,6 +10109,10 @@ msgstr "Συμπερίληψη καρτέλας παλαιότερων εκδη�
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Συμπεριλάβετε στοιχεία σύνδεσης για την διαδικτυακή εκδήλωση. Τα στοιχεία αυτά θα εμφανίζονται στη σελίδα σύνοψης παραγγελίας και στη σελίδα εισιτηρίου συμμετέχοντα."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Συμπερίληψη φόρου και τελών στην τιμή"
@@ -10053,7 +10121,7 @@ msgstr "Συμπερίληψη φόρου και τελών στην τιμή"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Συμπεριλάβετε αυτή την αιτιολογία στην πληρωμή σας ώστε ο διοργανωτής να την αντιστοιχίσει στην παραγγελία σας."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Περιλαμβάνεται"
@@ -10062,9 +10130,9 @@ msgstr "Περιλαμβάνεται"
 msgid "Included in the email to the account owner."
 msgstr "Περιλαμβάνεται στο email προς τον κάτοχο του λογαριασμού."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Περιλαμβάνεται στο πρόγραμμά σας. Το branding του Hi.Events είναι κρυμμένο στις σελίδες εκδηλώσεων, τα widgets, τα εισιτήρια και τα email σας."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Κρατήστε το κέρδος."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Κρατήστε τους εκτός του δημόσιου line-up και προγράμματος μέχρι να είστε έτοιμοι να τους ανακοινώσετε"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Συνεχίζει να συνδέεται με κωδικό πρόσβασης. Το {providerName} δεν μπορεί να χρησιμοποιηθεί για τη σύνδεση αυτού του μέλους."
 
@@ -11086,7 +11154,7 @@ msgstr "Κάντε την ορατή ώστε ο κόσμος να μπορεί 
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Βεβαιωθείτε ότι τα ID token περιλαμβάνουν τα claims email και email_verified."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Κάντε τις σελίδες εκδηλώσεων, τα widgets, τα εισιτήρια και τα email σας να μοιάζουν εξ ολοκλήρου δικά σας. Ισχύει για κάθε διοργανωτή και εκδήλωση σε αυτόν τον λογαριασμό."
 
@@ -11113,8 +11181,8 @@ msgstr "Διαχείριση: {0}"
 msgid "Manage attendee"
 msgstr "Διαχείριση συμμετέχοντα"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Διαχείριση χρέωσης"
 
@@ -11193,9 +11261,17 @@ msgstr "Χειροκίνητη Προσθήκη Συμμετέχοντα"
 msgid "Manually verified"
 msgstr "Επαληθεύτηκε χειροκίνητα"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Προβολή χάρτη"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Το μέλος ενεργοποιήθηκε ξανά"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Τα μέλη αλλάζουν μόνα τους το email τους στις <0>ρυθμίσεις προφίλ</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Μέλη σε επαληθευμένους τομείς"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Τα μέλη με email σε επαληθευμένο τομέα πρέπει να συνδέονται μέσω {providerName}. Οι άλλες συνεδρίες τους τερματίζονται."
 
@@ -11527,6 +11603,10 @@ msgstr "Περισσότερες θέσεις"
 msgid "More seats"
 msgstr "Περισσότερες θέσεις"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Εκδηλώσεις με τις περισσότερες προβολές"
@@ -11687,6 +11767,10 @@ msgstr "Το όνομα, το email και η διεύθυνση χρέωσης 
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Πλοήγηση σε Συμμετέχοντα"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Όχι"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Όχι - Είμαι ιδιώτης ή επιχείρηση μη εγγεγραμμένη για ΦΠΑ"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "Δεν υπάρχουν προβολές σελίδων εκδηλώσεων σε αυτήν την περίοδο"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Δεν βρέθηκαν εκδηλώσεις"
 
@@ -12148,14 +12241,6 @@ msgstr "Χωρίς οικονομικά"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Δεν υπάρχουν επισημασμένες εκδηλώσεις σε αναμονή ελέγχου"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Χωρίς branding Hi.Events στις σελίδες εκδηλώσεων, στις σελίδες διοργανωτή, στο checkout ή στα ενσωματωμένα widgets"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Χωρίς προώθηση του Hi.Events στα email που λαμβάνουν οι συμμετέχοντές σας"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Κανείς δεν ταιριάζει με αυτά τα φίλτρα."
 msgid "Nobody on the lineup yet."
 msgstr "Κανείς ακόμη στο line-up."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Κανείς στην ομάδα σας δεν χρησιμοποιεί ακόμη επαληθευμένο τομέα. Όσοι εισέρχονται από έναν τέτοιο τομέα θα πρέπει να συνδέονται μέσω {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Δεν έχει συνδεθεί ακόμα"
 msgid "Not marked as verified"
 msgstr "Δεν επισημάνθηκε ως επαληθευμένο"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Όχι τώρα"
 
@@ -13061,7 +13146,7 @@ msgstr "Μόνο διαχειριστές λογαριασμού μπορούν 
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Μόνο διαχειριστές λογαριασμού μπορούν να διαγράφουν ή να αρχειοθετούν διοργανωτές. Επικοινωνήστε με τον διαχειριστή σας για βοήθεια."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Μόνο οι διαχειριστές λογαριασμού μπορούν να αλλάξουν τη χρέωση. Ζητήστε από έναν διαχειριστή να κάνει αναβάθμιση από Ρυθμίσεις → Χρέωση."
 
@@ -13445,7 +13530,7 @@ msgstr "Η παραγγελία καταχωρήθηκε, η πληρωμή εκ
 msgid "Order questions only. Attendee questions need products."
 msgstr "Μόνο ερωτήσεις παραγγελίας. Οι ερωτήσεις συμμετεχόντων απαιτούν προϊόντα."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Αναφ. Παραγγελίας"
 
@@ -13615,6 +13700,10 @@ msgstr "Ρυθμίσεις διοργανωτή"
 msgid "Organizer Settings"
 msgstr "Ρυθμίσεις Διοργανωτή"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Δικές σας εκδηλώσεις"
 msgid "Owner"
 msgstr "Κάτοχος"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Είναι κάτοχος άλλου λογαριασμού Hi.Events, οπότε συνεχίζει να συνδέεται με κωδικό πρόσβασης μέχρι να συνδέσει το {providerName} από τις ρυθμίσεις ασφαλείας."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Πληρωμένοι Λογαριασμοί"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Πληρωμή αλλού"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "Μεταβίβαση στον Αγοραστή"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Κωδικός"
 
@@ -13873,7 +13966,7 @@ msgstr "Ληξιπρόθεσμο"
 msgid "Past events"
 msgstr "Παλαιότερες εκδηλώσεις"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Προηγούμενα τιμολόγια"
 
@@ -13929,7 +14022,7 @@ msgstr "panagiotis@papademos.gr"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Σε Παύση"
 
@@ -13988,7 +14081,7 @@ msgstr "Ρυθμίσεις Πληρωμής & Τιμολόγησης"
 msgid "Payment complete"
 msgstr "Η πληρωμή ολοκληρώθηκε"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Ημερομηνία Πληρωμής"
 
@@ -14000,7 +14093,7 @@ msgstr "Στοιχεία πληρωμής: {0}"
 msgid "Payment Due Period"
 msgstr "Περίοδος Πληρωμής"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Η πληρωμή απέτυχε"
 
@@ -14030,7 +14123,7 @@ msgstr "Μέθοδοι Πληρωμής"
 msgid "Payment not completed"
 msgstr "Η πληρωμή δεν ολοκληρώθηκε"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Η πληρωμή επεξεργάζεται"
 
@@ -14402,13 +14495,13 @@ msgstr "Τέλος πλατφόρμας {0} αφαιρείται από την �
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Τέλη Πλατφόρμας"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Αναφορά Τελών Πλατφόρμας"
 
@@ -14578,7 +14671,7 @@ msgstr "Θέση"
 msgid "Post Checkout message"
 msgstr "Μήνυμα Μετά το Checkout"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Με την υποστήριξη του"
@@ -15475,15 +15568,24 @@ msgstr "Αφαίρεση"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Αφαίρεση του «{0}»; Έχει ήδη λήξει."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Αφαιρέστε το «Powered by Hi.Events» από τις σελίδες, τα widgets, τα εισιτήρια και τα email σας και εμφανίστε το δικό σας λογότυπο."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Αφαίρεση {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Αφαίρεση από τον χάρτη"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Αφαίρεση από αυτό το line-up"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Αφαίρεση του branding Hi.Events"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Αφαιρέστε το branding του Hi.Events από όλα όσα βλέπουν οι συμμετέχοντές σας και βάλτε το δικό σας λογότυπο στα email τους."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Ανανέωση άδειας"
 msgid "Renew your licence."
 msgstr "Ανανεώστε την άδειά σας."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Ανανεώνεται στις"
 
@@ -15701,7 +15794,7 @@ msgstr "Η αναφορά δεν βρέθηκε"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Αναφορές"
 
@@ -15721,17 +15814,17 @@ msgstr "Αιτήθηκε από"
 msgid "Require Billing Address"
 msgstr "Υποχρεωτική Διεύθυνση Χρέωσης"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Υποχρεωτική ενιαία σύνδεση"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Υποχρεωτικό SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Υποχρεωτικό SSO για {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Επαναφορά"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Επαναφορά 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Επαναχρησιμοποιήστε μια σύνδεση Stripe απ
 msgid "Revenue"
 msgstr "Έσοδα"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Σύνοψη Εσόδων"
@@ -16230,7 +16327,7 @@ msgstr "Ανάλυση πωλήσεων, προσέλευσης και check-in 
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Οι πωλήσεις, η διαθεσιμότητα και το check-in αλλάζουν στην ημερομηνία που επιλέγετε."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Πωλήσεις, παραγγελίες και μετρήσεις απόδοσης για όλες τις εκδηλώσεις"
 
@@ -16629,6 +16726,10 @@ msgstr "Αναζήτηση ανά ID παραγγελίας, όνομα πελά
 msgid "Search by subject, event, or account..."
 msgstr "Αναζήτηση ανά θέμα, εκδήλωση ή λογαριασμό..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Αναζήτηση με τίτλο..."
@@ -16692,6 +16793,10 @@ msgstr "Αναζητήστε στα αποθηκευμένα προφίλ ή π�
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Αναζήτηση..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Επιλογή όλων"
 msgid "Select all on {0}"
 msgstr "Επιλογή όλων στις {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Επιλογή εκδήλωσης"
 
@@ -17923,11 +18028,11 @@ msgstr "Ενιαία σύνδεση"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Οι συνδέσεις ενιαίας σύνδεσης (SSO) συνεχίζουν να συνδέουν τους χρήστες. Μπορούν να απενεργοποιηθούν ή να διαγραφούν, αλλά όχι να αλλάξουν ή να ενεργοποιηθούν ξανά χωρίς άδεια."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Η ενιαία σύνδεση δεν απαιτείται πλέον"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Η ενιαία σύνδεση είναι πλέον υποχρεωτική"
 
@@ -18069,7 +18174,7 @@ msgstr "Συμπαγές χρώμα"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Ορισμένα στοιχεία δεν είναι δημόσια προσβάσιμα. Συνδεθείτε για να τα δείτε όλα."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Ορισμένοι τρόποι πληρωμής χρειάζονται λίγο χρόνο για επιβεβαίωση. Το branding αφαιρείται μόλις το Stripe την επιβεβαιώσει."
 
@@ -18164,7 +18269,7 @@ msgstr "Κάτι πήγε στραβά. Παρακαλώ δοκιμάστε ξα
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Συγκεκριμένοι χρήστες"
 msgid "Spirituality"
 msgstr "Πνευματικότητα"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Χωρίστε το check-in ανά ημέρα, ζώνη ή τύπο εισιτηρίου. Μοιραστείτε τον σύνδεσμο με το προσωπικό — δεν χρειάζονται λογαριασμό."
@@ -18255,7 +18364,7 @@ msgstr "Τετράγωνο, τουλάχιστον 200 × 200 px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Στατιστικά"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Διακοπή Υποκατάστασης"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Σταματήστε να λαμβάνετε email που σας βοηθούν να ρυθμίσετε και να διοργανώσετε τις εκδηλώσεις σας. Τα email για τις παραγγελίες και τον λογαριασμό σας θα συνεχίσουν να αποστέλλονται."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Διακοπή απαίτησης"
 
@@ -18564,7 +18673,7 @@ msgstr "Σταματήστε να απαιτείτε ενιαία σύνδεση
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Σταματήστε την υποχρεωτική σύνδεση μέσω SSO πριν αφαιρέσετε έναν επαληθευμένο τομέα."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Διακοπή απαίτησης ενιαίας σύνδεσης; Τα μέλη θα μπορούν ξανά να συνδέονται με τον κωδικό πρόσβασής τους ή να τον επαναφέρουν αν δεν είχαν ποτέ."
 
@@ -18623,7 +18732,7 @@ msgstr "Η σύνδεση Stripe αντιγράφηκε από {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Το Stripe δεν επέστρεψε σύνδεσμο ρύθμισης. Δοκιμάστε ξανά."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Το Stripe δεν έχει επιβεβαιώσει ακόμη την πληρωμή σας. Ανανεώστε αυτή τη σελίδα σε λίγα λεπτά πριν δοκιμάσετε ξανά."
 
@@ -18635,7 +18744,7 @@ msgstr "Το Stripe δεν έχει ρυθμιστεί σε αυτή την εγ
 msgid "Stripe Not Connected"
 msgstr "Stripe Μη Συνδεδεμένο"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "ID Πληρωμής Stripe"
 
@@ -18685,7 +18794,7 @@ msgstr "Το θέμα θα εμφανιστεί εδώ"
 msgid "Subject:"
 msgstr "Θέμα:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Συνδρομή"
 
@@ -18998,7 +19107,7 @@ msgstr "Στοχεύει συμμετέχοντες από {0} επιλεγμέ�
 msgid "Tax"
 msgstr "Φόρος"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Φόρος που συλλέχθηκε ανά τύπο φόρου και εκδήλωση"
 
@@ -19022,7 +19131,7 @@ msgstr "Πληροφορίες φόρου για εμφάνιση στο κάτ�
 msgid "Tax Name"
 msgstr "Όνομα Φόρου"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Σύνοψη Φόρου"
@@ -19163,7 +19272,7 @@ msgstr "Σας ευχαριστούμε για τη συμμετοχή σας!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Ευχαριστούμε. Η παραγγελία του/της {registrantName} επιβεβαιώθηκε και η επιβεβαίωση στάλθηκε με email στο"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Ευχαριστούμε για τη συνδρομή. Οι αλλαγές branding ισχύουν μόλις το Stripe επιβεβαιώσει την πληρωμή."
 
@@ -19209,7 +19318,7 @@ msgstr "Η ένδειξη «Powered by Hi.Events» εμφανίζεται ξαν
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Ο λογαριασμός έχει ολοκληρωμένες παραγγελίες, επομένως θα ανωνυμοποιηθεί."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Ο κάτοχος του λογαριασμού ({0}) μπορεί πάντα να συνδεθεί με κωδικό πρόσβασης και έλεγχο ταυτότητας δύο παραγόντων, ώστε να ανακτήσετε την πρόσβαση αν το {providerName} δεν είναι διαθέσιμο. Όλοι οι διαχειριστές λαμβάνουν email όταν συμβεί αυτό."
 
@@ -19389,7 +19498,7 @@ msgstr "Ο διοργανωτής που αναζητάτε δεν βρέθηκ�
 msgid "The override is recorded in the order audit log."
 msgstr "Η παράκαμψη καταγράφεται στο αρχείο ελέγχου της παραγγελίας."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Ο κάτοχος μπορεί να συνδέσει το {providerName} από τις ρυθμίσεις ασφαλείας για να συνδέεται με αυτό καθημερινά."
 
@@ -20051,9 +20160,9 @@ msgstr "Αυτό το προϊόν δεν θα εμφανίζεται μόνο �
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Αυτή η επαναλαμβανόμενη εκδήλωση δεν έχει ακόμα ημερομηνίες, οπότε οι συμμετέχοντες δεν έχουν τίποτα να κρατήσουν."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Αυτή η αναφορά είναι μόνο για ενημερωτικούς σκοπούς. Πάντα συμβουλευτείτε φορολογικό σύμβουλο πριν χρησιμοποιήσετε αυτά τα δεδομένα."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Αυτό το εισιτήριο σαρώθηκε μόλις τώρα. �
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "Η ποσότητα αυτού του επιπέδου είναι κοινή για όλες τις ημερομηνίες"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Για να μετακινήσετε αυτό το στοιχείο, π�
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "Σήμερα"
 
@@ -20488,6 +20602,10 @@ msgstr "Εναλλαγή στηλών"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "Αύριο"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Συνολικό Ποσό Έκπτωσης"
 msgid "Total Entries"
 msgstr "Σύνολο Εγγραφών"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Συνολικό Τέλος"
 
@@ -20619,7 +20737,7 @@ msgstr "Παρακολούθηση & Αναλυτικά"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Αντιμετωπίζεται ως ένα άτομο. Διαχωρίστε περισσότερα άτομα με το σύμβολο ;"
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Δοκιμαστική περίοδος"
 
@@ -20727,7 +20845,7 @@ msgstr "Ενεργοποιήστε το «Μπορεί να βλέπει οικ�
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Ενεργοποιήστε επιπλέον ενότητες και σύρετέ τες για αναδιάταξη."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Ενεργοποιήστε πρώτα τη σύνδεση με {providerName} και επαληθεύστε έναν τομέα."
 
@@ -21153,6 +21271,10 @@ msgstr "Έως 40 φωτογραφίες, τουλάχιστον 400 × 300px. �
 msgid "Upcoming"
 msgstr "Επερχόμενες"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Ενημέρωση ετικέτας"
 msgid "Update location"
 msgstr "Ενημέρωση τοποθεσίας"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Ενημερώστε τον τρόπο πληρωμής"
 
@@ -21510,11 +21632,11 @@ msgstr "Η επαλήθευση αριθμού ΦΠΑ απέτυχε"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "Η επαλήθευση αριθμού ΦΠΑ απέτυχε. Παρακαλώ ελέγξτε τον αριθμό ΦΠΑ σας."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "ΦΠΑ στο Τέλος"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "Συντελεστής ΦΠΑ"
 
@@ -21698,7 +21820,7 @@ msgstr "Προβολή όλων των μηνυμάτων που εστάλησ�
 msgid "View all past events"
 msgstr "Δείτε όλες τις παλαιότερες εκδηλώσεις"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Προβολή και λήψη αναφορών για όλες τις εκδηλώσεις. Περιλαμβάνονται μόνο ολοκληρωμένες παραγγελίες."
 
@@ -21892,7 +22014,7 @@ msgstr "Αναμονή πληρωμής"
 msgid "Waiting for scan…"
 msgstr "Αναμονή σάρωσης…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Αναμονή επιβεβαίωσης πληρωμής από το Stripe…"
 
@@ -21951,6 +22073,10 @@ msgstr "Δεν μπορέσαμε να διαγράψουμε την κατηγ�
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Δεν ήταν δυνατή η αποσύνδεση αυτού του λογαριασμού Stripe. Δοκιμάστε ξανά."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Δεν ήταν δυνατή η φόρτωση αυτού του ταμ�
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Δεν ήταν δυνατή η φόρτωση αυτού του προγράμματος εκτέλεσης. Ελέγξτε ότι έχετε πρόσβαση σε αυτή την εκδήλωση και δοκιμάστε ξανά."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Δεν ήταν δυνατή η φόρτωση των στοιχείων χρέωσης. Ανανεώστε τη σελίδα για να δοκιμάσετε ξανά."
 
@@ -22558,6 +22684,10 @@ msgstr "Εργαστήριο με early bird"
 msgid "Workspace domain"
 msgstr "Τομέας Workspace"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Γράψτε το μήνυμά σας εδώ..."
@@ -22864,7 +22994,7 @@ msgstr "Δεν θα μπορείτε πλέον να συνδέεστε με {0}
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Δεν θα λαμβάνετε πλέον αυτά τα email. Τα email για τις παραγγελίες και τον λογαριασμό σας θα συνεχίσουν να αποστέλλονται."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Θα αποσυνδεθείτε και θα πρέπει να συνδεθείτε ξανά με {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "Χρειάζεστε προϊόν πριν δημιουργήσετε α
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Χρειάζεστε τουλάχιστον ένα προϊόν για να ξεκινήσετε. Δωρεάν, επί πληρωμή ή αφήστε τον χρήστη να αποφασίσει."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Πληρώνετε με ασφάλεια μέσω Stripe. Ακύρωση οποιαδήποτε στιγμή."
 
@@ -23092,7 +23222,7 @@ msgstr "Ο πάροχος ταυτότητάς σας επέστρεψε σφά�
 msgid "Your instructions appear here."
 msgstr "Οι οδηγίες σας εμφανίζονται εδώ."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Η τελευταία σας πληρωμή δεν ολοκληρώθηκε. Ενημερώστε την κάρτα σας για να παραμείνει αφαιρεμένο το branding."
 
@@ -23191,9 +23321,9 @@ msgstr "Η διεύθυνση του διοργανωτή σας"
 msgid "Your organizer has no description yet."
 msgstr "Ο διοργανωτής σας δεν έχει ακόμη περιγραφή."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Το λογότυπο του διοργανωτή σας στην κορυφή των email παραγγελιών και εισιτηρίων, αντί για το λογότυπο του Hi.Events"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Η πληρωμή σας επεξεργάζεται."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Η πληρωμή σας προστατεύεται με κρυπτογράφηση τραπεζικού επιπέδου"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Η πληρωμή σας βρίσκεται ακόμη σε επεξεργασία"
 

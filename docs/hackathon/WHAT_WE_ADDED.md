@@ -42,8 +42,26 @@ Our hackathon project, **Hyperlocal Event Discovery & Community Engagement**, ex
 
 ---
 
-### Phase 1: Nearby Feed, Geolocation & Map View (Upcoming)
-- *To be filled in Phase 1.*
+### Phase 1: Location-Aware Discovery & Map View (Completed)
+- **Public Discovery API Endpoint (`GET /public/events/discover`):**
+  - Implemented `HiEvents\Http\Actions\Events\DiscoverEventsPublicAction` registered with `throttle:60,1,public-discover`.
+  - Form request `HiEvents\Http\Request\Event\DiscoverEventsPublicRequest` validating coordinates, radius (0.5–100 km), categories, time presets (`today`, `tonight`, `weekend`), dates, free toggle, query `q`, and sorting.
+  - Efficient PostgreSQL Haversine distance calculation and radius boundary filtering.
+  - Trigram text search (`pg_trgm`) and similarity ranking on event titles, descriptions, venue names, and organizers.
+  - Active occurrence start dates with lifecycle status filtering (`LIVE`, non-ended).
+  - Clean pagination envelope with `DiscoverEventResourcePublic` and typed DTOs extending `BaseDataObject`.
+  - Exported committed OpenAPI documentation in `backend/resources/api-reference/openapi.json`.
+  - Verified with 4 Feature tests and 95 assertions in `backend/tests/Feature/Http/Actions/Events/DiscoverEventsPublicTest.php`.
+- **Frontend Discovery Experience (`/discover`):**
+  - Created client API `frontend/src/api/discover.client.ts` and React Query hook `frontend/src/queries/useDiscoverEvents.ts`.
+  - Interactive Discovery page `frontend/src/components/routes/public/Discover/`:
+    - Responsive hero search header with "Near Me" GPS geolocation, radius selection (5–50 km), and neighbourhood quick presets (Bandra, Andheri, Colaba, Powai, Dadar).
+    - Multi-category horizontal pill filter with Lingui translated labels and emojis across all 24 event categories.
+    - Time filters (Any Time, Today, Tonight, This Weekend), price toggles (All, Free Only, Paid Only), and sorting selector (Closest First, Upcoming Date, Most Relevant).
+    - Split view, Grid view, and interactive Map view toggling.
+    - Leaflet / OpenStreetMap interactive map with user location marker, search radius boundary circle, and interactive event pin popups.
+    - Full SSR compatibility and Lingui translation extraction across all 22 supported locales.
+    - Guest root redirect routing visitors directly to `/discover`.
 
 ---
 

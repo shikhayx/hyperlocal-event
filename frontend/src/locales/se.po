@@ -89,7 +89,15 @@ msgstr "{0} API"
 msgid "{0} available"
 msgstr "{0} tillgängliga"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:15
+msgid "{0} branding is removed from your event page, and your logo replaces it in emails"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:125
+msgid "{0} branding returns after this date. You can resume the subscription before then."
+msgstr ""
+
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:84
 msgid "{0} can sign in with their password"
 msgstr "{0} kan logga in med sitt lösenord"
 
@@ -108,6 +116,10 @@ msgstr "{0} levererade · {1} öppnade · {2} klickade · {3} studsade"
 #: src/components/routes/product-widget/Payment/index.tsx:186
 msgid "{0} due after you place your order"
 msgstr "{0} att betala efter att du lagt din order"
+
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:76
+msgid "{0} Fee"
+msgstr ""
 
 #: src/components/routes/admin/FeatureFlags/index.tsx:91
 msgid "{0} forced off"
@@ -150,7 +162,7 @@ msgstr "{0} kvar"
 msgid "{0} logo"
 msgstr "{0} logotyp"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:82
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:83
 msgid "{0} must now sign in with {providerName}"
 msgstr "{0} måste nu logga in med {providerName}"
 
@@ -186,6 +198,10 @@ msgstr "{0} andra artiklar"
 #: src/ee/seating/components/routes/event/SeatingPrint/index.tsx:309
 msgid "{0} places"
 msgstr "{0} platser"
+
+#: src/components/routes/organizer/Reports/index.tsx:47
+msgid "{0} platform fees and VAT breakdown by transaction"
+msgstr ""
 
 #: src/components/modals/ProductPurchasesModal/index.tsx:230
 msgid "{0} refunded order(s) include this product but haven't been cancelled, so they still count as sold. Cancel them if the items shouldn't count."
@@ -378,7 +394,7 @@ msgstr "{diffMin} min sedan"
 msgid "{diffSec}s ago"
 msgstr "{diffSec} s sedan"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:128
 msgid "{enforcedCount, plural, one {# member will need to sign in with {providerName}.} other {# members will need to sign in with {providerName}.}}"
 msgstr "{enforcedCount, plural, one {# medlem måste logga in med {providerName}.} other {# medlemmar måste logga in med {providerName}.}}"
 
@@ -540,7 +556,7 @@ msgstr "{organizerCount, plural, one {# arrangör} other {# arrangörer}}"
 msgid "{organizerName}'s first event"
 msgstr "{organizerName}s första evenemang"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:132
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:133
 msgid "{outsideDomainCount, plural, one {# member outside your verified domains keeps their current sign-in.} other {# members outside your verified domains keep their current sign-in.}}"
 msgstr "{outsideDomainCount, plural, one {# medlem utanför dina verifierade domäner behåller sin nuvarande inloggning.} other {# medlemmar utanför dina verifierade domäner behåller sin nuvarande inloggning.}}"
 
@@ -851,6 +867,10 @@ msgstr "1 år"
 msgid "1. Get an authenticator app"
 msgstr "1. Skaffa en autentiseringsapp"
 
+#: src/components/routes/public/Discover/index.tsx:175
+msgid "10 km"
+msgstr ""
+
 #: src/components/common/CapacityHelp/index.tsx:28
 msgid "12 mats in the studio and one Drop-in ticket."
 msgstr "12 mattor i studion och en drop-in-biljett."
@@ -864,6 +884,10 @@ msgstr "Exempelgatan 123"
 msgid "135+ currencies & 40+ payment methods"
 msgstr "Över 135 valutor och över 40 betalsätt"
 
+#: src/components/routes/public/Discover/index.tsx:176
+msgid "15 km"
+msgstr ""
+
 #: src/components/common/TwoFactor/TwoFactorSetupFlow.tsx:166
 msgid "2. Scan this QR code"
 msgstr "2. Skanna den här QR-koden"
@@ -871,6 +895,10 @@ msgstr "2. Skanna den här QR-koden"
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:14
 msgid "24 hours after an organizer creates a paid ticket or starts connecting Stripe, if Stripe still isn't connected. Skipped for countries Stripe doesn't support."
 msgstr "24 timmar efter att en arrangör skapar en betald biljett eller börjar koppla Stripe, om Stripe fortfarande inte är kopplat. Hoppas över för länder som Stripe inte stöder."
+
+#: src/components/routes/public/Discover/index.tsx:177
+msgid "25 km"
+msgstr ""
 
 #: src/components/common/CapacityHelp/index.tsx:61
 msgid "25 places per date, plus 30 T-shirts across the whole run."
@@ -887,6 +915,14 @@ msgstr "3 dagar efter att ett utkast till evenemang skapats, om inget på kontot
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:8
 msgid "3 days after signup, if the account owner has confirmed their email but hasn't created an event."
 msgstr "3 dagar efter registrering, om kontoägaren har bekräftat sin e-post men inte skapat något evenemang."
+
+#: src/components/routes/public/Discover/index.tsx:174
+msgid "5 km"
+msgstr ""
+
+#: src/components/routes/public/Discover/index.tsx:178
+msgid "50 km"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:32
 msgid "60 days after the last date the account sold paid tickets for, if nothing new has been created and nothing is upcoming. Unlike the other emails, this also reaches accounts that went quiet before it was enabled, back to 18 months."
@@ -1255,7 +1291,7 @@ msgstr "Aktiveringsdatum"
 #: src/components/routes/event/OccurrencesTab/OccurrenceMenu.tsx:217
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:20
 #: src/components/routes/organizer/Payments/CapabilityList.tsx:57
-#: src/components/routes/settings/Billing/index.tsx:45
+#: src/components/routes/settings/Billing/index.tsx:46
 #: src/components/routes/settings/Team/MemberRow.tsx:28
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:187
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:31
@@ -1870,6 +1906,10 @@ msgstr "Alla deltagare på det här datumet"
 msgid "All categories"
 msgstr "Alla kategorier"
 
+#: src/components/routes/public/Discover/index.tsx:256
+msgid "All Categories"
+msgstr ""
+
 #: src/components/common/DesignerShell/index.tsx:149
 msgid "All changes saved"
 msgstr "Alla ändringar sparade"
@@ -1915,7 +1955,7 @@ msgstr "Alla avslutade evenemang"
 msgid "All events"
 msgstr "Alla evenemang"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:33
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:34
 msgid "All Events"
 msgstr "Alla evenemang"
 
@@ -1943,6 +1983,10 @@ msgstr "Alla datum"
 #: src/components/common/ReportTable/index.tsx:287
 msgid "All Occurrences"
 msgstr "Alla datum"
+
+#: src/components/routes/public/Discover/index.tsx:335
+msgid "All Prices"
+msgstr ""
 
 #: src/components/common/PromoCodeTable/index.tsx:142
 msgid "All Products"
@@ -2136,7 +2180,7 @@ msgstr "Belopp att betala"
 msgid "Amount off"
 msgstr "Rabattbelopp"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:69
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:70
 msgid "Amount Paid"
 msgstr "Betalt belopp"
 
@@ -2298,6 +2342,10 @@ msgstr "Eventuella frågor från produktinnehavare kommer att skickas till denna
 msgid "Any single date can differ: change its capacity in Edit Date, or a ticket's per-date quantity on that date's Products tab."
 msgstr "Varje enskilt datum kan skilja sig: ändra dess kapacitet under Redigera datum eller en biljetts antal per datum på datumets flik Produkter."
 
+#: src/components/routes/public/Discover/index.tsx:284
+msgid "Any Time"
+msgstr ""
+
 #: src/components/common/WidgetEditor/installGuides.ts:31
 msgid "Any website (HTML)"
 msgstr "Valfri webbplats (HTML)"
@@ -2386,7 +2434,7 @@ msgstr "Gäller för varje datum i ditt schema. Datum med en kapacitet begränsa
 msgid "Applies to every {0}, non-cancelled date in this event — including dates not currently loaded."
 msgstr "Gäller varje {0}, ej inställt datum i det här evenemanget – även datum som inte är inlästa just nu."
 
-#: src/components/routes/settings/Billing/index.tsx:163
+#: src/components/routes/settings/Billing/index.tsx:164
 msgid "Applies to every organizer and event in this account."
 msgstr "Gäller alla arrangörer och evenemang i det här kontot."
 
@@ -2670,6 +2718,10 @@ msgstr "Områdesnamn"
 msgid "Area options"
 msgstr "Områdesalternativ"
 
+#: src/components/routes/public/Discover/index.tsx:200
+msgid "AREA PRESETS:"
+msgstr ""
+
 #: src/ee/seating/components/SeatMapDesigner/index.tsx:317
 msgid "Areas"
 msgstr "Områden"
@@ -2783,7 +2835,7 @@ msgstr "Koppla sittplatskarta"
 msgid "Attempts"
 msgstr "Försök"
 
-#: src/components/routes/organizer/Reports/index.tsx:40
+#: src/components/routes/organizer/Reports/index.tsx:41
 msgid "Attendance and check-in rates across all events"
 msgstr "Närvaro och incheckningsfrekvens för alla evenemang"
 
@@ -3211,7 +3263,7 @@ msgid "Billed once a year"
 msgstr "Faktureras en gång per år"
 
 #: src/components/layouts/SettingsLayout/index.tsx:70
-#: src/components/routes/settings/Billing/index.tsx:198
+#: src/components/routes/settings/Billing/index.tsx:199
 msgctxt "Account subscription"
 msgid "Billing"
 msgstr "Fakturering"
@@ -3232,7 +3284,7 @@ msgid "Billing Address"
 msgstr "Faktureringsadress"
 
 #: src/components/common/BrandingUpsell/PlanIntervalPicker.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:175
+#: src/components/routes/settings/Billing/index.tsx:176
 msgid "Billing period"
 msgstr "Faktureringsperiod"
 
@@ -3369,7 +3421,7 @@ msgstr "Kassaförsäljning"
 msgid "Box office updated"
 msgstr "Kassa uppdaterad"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:37
 msgid "Branding"
 msgstr "Varumärke"
 
@@ -3655,7 +3707,7 @@ msgstr "Kan du inte använda din autentiseringsapp eller dina återställningsko
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:108
 #: src/ee/seating/components/SeatPicker/SeatSheet.tsx:88
 #: src/ee/sso/components/SingleSignOn/ConnectionForm.tsx:213
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:180
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:181
 #: src/hooks/useAttendeeActions.tsx:116
 #: src/utilites/confirmationDialog.tsx:20
 #: src/utilites/confirmationDialog.tsx:57
@@ -3748,7 +3800,7 @@ msgstr "Avbrytande kommer att avbryta alla deltagare som är kopplade till denna
 msgid "Cancelled"
 msgstr "Avbruten"
 
-#: src/components/routes/settings/Billing/index.tsx:42
+#: src/components/routes/settings/Billing/index.tsx:43
 msgid "Cancelling"
 msgstr "Avslutas"
 
@@ -3964,7 +4016,7 @@ msgstr "Ändra till enskilt evenemang"
 msgid "Change waitlist settings"
 msgstr "Ändra väntlistinställningar"
 
-#: src/components/routes/settings/Billing/index.tsx:144
+#: src/components/routes/settings/Billing/index.tsx:145
 msgid "Change your card, switch between monthly and yearly billing, download invoices or cancel."
 msgstr "Byt kort, växla mellan månads- och årsfakturering, ladda ner fakturor eller säg upp."
 
@@ -4173,7 +4225,7 @@ msgid "Check-In Status"
 msgstr "Incheckningsstatus"
 
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:58
-#: src/components/routes/organizer/Reports/index.tsx:39
+#: src/components/routes/organizer/Reports/index.tsx:40
 msgid "Check-in Summary"
 msgstr "Incheckningssammanfattning"
 
@@ -4562,7 +4614,7 @@ msgstr "Klienthemlighet"
 msgid "close"
 msgstr "stäng"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 #: src/components/common/Modal/index.tsx:33
 #: src/components/common/SideDrawer/index.tsx:117
 #: src/components/common/WidgetEditor/WidgetPreview.tsx:128
@@ -4591,6 +4643,10 @@ msgstr "Stäng sidofält"
 #: src/components/routes/settings/ApiKeys/CreateApiKeyModal.tsx:157
 msgid "Close without copying"
 msgstr "Stäng utan att kopiera"
+
+#: src/components/routes/public/Discover/index.tsx:372
+msgid "Closest First"
+msgstr ""
 
 #: src/ee/seating/components/routes/organizer/SeatMaps/index.tsx:33
 msgid "Club"
@@ -5104,8 +5160,8 @@ msgstr "Fortsätt till skapande av evenemang"
 msgid "Continue to next step"
 msgstr "Fortsätt till nästa steg"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:45
-#: src/components/routes/settings/Billing/index.tsx:189
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:46
+#: src/components/routes/settings/Billing/index.tsx:190
 #: src/ee/box-office/components/layouts/BoxOffice/AttendeeQuestionsStage.tsx:114
 msgid "Continue to payment"
 msgstr "Fortsätt till betalning"
@@ -5844,7 +5900,7 @@ msgstr "CTA-text är obligatorisk"
 #: src/components/routes/admin/Dashboard/index.tsx:205
 #: src/components/routes/event/Settings/Sections/EventDetailsForm/index.tsx:138
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:51
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:99
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:100
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:33
 #: src/components/routes/organizer/Settings/Sections/BasicSettings/index.tsx:137
 #: src/components/routes/settings/Account/index.tsx:83
@@ -5982,7 +6038,7 @@ msgstr "Tjeckiska"
 msgid "Daily"
 msgstr "Dagligen"
 
-#: src/components/routes/organizer/Reports/index.tsx:22
+#: src/components/routes/organizer/Reports/index.tsx:23
 msgid "Daily revenue, taxes, fees, and refunds across all events"
 msgstr "Dagliga intäkter, skatter, avgifter och återbetalningar för alla evenemang"
 
@@ -6653,6 +6709,10 @@ msgstr "Rabatt i {0}"
 #: src/components/forms/PromoCodeForm/index.tsx:91
 msgid "Discount Type"
 msgstr "Rabattyp"
+
+#: src/components/routes/public/Discover/index.tsx:131
+msgid "Discover Local Events & Experiences Near You"
+msgstr ""
 
 #: src/components/common/Callout/index.tsx:62
 msgid "Dismiss"
@@ -7426,7 +7486,7 @@ msgstr "E-post verifierad"
 msgid "Email verified successfully!"
 msgstr "E-post verifierad"
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
 msgid "Emails sent under your organizer name, with buttons and links in your event's colour"
 msgstr "Mejl skickas i din arrangörs namn, med knappar och länkar i ditt evenemangs färg"
 
@@ -7553,7 +7613,7 @@ msgstr "Slutar {0}"
 msgid "Ends before it starts"
 msgstr "Slutar innan det börjar"
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Ends on"
 msgstr "Slutar"
 
@@ -7810,7 +7870,7 @@ msgstr "Endast jämna nummer"
 #: src/components/routes/events/Dashboard/index.tsx:188
 #: src/components/routes/organizer/Reports/CheckInSummaryReport/index.tsx:19
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:41
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:43
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:44
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:23
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:252
 msgid "Event"
@@ -8018,8 +8078,12 @@ msgstr "Evenemang"
 msgid "Events are always shown"
 msgstr "Evenemang visas alltid"
 
+#: src/components/routes/public/Discover/index.tsx:423
+msgid "events found"
+msgstr ""
+
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:120
-#: src/components/routes/organizer/Reports/index.tsx:27
+#: src/components/routes/organizer/Reports/index.tsx:28
 msgid "Events Performance"
 msgstr "Evenemangens resultat"
 
@@ -8167,14 +8231,14 @@ msgid "Execute now"
 msgstr "Verkställ nu"
 
 #: src/components/routes/settings/Team/MemberRow.tsx:37
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:153
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:154
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Exempt"
 msgstr "Undantagen"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:155
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:156
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Exempt {0}"
 msgstr "Undanta {0}"
 
@@ -8762,7 +8826,7 @@ msgstr "Filtrera deltagare"
 msgid "Filter by date"
 msgstr "Filtrera på datum"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:118
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
 msgid "Filter by Event"
 msgstr "Filtrera efter evenemang"
 
@@ -8794,6 +8858,10 @@ msgstr "Hitta {bestAvailableQuantity} platser"
 #: src/ee/seating/components/SeatPicker/Basket.tsx:91
 msgid "Find 1 seat"
 msgstr "Hitta 1 plats"
+
+#: src/components/routes/public/Discover/index.tsx:134
+msgid "Find curated concerts, workshops, tech meetups, sports matches, and community flows happening across your city."
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/index.tsx:143
 msgid "Finish or cancel the current sale first"
@@ -9035,6 +9103,10 @@ msgstr "Foajé"
 #: src/utilites/eventListingLabels.ts:20
 msgid "Free"
 msgstr "Gratis"
+
+#: src/components/routes/public/Discover/index.tsx:347
+msgid "Free Only"
+msgstr ""
 
 #: src/ee/box-office/components/layouts/BoxOffice/TenderStage.tsx:63
 msgid "Free order, no payment needed"
@@ -9340,6 +9412,10 @@ msgstr "Grekiska"
 msgid "Grid"
 msgstr "Rutnät"
 
+#: src/components/routes/public/Discover/index.tsx:394
+msgid "Grid View"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:94
 #: src/components/routes/admin/Dashboard/index.tsx:345
 #: src/ee/box-office/components/modals/BoxOfficeStatsModal/index.tsx:36
@@ -9486,25 +9562,9 @@ msgstr "Hej {0} 👋"
 msgid "Hi,"
 msgstr "Hej,"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:14
-msgid "Hi.Events branding is removed from your event page, and your logo replaces it in emails"
-msgstr "Hi.Events-varumärket tas bort från din evenemangssida och din logotyp ersätter det i mejl"
-
-#: src/components/routes/settings/Billing/index.tsx:124
-msgid "Hi.Events branding returns after this date. You can resume the subscription before then."
-msgstr "Hi.Events-varumärket kommer tillbaka efter detta datum. Du kan återuppta prenumerationen innan dess."
-
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:52
 msgid "Hi.Events Cloud"
 msgstr "Hi.Events Cloud"
-
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:75
-msgid "Hi.Events Fee"
-msgstr "Hi.Events-avgift"
-
-#: src/components/routes/organizer/Reports/index.tsx:46
-msgid "Hi.Events platform fees and VAT breakdown by transaction"
-msgstr "Hi.Events plattformsavgifter och momsfördelning per transaktion"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:137
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:474
@@ -9573,6 +9633,10 @@ msgstr "Dölj"
 msgid "Hide \"Have a promo code?\""
 msgstr "Dölj ”Har du en kampanjkod?”"
 
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:39
+msgid "Hide {appName} branding"
+msgstr ""
+
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/index.tsx:312
 msgid "Hide {label}"
 msgstr "Dölj {label}"
@@ -9610,10 +9674,6 @@ msgstr "Dölj detaljer"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:262
 msgid "Hide from event page"
 msgstr "Dölj från evenemangssidan"
-
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:36
-msgid "Hide Hi.Events branding"
-msgstr "Dölj Hi.Events-varumärket"
 
 #: src/components/routes/admin/Announcements/index.tsx:496
 msgid "Hide Preview"
@@ -9830,6 +9890,10 @@ msgstr "https://webhook-domain.com/webhook"
 msgid "Hungarian"
 msgstr "Ungerska"
 
+#: src/components/routes/public/Discover/index.tsx:114
+msgid "Hyperlocal Events"
+msgstr ""
+
 #: src/components/routes/organizer/Settings/Sections/TrackingPixelSettings/index.tsx:250
 msgid "I acknowledge my responsibilities as a data controller"
 msgstr "Jag bekräftar mitt ansvar som personuppgiftsansvarig"
@@ -9953,7 +10017,7 @@ msgstr "Importera"
 msgid "Import lineup & schedule"
 msgstr "Importera line-up och schema"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:112
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
 msgid "Important Notice"
 msgstr "Viktig information"
 
@@ -10045,6 +10109,10 @@ msgstr "Inkludera en flik för tidigare evenemang"
 msgid "Include connection details for your online event. These details will be shown on the order summary page and attendee ticket page."
 msgstr "Inkludera anslutningsinformation för ditt onlineevenemang. Dessa uppgifter visas på sidan för ordersammanfattning och på deltagarbiljetten."
 
+#: src/components/routes/public/Discover/index.tsx:231
+msgid "Include Online"
+msgstr ""
+
 #: src/components/routes/event/Settings/Sections/MiscSettings/index.tsx:55
 msgid "Include tax and fees in the price"
 msgstr "Inkludera skatt och avgifter i priset"
@@ -10053,7 +10121,7 @@ msgstr "Inkludera skatt och avgifter i priset"
 msgid "Include this reference with your payment so the organizer can match it to your order."
 msgstr "Ange den här referensen när du betalar så att arrangören kan koppla betalningen till din order."
 
-#: src/components/routes/settings/Billing/index.tsx:143
+#: src/components/routes/settings/Billing/index.tsx:144
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:110
 msgid "Included"
 msgstr "Ingår"
@@ -10062,9 +10130,9 @@ msgstr "Ingår"
 msgid "Included in the email to the account owner."
 msgstr "Ingår i mejlet till kontoägaren."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:21
-msgid "Included in your plan. Hi.Events branding is hidden on your event pages, widgets, tickets and emails."
-msgstr "Ingår i din plan. Hi.Events-varumärket är dolt på dina evenemangssidor, widgetar, biljetter och mejl."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:24
+msgid "Included in your plan. {appName} branding is hidden on your event pages, widgets, tickets and emails."
+msgstr ""
 
 #: src/components/common/CheckInListList/index.tsx:102
 #: src/components/common/CheckInListTable/index.tsx:95
@@ -10404,7 +10472,7 @@ msgstr "Behåll vinsten."
 msgid "Keep them off the public lineup and schedule until you're ready to announce"
 msgstr "Håll dem borta från den offentliga line-upen och schemat tills du är redo att avslöja dem"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:46
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
 msgid "Keeps signing in with a password. {providerName} can't be used to sign this member in."
 msgstr "Fortsätter att logga in med lösenord. {providerName} kan inte användas för att logga in den här medlemmen."
 
@@ -11086,7 +11154,7 @@ msgstr "Gör det synligt så att folk kan köpa biljetter"
 msgid "Make sure ID tokens include the email and email_verified claims."
 msgstr "Se till att ID token innehåller anspråken email och email_verified."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:28
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:29
 msgid "Make your event pages, widgets, tickets and emails look like they're entirely yours. Applies to every organizer and event in this account."
 msgstr "Gör dina evenemangssidor, widgetar, biljetter och mejl helt till dina egna. Gäller alla arrangörer och evenemang i det här kontot."
 
@@ -11113,8 +11181,8 @@ msgstr "Hantera {0}"
 msgid "Manage attendee"
 msgstr "Hantera deltagare"
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:26
-#: src/components/routes/settings/Billing/index.tsx:146
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:29
+#: src/components/routes/settings/Billing/index.tsx:147
 msgid "Manage billing"
 msgstr "Hantera fakturering"
 
@@ -11193,9 +11261,17 @@ msgstr "Lägg till deltagare manuellt"
 msgid "Manually verified"
 msgstr "Manuellt verifierad"
 
+#: src/components/routes/public/Discover/index.tsx:384
+msgid "Map and Grid"
+msgstr ""
+
 #: src/ee/seating/components/SeatPicker/index.tsx:88
 msgid "Map view"
 msgstr "Kartvy"
+
+#: src/components/routes/public/Discover/index.tsx:404
+msgid "Map View"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/RecurrenceScheduleDrawer/index.tsx:80
 msgid "March"
@@ -11277,11 +11353,11 @@ msgstr "Medlem återaktiverad"
 msgid "Members change their own email in <0>profile settings</0>."
 msgstr "Medlemmar ändrar sin e-post själva i <0>profilinställningarna</0>."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:189
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:190
 msgid "Members on verified domains"
 msgstr "Medlemmar på verifierade domäner"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:105
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
 msgid "Members with an email on a verified domain must sign in with {providerName}. Their other sessions end."
 msgstr "Medlemmar med en e-postadress på en verifierad domän måste logga in med {providerName}. Deras andra sessioner avslutas."
 
@@ -11527,6 +11603,10 @@ msgstr "Fler platser"
 msgid "More seats"
 msgstr "Fler platser"
 
+#: src/components/routes/public/Discover/index.tsx:374
+msgid "Most Relevant"
+msgstr ""
+
 #: src/components/routes/admin/Dashboard/index.tsx:280
 msgid "Most viewed events"
 msgstr "Mest visade evenemang"
@@ -11687,6 +11767,10 @@ msgstr "Namn, e-post och faktureringsadress samlas alltid in."
 #: src/components/common/QuestionAndAnswerList/index.tsx:205
 msgid "Navigate to Attendee"
 msgstr "Gå till deltagare"
+
+#: src/components/routes/public/Discover/index.tsx:170
+msgid "Near Me"
+msgstr ""
 
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:455
 msgid "Need to switch Stripe accounts? Disconnect this one."
@@ -11878,6 +11962,14 @@ msgstr "Nej"
 #: src/components/routes/organizer/Payments/Vat/VatSettingsForm.tsx:200
 msgid "No - I'm an individual or non-VAT registered business"
 msgstr "Nej, jag är en privatperson eller ett företag som inte är momsregistrerat"
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
+msgid "No {appName} branding on your event pages, organizer pages, checkout or embedded widgets"
+msgstr ""
+
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:25
+msgid "No {appName} promotion in the emails your attendees receive"
+msgstr ""
 
 #: src/components/routes/settings/Team/MemberRow.tsx:55
 msgid "No access yet"
@@ -12118,6 +12210,7 @@ msgid "No event page views in this period"
 msgstr "Inga visningar av evenemangssidor under den här perioden"
 
 #: src/components/common/AdminEventsTable/index.tsx:22
+#: src/components/routes/public/Discover/index.tsx:450
 msgid "No events found"
 msgstr "Inga evenemang hittades"
 
@@ -12148,14 +12241,6 @@ msgstr "Ingen ekonomi"
 #: src/components/routes/admin/SpamEvents/index.tsx:157
 msgid "No flagged events awaiting review"
 msgstr "Inga flaggade evenemang väntar på granskning"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:9
-msgid "No Hi.Events branding on your event pages, organizer pages, checkout or embedded widgets"
-msgstr "Inget Hi.Events-varumärke på dina evenemangssidor, arrangörssidor, i kassan eller i inbäddade widgetar"
-
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:21
-msgid "No Hi.Events promotion in the emails your attendees receive"
-msgstr "Ingen Hi.Events-reklam i mejlen som dina deltagare får"
 
 #: src/components/routes/event/Settings/Sections/PaymentSettings/index.tsx:186
 msgid "No instructions have been added yet."
@@ -12504,7 +12589,7 @@ msgstr "Ingen matchar filtren."
 msgid "Nobody on the lineup yet."
 msgstr "Ingen i line-upen än."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:126
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:127
 msgid "Nobody on your team uses a verified domain yet. People who join from one will need to sign in with {providerName}."
 msgstr "Ingen i ditt team använder en verifierad domän än. Personer som går med från en sådan måste logga in med {providerName}."
 
@@ -12608,7 +12693,7 @@ msgstr "Har inte gått med än"
 msgid "Not marked as verified"
 msgstr "Inte markerad som verifierad"
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:41
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:42
 msgid "Not now"
 msgstr "Inte nu"
 
@@ -13061,7 +13146,7 @@ msgstr "Endast kontoadministratörer kan ta bort eller arkivera evenemang. Konta
 msgid "Only account administrators can delete or archive organizers. Contact your account admin for assistance."
 msgstr "Endast kontoadministratörer kan ta bort eller arkivera arrangörer. Kontakta din kontoadministratör för hjälp."
 
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:35
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:36
 msgid "Only account admins can change billing. Ask an admin to upgrade from Settings → Billing."
 msgstr "Endast kontoadministratörer kan ändra fakturering. Be en administratör uppgradera under Inställningar → Fakturering."
 
@@ -13445,7 +13530,7 @@ msgstr "Beställning lagd, betalning väntar"
 msgid "Order questions only. Attendee questions need products."
 msgstr "Endast orderfrågor. Deltagarfrågor kräver produkter."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:59
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:60
 msgid "Order Ref"
 msgstr "Beställningsreferens"
 
@@ -13615,6 +13700,10 @@ msgstr "Arrangörsinställningar"
 msgid "Organizer Settings"
 msgstr "Arrangörsinställningar"
 
+#: src/components/routes/public/Discover/index.tsx:125
+msgid "Organizer Sign In"
+msgstr ""
+
 #: src/components/common/StatusToggle/index.tsx:63
 #: src/components/layouts/OrganizerLayout/index.tsx:180
 msgid "Organizer status update failed. Please try again later"
@@ -13710,9 +13799,9 @@ msgstr "Egna evenemang"
 msgid "Owner"
 msgstr "Ägare"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:47
-msgid "Owns another Hi.Events account, so keeps signing in with a password until they connect {providerName} in their security settings."
-msgstr "Äger ett annat Hi.Events-konto och fortsätter därför att logga in med lösenord tills hen ansluter {providerName} i sina säkerhetsinställningar."
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:48
+msgid "Owns another {0} account, so keeps signing in with a password until they connect {providerName} in their security settings."
+msgstr ""
 
 #: src/components/common/WidgetEditor/AppearancePanel.tsx:118
 msgid "Padding"
@@ -13771,6 +13860,10 @@ msgstr "Betalda konton"
 #: src/ee/box-office/utilites/boxOfficeTender.ts:13
 msgid "Paid elsewhere"
 msgstr "Betalt på annat sätt"
+
+#: src/components/routes/public/Discover/index.tsx:359
+msgid "Paid Only"
+msgstr ""
 
 #: src/components/routes/admin/LifecycleEmails/lifecycleEmailLabels.ts:31
 msgid "Paid organizer gone quiet"
@@ -13832,7 +13925,7 @@ msgstr "För över till köparen"
 #: src/components/routes/settings/Security/SignInMethods.tsx:93
 #: src/components/routes/settings/Team/index.tsx:204
 #: src/components/routes/settings/Team/MemberRow.tsx:39
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:200
 msgid "Password"
 msgstr "Lösenord"
 
@@ -13873,7 +13966,7 @@ msgstr "Förfallen"
 msgid "Past events"
 msgstr "Tidigare evenemang"
 
-#: src/components/routes/settings/Billing/index.tsx:181
+#: src/components/routes/settings/Billing/index.tsx:182
 msgid "Past invoices"
 msgstr "Tidigare fakturor"
 
@@ -13929,7 +14022,7 @@ msgstr "patrick@acme.com"
 
 #: src/components/common/ProductsTable/SortableProduct/index.tsx:141
 #: src/components/forms/WebhookForm/index.tsx:28
-#: src/components/routes/settings/Billing/index.tsx:36
+#: src/components/routes/settings/Billing/index.tsx:37
 msgid "Paused"
 msgstr "Pausad"
 
@@ -13988,7 +14081,7 @@ msgstr "Inställningar för betalning och fakturering"
 msgid "Payment complete"
 msgstr "Betalning slutförd"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:53
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:54
 msgid "Payment Date"
 msgstr "Betalningsdatum"
 
@@ -14000,7 +14093,7 @@ msgstr "Betalningsuppgifter: {0}"
 msgid "Payment Due Period"
 msgstr "Betalningsfrist"
 
-#: src/components/routes/settings/Billing/index.tsx:32
+#: src/components/routes/settings/Billing/index.tsx:33
 msgid "Payment failed"
 msgstr "Betalningen misslyckades"
 
@@ -14030,7 +14123,7 @@ msgstr "Betalningsmetoder"
 msgid "Payment not completed"
 msgstr "Betalningen slutfördes inte"
 
-#: src/components/routes/settings/Billing/index.tsx:34
+#: src/components/routes/settings/Billing/index.tsx:35
 msgid "Payment processing"
 msgstr "Betalningen behandlas"
 
@@ -14402,13 +14495,13 @@ msgstr "Plattformsavgift på {0} dras från din utbetalning"
 
 #: src/components/routes/event/Settings/index.tsx:122
 #: src/components/routes/event/Settings/Sections/PlatformFeesSettings/index.tsx:48
-#: src/components/routes/organizer/Reports/index.tsx:45
+#: src/components/routes/organizer/Reports/index.tsx:46
 #: src/components/routes/organizer/Settings/index.tsx:106
 #: src/components/routes/organizer/Settings/Sections/PlatformFeesSettings/index.tsx:42
 msgid "Platform Fees"
 msgstr "Plattformsavgifter"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:129
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:130
 msgid "Platform Fees Report"
 msgstr "Plattformsavgiftsrapport"
 
@@ -14578,7 +14671,7 @@ msgstr "Position"
 msgid "Post Checkout message"
 msgstr "Meddelande efter checkout"
 
-#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:28
+#: src/components/common/BrandingUpsell/BrandingAnimation.tsx:29
 #: src/components/common/PoweredByFooter/index.tsx:81
 msgid "Powered by"
 msgstr "Drivs av"
@@ -15475,15 +15568,24 @@ msgstr "Ta bort"
 msgid "Remove \"{0}\"? It has already expired."
 msgstr "Ta bort ”{0}”? Den har redan gått ut."
 
-#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:31
-msgid "Remove \"Powered by Hi.Events\" from your pages, widgets, tickets and emails, and show your own logo instead."
-msgstr "Ta bort ”Powered by Hi.Events” från dina sidor, widgetar, biljetter och mejl och visa din egen logotyp."
+#: src/components/common/BrandingUpsell/BrandingDesignerSection.tsx:34
+msgid "Remove \"Powered by {appName}\" from your pages, widgets, tickets and emails, and show your own logo instead."
+msgstr ""
 
 #: src/components/routes/settings/ApiKeys/ApiKeyRow.tsx:37
 #: src/ee/seating/components/SeatPicker/Basket.tsx:123
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:99
 msgid "Remove {0}"
 msgstr "Ta bort {0}"
+
+#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:25
+#: src/components/routes/settings/Billing/index.tsx:157
+msgid "Remove {0} branding"
+msgstr ""
+
+#: src/components/routes/settings/Billing/index.tsx:200
+msgid "Remove {0} branding from everything your attendees see, and put your own logo in their emails."
+msgstr ""
 
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:69
 msgid "Remove {0}? People with this email domain will no longer be sent to your identity provider or required to use it."
@@ -15536,15 +15638,6 @@ msgstr "Ta bort från kartan"
 #: src/components/routes/event/Lineup/ProfileDrawer.tsx:190
 msgid "Remove from this lineup"
 msgstr "Ta bort från den här line-upen"
-
-#: src/components/common/BrandingUpsell/BrandingUpgradeModal.tsx:24
-#: src/components/routes/settings/Billing/index.tsx:156
-msgid "Remove Hi.Events branding"
-msgstr "Ta bort Hi.Events-varumärket"
-
-#: src/components/routes/settings/Billing/index.tsx:199
-msgid "Remove Hi.Events branding from everything your attendees see, and put your own logo in their emails."
-msgstr "Ta bort Hi.Events-varumärket från allt dina deltagare ser och visa din egen logotyp i deras mejl."
 
 #: src/components/routes/settings/ApiKeys/index.tsx:81
 msgid "Remove key"
@@ -15657,7 +15750,7 @@ msgstr "Förnya licensen"
 msgid "Renew your licence."
 msgstr "Förnya din licens."
 
-#: src/components/routes/settings/Billing/index.tsx:122
+#: src/components/routes/settings/Billing/index.tsx:123
 msgid "Renews on"
 msgstr "Förnyas"
 
@@ -15701,7 +15794,7 @@ msgstr "Rapporten hittades inte"
 #: src/components/layouts/Event/index.tsx:120
 #: src/components/layouts/OrganizerLayout/index.tsx:112
 #: src/components/routes/event/Reports/index.tsx:54
-#: src/components/routes/organizer/Reports/index.tsx:55
+#: src/components/routes/organizer/Reports/index.tsx:56
 msgid "Reports"
 msgstr "Rapporter"
 
@@ -15721,17 +15814,17 @@ msgstr "Begärd av"
 msgid "Require Billing Address"
 msgstr "Kräv faktureringsadress"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:102
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:114
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:182
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:103
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:115
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:183
 msgid "Require single sign-on"
 msgstr "Kräv enkel inloggning"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:207
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:208
 msgid "Require SSO"
 msgstr "Kräv SSO"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:204
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:205
 msgid "Require SSO for {0}"
 msgstr "Kräv SSO för {0}"
 
@@ -15845,6 +15938,10 @@ msgstr "Återställ"
 #: src/components/routes/admin/Users/index.tsx:35
 msgid "Reset 2FA"
 msgstr "Återställ 2FA"
+
+#: src/components/routes/public/Discover/index.tsx:457
+msgid "Reset Filters"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:60
 #: src/components/routes/auth/ResetPassword/index.tsx:75
@@ -15978,7 +16075,7 @@ msgstr "Återanvänd en Stripe-koppling från en annan arrangör i det här kont
 msgid "Revenue"
 msgstr "Intäkter"
 
-#: src/components/routes/organizer/Reports/index.tsx:21
+#: src/components/routes/organizer/Reports/index.tsx:22
 #: src/components/routes/organizer/Reports/RevenueSummaryReport/index.tsx:67
 msgid "Revenue Summary"
 msgstr "Sammanfattning av intäkter"
@@ -16230,7 +16327,7 @@ msgstr "Uppdelning av försäljning, närvaro och incheckning per datum"
 msgid "Sales, availability and check-in switch to the date you pick."
 msgstr "Försäljning, tillgänglighet och incheckning växlar till det datum du väljer."
 
-#: src/components/routes/organizer/Reports/index.tsx:28
+#: src/components/routes/organizer/Reports/index.tsx:29
 msgid "Sales, orders, and performance metrics for all events"
 msgstr "Försäljning, ordrar och prestandamått för alla evenemang"
 
@@ -16629,6 +16726,10 @@ msgstr "Sök på order-ID, kundnamn eller e-post..."
 msgid "Search by subject, event, or account..."
 msgstr "Sök efter ämne, evenemang eller konto..."
 
+#: src/components/routes/public/Discover/index.tsx:143
+msgid "Search by title, artist, venue, or keyword..."
+msgstr ""
+
 #: src/components/routes/admin/Announcements/index.tsx:130
 msgid "Search by title..."
 msgstr "Sök på titel..."
@@ -16692,6 +16793,10 @@ msgstr "Sök bland dina sparade profiler eller skriv ett nytt namn i panelen {li
 #: src/components/common/SearchBar/index.tsx:35
 msgid "Search..."
 msgstr "Sök..."
+
+#: src/components/routes/public/Discover/index.tsx:419
+msgid "Searching events near you..."
+msgstr ""
 
 #: src/components/routes/admin/Announcements/AnnouncementTargetPicker.tsx:62
 msgid "Searching..."
@@ -16930,7 +17035,7 @@ msgstr "Markera alla"
 msgid "Select all on {0}"
 msgstr "Markera alla den {0}"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:119
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:120
 msgid "Select an event"
 msgstr "Välj ett evenemang"
 
@@ -17923,11 +18028,11 @@ msgstr "Enkel inloggning"
 msgid "Single sign-on connections keep signing people in. They can be switched off or deleted, but not changed or switched back on without a licence."
 msgstr "Anslutningar för enkel inloggning fortsätter att logga in personer. De kan stängas av eller tas bort, men inte ändras eller slås på igen utan licens."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:72
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:73
 msgid "Single sign-on is no longer required"
 msgstr "Enkel inloggning krävs inte längre"
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:59
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:60
 msgid "Single sign-on is now required"
 msgstr "Enkel inloggning krävs nu"
 
@@ -18069,7 +18174,7 @@ msgstr "Enfärgad"
 msgid "Some details are hidden from public access. Log in to view everything."
 msgstr "Vissa uppgifter är dolda för allmänheten. Logga in för att se allt."
 
-#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:141
 msgid "Some payment methods take a little while to confirm. Your branding is removed as soon as Stripe confirms it."
 msgstr "Vissa betalningsmetoder tar en stund att bekräfta. Varumärket tas bort så snart Stripe bekräftar betalningen."
 
@@ -18164,7 +18269,7 @@ msgstr "Något gick fel. Försök igen senare."
 #: src/ee/sso/components/SingleSignOn/AccessSettings.tsx:27
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:61
 #: src/ee/sso/components/SingleSignOn/DomainList.tsx:72
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:19
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:20
 #: src/ee/sso/components/SingleSignOn/SsoSetupDrawer.tsx:53
 #: src/hooks/useLoginSteps.ts:68
 #: src/hooks/useSubscriptionRedirect.ts:25
@@ -18224,6 +18329,10 @@ msgstr "Specifika användare"
 msgid "Spirituality"
 msgstr "Andlighet"
 
+#: src/components/routes/public/Discover/index.tsx:386
+msgid "Split"
+msgstr ""
+
 #: src/components/forms/CheckInListForm/index.tsx:91
 msgid "Split check-in across days, areas, or ticket types. Share the link with staff — no account needed on their end."
 msgstr "Dela upp incheckningen på dagar, områden eller biljettyper. Dela länken med personalen – de behöver inget konto."
@@ -18255,7 +18364,7 @@ msgstr "Kvadratisk, minst 200 × 200 px"
 
 #: src/components/routes/auth/Login/index.tsx:54
 #: src/components/routes/settings/Team/MemberRow.tsx:35
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:198
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:199
 msgid "SSO"
 msgstr "SSO"
 
@@ -18514,7 +18623,7 @@ msgstr "Statistik"
 #: src/components/routes/event/Reports/OccurrenceSummaryReport/index.tsx:51
 #: src/components/routes/event/Reports/PromoCodesReport/index.tsx:88
 #: src/components/routes/organizer/Reports/EventsPerformanceReport/index.tsx:62
-#: src/components/routes/settings/Billing/index.tsx:117
+#: src/components/routes/settings/Billing/index.tsx:118
 #: src/ee/box-office/components/common/BoxOfficeTable/index.tsx:177
 #: src/ee/licensing/components/routes/admin/Licence/index.tsx:166
 msgid "Status"
@@ -18552,7 +18661,7 @@ msgstr "Sluta impersonera"
 msgid "Stop receiving emails that help you set up and run your events. Emails about your orders and account will still be sent."
 msgstr "Sluta ta emot mejl som hjälper dig att skapa och driva dina evenemang. Mejl om dina beställningar och ditt konto skickas fortfarande."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:75
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:76
 msgid "Stop requiring"
 msgstr "Sluta kräva"
 
@@ -18564,7 +18673,7 @@ msgstr "Sluta kräva enkel inloggning innan du tar bort anslutningen."
 msgid "Stop requiring single sign-on before removing a verified domain."
 msgstr "Sluta kräva enkel inloggning innan du tar bort en verifierad domän."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:70
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:71
 msgid "Stop requiring single sign-on? Members can sign in with their password again, or reset it if they never had one."
 msgstr "Sluta kräva enkel inloggning? Medlemmar kan logga in med sitt lösenord igen, eller återställa det om de aldrig hade något."
 
@@ -18623,7 +18732,7 @@ msgstr "Stripe-koppling kopierad från {0}."
 msgid "Stripe didn't return a setup link. Please try again."
 msgstr "Stripe returnerade ingen konfigurationslänk. Försök igen."
 
-#: src/components/routes/settings/Billing/index.tsx:171
+#: src/components/routes/settings/Billing/index.tsx:172
 msgid "Stripe hasn't confirmed your payment yet. Refresh this page in a few minutes before trying again."
 msgstr "Stripe har inte bekräftat din betalning än. Uppdatera sidan om några minuter innan du försöker igen."
 
@@ -18635,7 +18744,7 @@ msgstr "Stripe är inte konfigurerat på den här installationen, så kortläsar
 msgid "Stripe Not Connected"
 msgstr "Stripe ej ansluten"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:104
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:105
 msgid "Stripe Payment ID"
 msgstr "Stripe betalnings-ID"
 
@@ -18685,7 +18794,7 @@ msgstr "Ämnet visas här"
 msgid "Subject:"
 msgstr "Ämne:"
 
-#: src/components/routes/settings/Billing/index.tsx:116
+#: src/components/routes/settings/Billing/index.tsx:117
 msgid "Subscription"
 msgstr "Prenumeration"
 
@@ -18998,7 +19107,7 @@ msgstr "Riktar sig till deltagare på {0} valda tillfällen."
 msgid "Tax"
 msgstr "Moms"
 
-#: src/components/routes/organizer/Reports/index.tsx:34
+#: src/components/routes/organizer/Reports/index.tsx:35
 msgid "Tax collected grouped by tax type and event"
 msgstr "Insamlad moms grupperad efter momstyp och evenemang"
 
@@ -19022,7 +19131,7 @@ msgstr "Momsinformation som ska visas längst ned på alla fakturor (t.ex. momsn
 msgid "Tax Name"
 msgstr "Momsnamn"
 
-#: src/components/routes/organizer/Reports/index.tsx:33
+#: src/components/routes/organizer/Reports/index.tsx:34
 #: src/components/routes/organizer/Reports/TaxSummaryReport/index.tsx:62
 msgid "Tax Summary"
 msgstr "Momssammanfattning"
@@ -19163,7 +19272,7 @@ msgstr "Tack för att du deltog!"
 msgid "Thank you. {registrantName}'s order is confirmed and their confirmation has been emailed to"
 msgstr "Tack. {registrantName}s beställning är bekräftad och bekräftelsen har skickats via e-post till"
 
-#: src/components/routes/settings/Billing/index.tsx:63
+#: src/components/routes/settings/Billing/index.tsx:64
 msgid "Thanks for subscribing. Your branding changes apply as soon as Stripe confirms the payment."
 msgstr "Tack för din prenumeration. Varumärkesändringarna gäller så snart Stripe bekräftar betalningen."
 
@@ -19209,7 +19318,7 @@ msgstr "Meddelandet ”Powered by Hi.Events” visas igen tills du förnyar."
 msgid "The account has completed orders, so it will be anonymised."
 msgstr "Kontot har slutförda ordrar och kommer därför att anonymiseras."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:168
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
 msgid "The account owner ({0}) can still sign in with their password and two-factor authentication, so you can recover access if {providerName} is unavailable. Every admin is emailed when that happens."
 msgstr "Kontoägaren ({0}) kan fortfarande logga in med sitt lösenord och tvåfaktorsautentisering, så att du kan få tillbaka åtkomsten om {providerName} inte är tillgängligt. Alla administratörer får ett e-postmeddelande när det sker."
 
@@ -19389,7 +19498,7 @@ msgstr "Arrangören du letar efter kunde inte hittas. Sidan kan ha flyttats, tag
 msgid "The override is recorded in the order audit log."
 msgstr "Åsidosättandet registreras i orderns granskningslogg."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:169
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:170
 msgid "The owner can connect {providerName} in their security settings to sign in with it day to day."
 msgstr "Ägaren kan ansluta {providerName} i sina säkerhetsinställningar för att logga in med det till vardags."
 
@@ -20051,9 +20160,9 @@ msgstr "Den här produkten visas inte separat på evenemangssidan – köpare se
 msgid "This recurring event has no dates yet, so there's nothing for attendees to book."
 msgstr "Det här återkommande evenemanget har inga datum ännu, så det finns inget för deltagare att boka."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:113
-msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as Hi.Events may be missing historical data."
-msgstr "Denna rapport är endast för informationsändamål. Rådgör alltid med en skatteexpert innan du använder dessa uppgifter för redovisnings- eller skatteändamål. Vänligen dubbelkolla med din Stripe-instrumentpanel då Hi.Events kan sakna historiska data."
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:114
+msgid "This report is for informational purposes only. Always consult with a tax professional before using this data for accounting or tax purposes. Please cross-reference with your Stripe dashboard as {0} may be missing historical data."
+msgstr ""
 
 #: src/components/routes/auth/ResetPassword/index.tsx:28
 msgid "This reset password link is invalid or expired."
@@ -20107,6 +20216,10 @@ msgstr "Den här biljetten skannades nyss. Vänta innan du skannar igen."
 #: src/components/routes/event/OccurrencesTab/PriceOverrideForm/index.tsx:328
 msgid "This tier's quantity is shared across all dates"
 msgstr "Denna nivås antal delas mellan alla datum"
+
+#: src/components/routes/public/Discover/index.tsx:320
+msgid "This Weekend"
+msgstr ""
 
 #: src/components/routes/event/OccurrencesTab/OccurrenceBulkEditModal/index.tsx:369
 msgid "This will affect {loadedAffectedCount} date(s)."
@@ -20477,6 +20590,7 @@ msgstr "Tryck på mellanslag eller Enter för att flytta objektet. Använd pilta
 #: src/components/layouts/CheckIn/OccurrenceFilterPill.tsx:119
 #: src/components/routes/event/OccurrencesTab/GroupedOccurrenceTable/index.tsx:44
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:127
+#: src/components/routes/public/Discover/index.tsx:296
 msgid "Today"
 msgstr "I dag"
 
@@ -20488,6 +20602,10 @@ msgstr "Växla kolumner"
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:129
 msgid "Tomorrow"
 msgstr "I morgon"
+
+#: src/components/routes/public/Discover/index.tsx:308
+msgid "Tonight"
+msgstr ""
 
 #: src/components/routes/auth/ForgotPassword/index.tsx:34
 #: src/components/routes/auth/Login/index.tsx:106
@@ -20550,7 +20668,7 @@ msgstr "Totalt rabattbelopp"
 msgid "Total Entries"
 msgstr "Totalt antal poster"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:93
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:94
 msgid "Total Fee"
 msgstr "Total avgift"
 
@@ -20619,7 +20737,7 @@ msgstr "Spårning & Analys"
 msgid "Treated as one person. Separate several people with a semicolon."
 msgstr "Behandlas som en person. Separera flera personer med semikolon."
 
-#: src/components/routes/settings/Billing/index.tsx:38
+#: src/components/routes/settings/Billing/index.tsx:39
 msgid "Trial"
 msgstr "Provperiod"
 
@@ -20727,7 +20845,7 @@ msgstr "Slå på Kan se ekonomiska uppgifter för att tillåta återbetalningar.
 msgid "Turn on extra sections and drag to reorder."
 msgstr "Aktivera fler sektioner och dra för att ändra ordning."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:106
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:107
 msgid "Turn on sign-in with {providerName} and verify a domain first."
 msgstr "Slå på inloggning med {providerName} och verifiera en domän först."
 
@@ -21153,6 +21271,10 @@ msgstr "Upp till 40 foton, minst 400 × 300px. Det första visas störst."
 msgid "Upcoming"
 msgstr "Kommande"
 
+#: src/components/routes/public/Discover/index.tsx:373
+msgid "Upcoming Date"
+msgstr ""
+
 #: src/components/modals/DuplicateEventModal/index.tsx:145
 #: src/components/routes/product-widget/OccurrenceSelector/index.tsx:244
 msgid "Upcoming dates"
@@ -21190,7 +21312,7 @@ msgstr "Uppdatera etikett"
 msgid "Update location"
 msgstr "Uppdatera plats"
 
-#: src/components/routes/settings/Billing/index.tsx:133
+#: src/components/routes/settings/Billing/index.tsx:134
 msgid "Update your payment method"
 msgstr "Uppdatera betalningsmetod"
 
@@ -21510,11 +21632,11 @@ msgstr "Validering av momsregistreringsnummer misslyckades"
 msgid "VAT number validation failed. Please check your VAT number."
 msgstr "Validering av momsregistreringsnummer misslyckades. Kontrollera ditt momsregistreringsnummer."
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:87
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:88
 msgid "VAT on Fee"
 msgstr "Moms på avgift"
 
-#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:81
+#: src/components/routes/organizer/Reports/PlatformFeesReport/index.tsx:82
 msgid "VAT Rate"
 msgstr "Momssats"
 
@@ -21698,7 +21820,7 @@ msgstr "Visa alla meddelanden skickade på plattformen"
 msgid "View all past events"
 msgstr "Visa alla tidigare evenemang"
 
-#: src/components/routes/organizer/Reports/index.tsx:54
+#: src/components/routes/organizer/Reports/index.tsx:55
 msgid "View and download reports across all your events. Only completed orders are included."
 msgstr "Visa och ladda ner rapporter för alla dina evenemang. Endast slutförda ordrar ingår."
 
@@ -21892,7 +22014,7 @@ msgstr "Väntar på betalning"
 msgid "Waiting for scan…"
 msgstr "Väntar på skanning…"
 
-#: src/components/routes/settings/Billing/index.tsx:162
+#: src/components/routes/settings/Billing/index.tsx:163
 msgid "Waiting for Stripe to confirm your payment…"
 msgstr "Väntar på att Stripe bekräftar din betalning…"
 
@@ -21951,6 +22073,10 @@ msgstr "Vi kunde inte ta bort kategorin. Försök igen."
 #: src/components/routes/organizer/Settings/Sections/PayoutsSettings/index.tsx:130
 msgid "We couldn't disconnect this Stripe account. Please try again."
 msgstr "Vi kunde inte koppla från det här Stripe-kontot. Försök igen."
+
+#: src/components/routes/public/Discover/index.tsx:452
+msgid "We couldn't find any events matching your current location and filters. Try increasing the search radius or clearing some filters."
+msgstr ""
 
 #: src/components/routes/my-tickets/index.tsx:239
 msgid "We couldn't find any orders associated with this email address."
@@ -22013,7 +22139,7 @@ msgstr "Vi kunde inte läsa in den här biljettkassan"
 msgid "We couldn't load this run sheet. Check you have access to this event and try again."
 msgstr "Vi kunde inte läsa in det här körschemat. Kontrollera att du har åtkomst till evenemanget och försök igen."
 
-#: src/components/routes/settings/Billing/index.tsx:101
+#: src/components/routes/settings/Billing/index.tsx:102
 msgid "We couldn't load your billing details. Please refresh the page to try again."
 msgstr "Vi kunde inte läsa in dina faktureringsuppgifter. Uppdatera sidan för att försöka igen."
 
@@ -22558,6 +22684,10 @@ msgstr "Workshop med early bird"
 msgid "Workspace domain"
 msgstr "Workspace-domän"
 
+#: src/components/routes/public/Discover/index.tsx:223
+msgid "Worldwide / All"
+msgstr ""
+
 #: src/components/common/ContactOrganizerModal/index.tsx:92
 msgid "Write your message here..."
 msgstr "Skriv ditt meddelande här..."
@@ -22864,7 +22994,7 @@ msgstr "Du kommer inte längre att kunna logga in med {0}. Andra enheter som är
 msgid "You won't receive any more of these emails. Emails about your orders and account will still be sent."
 msgstr "Du får inga fler sådana mejl. Mejl om dina beställningar och ditt konto skickas fortfarande."
 
-#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:175
+#: src/ee/sso/components/SingleSignOn/EnforcementPanel.tsx:176
 msgid "You'll be signed out and will need to sign in again with {providerName}."
 msgstr "Du loggas ut och måste logga in igen med {providerName}."
 
@@ -22884,7 +23014,7 @@ msgstr "Du behöver en produkt innan du kan skapa en kapacitetstilldelning."
 msgid "You'll need at least one product to get started. Free, paid or let the user decide what to pay."
 msgstr "Du behöver minst en produkt för att komma igång. Gratis, betald eller låt användaren bestämma vad de vill betala."
 
-#: src/components/routes/settings/Billing/index.tsx:178
+#: src/components/routes/settings/Billing/index.tsx:179
 msgid "You'll pay securely with Stripe. Cancel anytime."
 msgstr "Du betalar säkert via Stripe. Säg upp när du vill."
 
@@ -23092,7 +23222,7 @@ msgstr "Din identitetsleverantör returnerade ett fel: {providerError}"
 msgid "Your instructions appear here."
 msgstr "Dina instruktioner visas här."
 
-#: src/components/routes/settings/Billing/index.tsx:134
+#: src/components/routes/settings/Billing/index.tsx:135
 msgid "Your last payment didn't go through. Update your card to keep your branding removed."
 msgstr "Din senaste betalning gick inte igenom. Uppdatera ditt kort så att varumärket förblir borttaget."
 
@@ -23191,9 +23321,9 @@ msgstr "Din arrangörsadress"
 msgid "Your organizer has no description yet."
 msgstr "Din arrangör har ingen beskrivning än."
 
-#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:13
-msgid "Your organizer logo at the top of order and ticket emails, in place of the Hi.Events logo"
-msgstr "Din arrangörslogotyp överst i order- och biljettmejl i stället för Hi.Events-logotypen"
+#: src/components/common/BrandingUpsell/IncludedFeatures.tsx:17
+msgid "Your organizer logo at the top of order and ticket emails, in place of the {appName} logo"
+msgstr ""
 
 #: src/components/routes/event/HomepageDesigner/SectionsEditor/sectionEmptyState.ts:52
 msgid "Your organizer profile isn't published."
@@ -23216,8 +23346,8 @@ msgstr "Din betalning behandlas."
 msgid "Your payment is protected with bank-level encryption"
 msgstr "Din betalning skyddas med banknivå-kryptering"
 
-#: src/components/routes/settings/Billing/index.tsx:139
-#: src/components/routes/settings/Billing/index.tsx:170
+#: src/components/routes/settings/Billing/index.tsx:140
+#: src/components/routes/settings/Billing/index.tsx:171
 msgid "Your payment is still processing"
 msgstr "Din betalning behandlas fortfarande"
 
